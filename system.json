@@ -1,0 +1,27 @@
+{
+    "auth": true,
+    "deployments": [
+        {
+            "assets": [
+                {
+                    "asset_class": "adaptors",
+                    "asset_id": "",
+                    "deployment": "Monnit Webhhok",
+                    "member": "Monnit Webhhok_deployment_edge_group",
+                    "sync": true
+                }
+            ],
+            "description": "",
+            "edges": [
+                "monnit-refrigeration-webhook-edge"
+            ],
+            "name": "Monnit Webhhok"
+        }
+    ],
+    "description": "This system will be used to monitor a variety of temperature and humidity metrics of server room",
+    "messaging_url": "platform.clearblade.com:1883",
+    "name": "Server_Room_Monitoring",
+    "platform_url": "https://ingrammicro.clearblade.com",
+    "system_key": "ce938cbd0bfa8385999ee79d8068",
+    "system_secret": ""
+}
