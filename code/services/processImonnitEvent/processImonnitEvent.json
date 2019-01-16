@@ -1,0 +1,20 @@
+{
+    "auto_restart": false,
+    "concurrency": 0,
+    "current_version": 116,
+    "dependencies": "log,clearblade,checkAlertViolated,function_library",
+    "execution_timeout": 60,
+    "logging_enabled": "true",
+    "name": "processImonnitEvent",
+    "params": [
+        "{\n  \"sensor_message\": {\n    \"applicationID\": \"2\",\n    \"batteryLevel\": \"100\",\n    \"dataMessageGUID\": \"10cadffc-5064-48de-8906-d2fbaff3a97b\",\n    \"dataType\": \"TemperatureData\",\n    \"dataValue\": \"24.3\",\n    \"messageDate\": \"2018-11-01 10:11:41\",\n    \"networkID\": \"5\",\n    \"pendingChange\": \"True\",\n    \"plotLabels\": \"Celsius\",\n    \"plotValues\": \"24.3\",\n    \"rawData\": \"24.3\",\n    \"sensorID\": \"385259\",\n    \"sensorName\": \"Temp- 385259\",\n    \"signalStrength\": \"100\",\n    \"state\": \"16\"\n  },\n  \"gateway_message\": {\n    \"accountID\": \"3\",\n    \"batteryLevel\": \"101\",\n    \"count\": \"4\",\n    \"date\": \"2018-11-01 10:16:23\",\n    \"gatewayID\": \"913529\",\n    \"gatewayName\": \"CGW3 3g North America - 913529\",\n    \"messageType\": \"0\",\n    \"networkID\": \"5\",\n    \"pendingChange\": \"False\",\n    \"power\": \"0\",\n    \"signalStrength\": \"26\"\n  },\n  \"time_received\": \"2018-11-01T10:17:17Z\"\n}"
+    ],
+    "permissions": {
+        "Administrator": 1,
+        "Anonymous": 1,
+        "Authenticated": 1,
+        "Monnit Webhook Adapter": 1
+    },
+    "run_user": "",
+    "source": "processImonnitEvent.js"
+}
