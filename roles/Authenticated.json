@@ -1,0 +1,857 @@
+{
+    "Description": "Default role that is applied to all authenticated users",
+    "ID": "Authenticated",
+    "Name": "Authenticated",
+    "Permissions": {
+        "AllCollections": {
+            "Level": 15
+        },
+        "AllServices": {
+            "Level": 0
+        },
+        "CodeServices": [
+            {
+                "Level": 1,
+                "Name": "GatewayList",
+                "SystemKey": "ce938cbd0bfa8385999ee79d8068"
+            },
+            {
+                "Level": 1,
+                "Name": "GetGatewayMACandHBandGT",
+                "SystemKey": "ce938cbd0bfa8385999ee79d8068"
+            },
+            {
+                "Level": 1,
+                "Name": "Portal_LoadDevices",
+                "SystemKey": "ce938cbd0bfa8385999ee79d8068"
+            },
+            {
+                "Level": 1,
+                "Name": "Portal_LoadSensor",
+                "SystemKey": "ce938cbd0bfa8385999ee79d8068"
+            },
+            {
+                "Level": 1,
+                "Name": "RB_RuleEditor_High_Humidity_Service",
+                "SystemKey": "ce938cbd0bfa8385999ee79d8068"
+            },
+            {
+                "Level": 1,
+                "Name": "RB_RuleEditor_High_Temperature_Service",
+                "SystemKey": "ce938cbd0bfa8385999ee79d8068"
+            },
+            {
+                "Level": 1,
+                "Name": "RB_RuleEditor_Low_Temperature_Service",
+                "SystemKey": "ce938cbd0bfa8385999ee79d8068"
+            },
+            {
+                "Level": 1,
+                "Name": "SensorList",
+                "SystemKey": "ce938cbd0bfa8385999ee79d8068"
+            },
+            {
+                "Level": 1,
+                "Name": "SensorModifications",
+                "SystemKey": "ce938cbd0bfa8385999ee79d8068"
+            },
+            {
+                "Level": 1,
+                "Name": "TestService",
+                "SystemKey": "ce938cbd0bfa8385999ee79d8068"
+            },
+            {
+                "Level": 1,
+                "Name": "UUIDgenerator",
+                "SystemKey": "ce938cbd0bfa8385999ee79d8068"
+            },
+            {
+                "Level": 1,
+                "Name": "addMessageHistory",
+                "SystemKey": "ce938cbd0bfa8385999ee79d8068"
+            },
+            {
+                "Level": 1,
+                "Name": "alert_service",
+                "SystemKey": "ce938cbd0bfa8385999ee79d8068"
+            },
+            {
+                "Level": 1,
+                "Name": "createAlertConfiguration",
+                "SystemKey": "ce938cbd0bfa8385999ee79d8068"
+            },
+            {
+                "Level": 1,
+                "Name": "createAsset",
+                "SystemKey": "ce938cbd0bfa8385999ee79d8068"
+            },
+            {
+                "Level": 1,
+                "Name": "createAssetType",
+                "SystemKey": "ce938cbd0bfa8385999ee79d8068"
+            },
+            {
+                "Level": 1,
+                "Name": "createCustomer",
+                "SystemKey": "ce938cbd0bfa8385999ee79d8068"
+            },
+            {
+                "Level": 1,
+                "Name": "createEmployee",
+                "SystemKey": "ce938cbd0bfa8385999ee79d8068"
+            },
+            {
+                "Level": 1,
+                "Name": "createFoodTestType",
+                "SystemKey": "ce938cbd0bfa8385999ee79d8068"
+            },
+            {
+                "Level": 1,
+                "Name": "createGateway",
+                "SystemKey": "ce938cbd0bfa8385999ee79d8068"
+            },
+            {
+                "Level": 1,
+                "Name": "createLocation",
+                "SystemKey": "ce938cbd0bfa8385999ee79d8068"
+            },
+            {
+                "Level": 1,
+                "Name": "createLocationType",
+                "SystemKey": "ce938cbd0bfa8385999ee79d8068"
+            },
+            {
+                "Level": 1,
+                "Name": "createSensor",
+                "SystemKey": "ce938cbd0bfa8385999ee79d8068"
+            },
+            {
+                "Level": 1,
+                "Name": "createSensorType",
+                "SystemKey": "ce938cbd0bfa8385999ee79d8068"
+            },
+            {
+                "Level": 1,
+                "Name": "createSensorTypes",
+                "SystemKey": "ce938cbd0bfa8385999ee79d8068"
+            },
+            {
+                "Level": 1,
+                "Name": "createTest",
+                "SystemKey": "ce938cbd0bfa8385999ee79d8068"
+            },
+            {
+                "Level": 1,
+                "Name": "deleteAlertConfiguration",
+                "SystemKey": "ce938cbd0bfa8385999ee79d8068"
+            },
+            {
+                "Level": 1,
+                "Name": "deleteAsset",
+                "SystemKey": "ce938cbd0bfa8385999ee79d8068"
+            },
+            {
+                "Level": 1,
+                "Name": "deleteAssetType",
+                "SystemKey": "ce938cbd0bfa8385999ee79d8068"
+            },
+            {
+                "Level": 1,
+                "Name": "deleteCustomer",
+                "SystemKey": "ce938cbd0bfa8385999ee79d8068"
+            },
+            {
+                "Level": 1,
+                "Name": "deleteEmployee",
+                "SystemKey": "ce938cbd0bfa8385999ee79d8068"
+            },
+            {
+                "Level": 1,
+                "Name": "deleteFoodTestType",
+                "SystemKey": "ce938cbd0bfa8385999ee79d8068"
+            },
+            {
+                "Level": 1,
+                "Name": "deleteGateway",
+                "SystemKey": "ce938cbd0bfa8385999ee79d8068"
+            },
+            {
+                "Level": 1,
+                "Name": "deleteLocation",
+                "SystemKey": "ce938cbd0bfa8385999ee79d8068"
+            },
+            {
+                "Level": 1,
+                "Name": "deleteLocationType",
+                "SystemKey": "ce938cbd0bfa8385999ee79d8068"
+            },
+            {
+                "Level": 1,
+                "Name": "deleteSensor",
+                "SystemKey": "ce938cbd0bfa8385999ee79d8068"
+            },
+            {
+                "Level": 1,
+                "Name": "deleteSensorType",
+                "SystemKey": "ce938cbd0bfa8385999ee79d8068"
+            },
+            {
+                "Level": 1,
+                "Name": "deleteTest",
+                "SystemKey": "ce938cbd0bfa8385999ee79d8068"
+            },
+            {
+                "Level": 1,
+                "Name": "getAlertConfigurations",
+                "SystemKey": "ce938cbd0bfa8385999ee79d8068"
+            },
+            {
+                "Level": 1,
+                "Name": "getAlertHistory",
+                "SystemKey": "ce938cbd0bfa8385999ee79d8068"
+            },
+            {
+                "Level": 1,
+                "Name": "getAlertTypes",
+                "SystemKey": "ce938cbd0bfa8385999ee79d8068"
+            },
+            {
+                "Level": 1,
+                "Name": "getAlerts",
+                "SystemKey": "ce938cbd0bfa8385999ee79d8068"
+            },
+            {
+                "Level": 1,
+                "Name": "getAlertsDetails",
+                "SystemKey": "ce938cbd0bfa8385999ee79d8068"
+            },
+            {
+                "Level": 1,
+                "Name": "getAssetTypes",
+                "SystemKey": "ce938cbd0bfa8385999ee79d8068"
+            },
+            {
+                "Level": 1,
+                "Name": "getAssets",
+                "SystemKey": "ce938cbd0bfa8385999ee79d8068"
+            },
+            {
+                "Level": 1,
+                "Name": "getCustomers",
+                "SystemKey": "ce938cbd0bfa8385999ee79d8068"
+            },
+            {
+                "Level": 1,
+                "Name": "getEmployees",
+                "SystemKey": "ce938cbd0bfa8385999ee79d8068"
+            },
+            {
+                "Level": 1,
+                "Name": "getFoodTestTypes",
+                "SystemKey": "ce938cbd0bfa8385999ee79d8068"
+            },
+            {
+                "Level": 1,
+                "Name": "getGatewayHistory",
+                "SystemKey": "ce938cbd0bfa8385999ee79d8068"
+            },
+            {
+                "Level": 1,
+                "Name": "getGateways",
+                "SystemKey": "ce938cbd0bfa8385999ee79d8068"
+            },
+            {
+                "Level": 1,
+                "Name": "getHistoryForSensors",
+                "SystemKey": "ce938cbd0bfa8385999ee79d8068"
+            },
+            {
+                "Level": 1,
+                "Name": "getImAuthKey",
+                "SystemKey": "ce938cbd0bfa8385999ee79d8068"
+            },
+            {
+                "Level": 1,
+                "Name": "getLabelStatus",
+                "SystemKey": "ce938cbd0bfa8385999ee79d8068"
+            },
+            {
+                "Level": 1,
+                "Name": "getLocationTypes",
+                "SystemKey": "ce938cbd0bfa8385999ee79d8068"
+            },
+            {
+                "Level": 1,
+                "Name": "getLocations",
+                "SystemKey": "ce938cbd0bfa8385999ee79d8068"
+            },
+            {
+                "Level": 1,
+                "Name": "getMessagesHistory",
+                "SystemKey": "ce938cbd0bfa8385999ee79d8068"
+            },
+            {
+                "Level": 1,
+                "Name": "getNetWorkData",
+                "SystemKey": "ce938cbd0bfa8385999ee79d8068"
+            },
+            {
+                "Level": 1,
+                "Name": "getOrphanGatewayData",
+                "SystemKey": "ce938cbd0bfa8385999ee79d8068"
+            },
+            {
+                "Level": 1,
+                "Name": "getOrphanSensorData",
+                "SystemKey": "ce938cbd0bfa8385999ee79d8068"
+            },
+            {
+                "Level": 1,
+                "Name": "getSensorHistory",
+                "SystemKey": "ce938cbd0bfa8385999ee79d8068"
+            },
+            {
+                "Level": 1,
+                "Name": "getSensorTypes",
+                "SystemKey": "ce938cbd0bfa8385999ee79d8068"
+            },
+            {
+                "Level": 1,
+                "Name": "getSensors",
+                "SystemKey": "ce938cbd0bfa8385999ee79d8068"
+            },
+            {
+                "Level": 1,
+                "Name": "getSensorsData",
+                "SystemKey": "ce938cbd0bfa8385999ee79d8068"
+            },
+            {
+                "Level": 1,
+                "Name": "getTestTypes",
+                "SystemKey": "ce938cbd0bfa8385999ee79d8068"
+            },
+            {
+                "Level": 1,
+                "Name": "getTests",
+                "SystemKey": "ce938cbd0bfa8385999ee79d8068"
+            },
+            {
+                "Level": 1,
+                "Name": "http_sendSMSMessage",
+                "SystemKey": "ce938cbd0bfa8385999ee79d8068"
+            },
+            {
+                "Level": 1,
+                "Name": "imonnitDeviceData",
+                "SystemKey": "ce938cbd0bfa8385999ee79d8068"
+            },
+            {
+                "Level": 1,
+                "Name": "imonnitGatewayDetails",
+                "SystemKey": "ce938cbd0bfa8385999ee79d8068"
+            },
+            {
+                "Level": 1,
+                "Name": "mailService",
+                "SystemKey": "ce938cbd0bfa8385999ee79d8068"
+            },
+            {
+                "Level": 1,
+                "Name": "processAlerts",
+                "SystemKey": "ce938cbd0bfa8385999ee79d8068"
+            },
+            {
+                "Level": 1,
+                "Name": "processImonnitEvent",
+                "SystemKey": "ce938cbd0bfa8385999ee79d8068"
+            },
+            {
+                "Level": 1,
+                "Name": "sendMessage",
+                "SystemKey": "ce938cbd0bfa8385999ee79d8068"
+            },
+            {
+                "Level": 1,
+                "Name": "setAssetSensorLatestData",
+                "SystemKey": "ce938cbd0bfa8385999ee79d8068"
+            },
+            {
+                "Level": 1,
+                "Name": "updateAlert",
+                "SystemKey": "ce938cbd0bfa8385999ee79d8068"
+            },
+            {
+                "Level": 1,
+                "Name": "updateAlertConfiguration",
+                "SystemKey": "ce938cbd0bfa8385999ee79d8068"
+            },
+            {
+                "Level": 1,
+                "Name": "updateAsset",
+                "SystemKey": "ce938cbd0bfa8385999ee79d8068"
+            },
+            {
+                "Level": 1,
+                "Name": "updateAssetType",
+                "SystemKey": "ce938cbd0bfa8385999ee79d8068"
+            },
+            {
+                "Level": 1,
+                "Name": "updateCustomer",
+                "SystemKey": "ce938cbd0bfa8385999ee79d8068"
+            },
+            {
+                "Level": 1,
+                "Name": "updateEmployee",
+                "SystemKey": "ce938cbd0bfa8385999ee79d8068"
+            },
+            {
+                "Level": 1,
+                "Name": "updateFoodTestType",
+                "SystemKey": "ce938cbd0bfa8385999ee79d8068"
+            },
+            {
+                "Level": 1,
+                "Name": "updateGateway",
+                "SystemKey": "ce938cbd0bfa8385999ee79d8068"
+            },
+            {
+                "Level": 1,
+                "Name": "updateGatewayDetails",
+                "SystemKey": "ce938cbd0bfa8385999ee79d8068"
+            },
+            {
+                "Level": 1,
+                "Name": "updateLocation",
+                "SystemKey": "ce938cbd0bfa8385999ee79d8068"
+            },
+            {
+                "Level": 1,
+                "Name": "updateLocationType",
+                "SystemKey": "ce938cbd0bfa8385999ee79d8068"
+            },
+            {
+                "Level": 1,
+                "Name": "updateSensor",
+                "SystemKey": "ce938cbd0bfa8385999ee79d8068"
+            },
+            {
+                "Level": 1,
+                "Name": "updateSensorType",
+                "SystemKey": "ce938cbd0bfa8385999ee79d8068"
+            },
+            {
+                "Level": 1,
+                "Name": "updateTest",
+                "SystemKey": "ce938cbd0bfa8385999ee79d8068"
+            }
+        ],
+        "Collections": [
+            {
+                "Columns": [],
+                "ID": "d4938cbd0bb2aeeadba48dedfabc01",
+                "Items": [],
+                "Level": 15,
+                "Name": "AlertConfigurations"
+            },
+            {
+                "Columns": [],
+                "ID": "eef59eba0bacd182b29affefc5c201",
+                "Items": [],
+                "Level": 15,
+                "Name": "AlertConfigurations"
+            },
+            {
+                "Columns": [],
+                "ID": "ceb8a8ba0bc0a8b7959fd3afb0bc01",
+                "Items": [],
+                "Level": 15,
+                "Name": "AlertHistory"
+            },
+            {
+                "Columns": [],
+                "ID": "d4938cbd0bbad3b1e38ebabbd710",
+                "Items": [],
+                "Level": 15,
+                "Name": "AlertHistory"
+            },
+            {
+                "Columns": [],
+                "ID": "8c8ca0ba0bbae88e84a6e6e6ab1d",
+                "Items": [],
+                "Level": 15,
+                "Name": "AlertTypes"
+            },
+            {
+                "Columns": [],
+                "ID": "d6938cbd0b9af0b98a8883abe29001",
+                "Items": [],
+                "Level": 15,
+                "Name": "AlertTypes"
+            },
+            {
+                "Columns": [],
+                "ID": "aeef9eba0be2f19af9f896e1c49d01",
+                "Items": [],
+                "Level": 15,
+                "Name": "Alerts"
+            },
+            {
+                "Columns": [],
+                "ID": "d6938cbd0ba0b6ddcdb5f1d0b778",
+                "Items": [],
+                "Level": 15,
+                "Name": "Alerts"
+            },
+            {
+                "Columns": [],
+                "ID": "98c597ba0ba4da9cafe9fdc8aff401",
+                "Items": [],
+                "Level": 15,
+                "Name": "AssetTypes"
+            },
+            {
+                "Columns": [],
+                "ID": "d6938cbd0bf6c1c8d8a4db83aba901",
+                "Items": [],
+                "Level": 15,
+                "Name": "AssetTypes"
+            },
+            {
+                "Columns": [],
+                "ID": "f6c697ba0bd2aaf88ae69ebddd8301",
+                "Items": [],
+                "Level": 15,
+                "Name": "Assets"
+            },
+            {
+                "Columns": [],
+                "ID": "d8938cbd0bae9fc7e1c38bb3b88001",
+                "Items": [],
+                "Level": 15,
+                "Name": "Assets"
+            },
+            {
+                "Columns": [],
+                "ID": "c2f195ba0b86c0dfafddfda9efe801",
+                "Items": [],
+                "Level": 15,
+                "Name": "Customers"
+            },
+            {
+                "Columns": [],
+                "ID": "d8938cbd0b8cd2b587cdd9e295de01",
+                "Items": [],
+                "Level": 15,
+                "Name": "Customers"
+            },
+            {
+                "Columns": [],
+                "ID": "c6e4e8bb0bae8185f1ccaffaf03f",
+                "Items": [],
+                "Level": 15,
+                "Name": "FoodTestTypes"
+            },
+            {
+                "Columns": [],
+                "ID": "d8938cbd0bfce1b6cadb9b99caed01",
+                "Items": [],
+                "Level": 15,
+                "Name": "FoodTestTypes"
+            },
+            {
+                "Columns": [],
+                "ID": "de8e9eba0bcade92e8ebfea3a323",
+                "Items": [],
+                "Level": 15,
+                "Name": "Gateways"
+            },
+            {
+                "Columns": [],
+                "ID": "da938cbd0b9c8ff7dad19a8ecf41",
+                "Items": [],
+                "Level": 15,
+                "Name": "Gateways"
+            },
+            {
+                "Columns": [],
+                "ID": "94d8fabc0bb4cc82b7aaaaa8c29301",
+                "Items": [],
+                "Level": 15,
+                "Name": "LocationTypes"
+            },
+            {
+                "Columns": [],
+                "ID": "da938cbd0bbad19cdb9fd2d2bb69",
+                "Items": [],
+                "Level": 15,
+                "Name": "LocationTypes"
+            },
+            {
+                "Columns": [],
+                "ID": "8ebc96ba0b80f1b5b3aeb2b7ccde01",
+                "Items": [],
+                "Level": 15,
+                "Name": "Locations"
+            },
+            {
+                "Columns": [],
+                "ID": "da938cbd0be486eae8cdbdaca116",
+                "Items": [],
+                "Level": 15,
+                "Name": "Locations"
+            },
+            {
+                "Columns": [],
+                "ID": "a6eda8bf0beec0a2d093b699adf801",
+                "Items": [],
+                "Level": 15,
+                "Name": "MessagesHistory"
+            },
+            {
+                "Columns": [],
+                "ID": "f0e597ba0b8cf584a4e9dcf5a477",
+                "Items": [],
+                "Level": 15,
+                "Name": "SensorTypes"
+            },
+            {
+                "Columns": [],
+                "ID": "dc938cbd0b928491eef2b38cf614",
+                "Items": [],
+                "Level": 15,
+                "Name": "SensorTypes"
+            },
+            {
+                "Columns": [],
+                "ID": "d6f38aba0bace4f3ffb6cd8c94a601",
+                "Items": [],
+                "Level": 15,
+                "Name": "Sensors"
+            },
+            {
+                "Columns": [],
+                "ID": "92b7cabd0ba896abe4b59096d7da01",
+                "Items": [],
+                "Level": 15,
+                "Name": "Sensors"
+            },
+            {
+                "Columns": [],
+                "ID": "80929eba0b96dd82dab3b1a49204",
+                "Items": [],
+                "Level": 15,
+                "Name": "TestTypes"
+            },
+            {
+                "Columns": [],
+                "ID": "de938cbd0b8895a0e6a3fdcda269",
+                "Items": [],
+                "Level": 15,
+                "Name": "TestTypes"
+            },
+            {
+                "Columns": [],
+                "ID": "d2909eba0bd8b0e1bfd08cae8542",
+                "Items": [],
+                "Level": 15,
+                "Name": "Tests"
+            },
+            {
+                "Columns": [],
+                "ID": "de938cbd0be2d7eeeea2c494b451",
+                "Items": [],
+                "Level": 15,
+                "Name": "Tests"
+            },
+            {
+                "Columns": [],
+                "ID": "dc938cbd0beee09094a0e4efbd69",
+                "Items": [],
+                "Level": 15,
+                "Name": "dc938cbd0beee09094a0e4efbd69"
+            },
+            {
+                "Columns": [],
+                "ID": "de938cbd0bc2c293b18bedb3da36",
+                "Items": [],
+                "Level": 1,
+                "Name": "de938cbd0bc2c293b18bedb3da36"
+            },
+            {
+                "Columns": [],
+                "ID": "d0d9ddb90bde83e9828d80f7f274",
+                "Items": [],
+                "Level": 1,
+                "Name": "devices_metadata"
+            },
+            {
+                "Columns": [],
+                "ID": "a2a7cabd0be6b7f8bae1debb861b",
+                "Items": [],
+                "Level": 15,
+                "Name": "devices_metadata"
+            },
+            {
+                "Columns": [],
+                "ID": "e0938cbd0bc0efb8dfac96f7bcca01",
+                "Items": [],
+                "Level": 1,
+                "Name": "e0938cbd0bc0efb8dfac96f7bcca01"
+            },
+            {
+                "Columns": [],
+                "ID": "f0948cbd0be0ffd2e0efb4eeabd001",
+                "Items": [],
+                "Level": 15,
+                "Name": "f0948cbd0be0ffd2e0efb4eeabd001"
+            },
+            {
+                "Columns": [],
+                "ID": "9ce2ddb90b92dfe0879be19bb9ae01",
+                "Items": [],
+                "Level": 1,
+                "Name": "gateways_data"
+            },
+            {
+                "Columns": [],
+                "ID": "cab2cabd0ba4e8c7c38483849fbe01",
+                "Items": [],
+                "Level": 15,
+                "Name": "gateways_data"
+            },
+            {
+                "Columns": [],
+                "ID": "c0e2ddb90bbed9afaeaeadfa8fef01",
+                "Items": [],
+                "Level": 15,
+                "Name": "sensors_data"
+            },
+            {
+                "Columns": [],
+                "ID": "e2bacabd0b94acd686ac8fe19c1c",
+                "Items": [],
+                "Level": 15,
+                "Name": "sensors_data"
+            },
+            {
+                "Columns": [],
+                "ID": "b2bccabd0bd8b8fbbaa9a0c9900b",
+                "Items": [],
+                "Level": 15,
+                "Name": "unrevealed_devices_data"
+            }
+        ],
+        "Deployments": {
+            "Level": 0
+        },
+        "DevicesList": {
+            "Level": 0
+        },
+        "EdgesList": {
+            "Level": 0
+        },
+        "MsgHistory": {
+            "Level": 1
+        },
+        "Portals": [
+            {
+                "Level": 5,
+                "Name": "tracy-asset-typs",
+                "SystemKey": "ce938cbd0bfa8385999ee79d8068"
+            },
+            {
+                "Level": 1,
+                "Name": "Refrigerator_Monitoring_October_Gateway_List",
+                "SystemKey": "ce938cbd0bfa8385999ee79d8068"
+            },
+            {
+                "Level": 5,
+                "Name": "Adam_Test_Updates",
+                "SystemKey": "ce938cbd0bfa8385999ee79d8068"
+            },
+            {
+                "Level": 5,
+                "Name": "Refrigerator_Monitoring_October",
+                "SystemKey": "ce938cbd0bfa8385999ee79d8068"
+            },
+            {
+                "Level": 1,
+                "Name": "Refrigerator_Monitoring_October_Followup",
+                "SystemKey": "ce938cbd0bfa8385999ee79d8068"
+            },
+            {
+                "Level": 1,
+                "Name": "MobileAlerts",
+                "SystemKey": "ce938cbd0bfa8385999ee79d8068"
+            },
+            {
+                "Level": 5,
+                "Name": "tracy-clone",
+                "SystemKey": "ce938cbd0bfa8385999ee79d8068"
+            },
+            {
+                "Level": 1,
+                "Name": "Customer_Portal",
+                "SystemKey": "ce938cbd0bfa8385999ee79d8068"
+            },
+            {
+                "Level": 5,
+                "Name": "Server_Portal",
+                "SystemKey": "ce938cbd0bfa8385999ee79d8068"
+            },
+            {
+                "Level": 5,
+                "Name": "Test-Portal",
+                "SystemKey": "ce938cbd0bfa8385999ee79d8068"
+            },
+            {
+                "Level": 1,
+                "Name": "Server_Room_Monitoring_Portal",
+                "SystemKey": "ce938cbd0bfa8385999ee79d8068"
+            },
+            {
+                "Level": 1,
+                "Name": "test-portal",
+                "SystemKey": "ce938cbd0bfa8385999ee79d8068"
+            }
+        ],
+        "Push": {
+            "Level": 0
+        },
+        "Roles": {
+            "Level": 0
+        },
+        "Timers": {
+            "Level": 0
+        },
+        "Topics": [
+            {
+                "Level": 3,
+                "Name": "monnit-webhook-adapter/#"
+            },
+            {
+                "Level": 3,
+                "Name": "immonit-webhook-adapter/#"
+            },
+            {
+                "Level": 3,
+                "Name": "alert/#"
+            },
+            {
+                "Level": 3,
+                "Name": "#"
+            },
+            {
+                "Level": 3,
+                "Name": "messaging/#"
+            }
+        ],
+        "Triggers": {
+            "Level": 0
+        },
+        "UsersList": {
+            "Level": 1
+        }
+    }
+}
