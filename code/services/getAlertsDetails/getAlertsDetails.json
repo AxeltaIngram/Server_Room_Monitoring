@@ -1,0 +1,22 @@
+{
+    "auto_restart": false,
+    "concurrency": 0,
+    "current_version": 50,
+    "dependencies": "log,q_library,function_library,clearblade",
+    "execution_timeout": 60,
+    "logging_enabled": "true",
+    "name": "getAlertsDetails",
+    "params": [
+        "{\n  \"item_id\": \"c9bba163-57ee-44c6-bcf2-ea329e2e35d3\"\n}"
+    ],
+    "permissions": {
+        "Administrator": 1,
+        "Anonymous": 1,
+        "Authenticated": 1,
+        "Monnit Webhook Adapter": 1,
+        "PortalEditor": 1,
+        "sms-webhook-adapter": 1
+    },
+    "run_user": "",
+    "source": "getAlertsDetails.js"
+}
