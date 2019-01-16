@@ -1,0 +1,22 @@
+{
+    "auto_restart": false,
+    "concurrency": 0,
+    "current_version": 1,
+    "dependencies": "log,clearblade",
+    "execution_timeout": 60,
+    "logging_enabled": "true",
+    "name": "updateGateway",
+    "params": [
+        "{\n    \"gateway_id\": \"5d7b725e-2fea-48bc-831e-84e646b843fb\",\n    \"gateway\": {\n      \"gateway_name\": \"9999\"\n    }\n}"
+    ],
+    "permissions": {
+        "Administrator": 1,
+        "Anonymous": 0,
+        "Authenticated": 1,
+        "Monnit Webhook Adapter": 1,
+        "PortalEditor": 1,
+        "sms-webhook-adapter": 1
+    },
+    "run_user": "",
+    "source": "updateGateway.js"
+}
