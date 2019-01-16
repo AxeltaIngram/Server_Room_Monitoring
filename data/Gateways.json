@@ -1,0 +1,88 @@
+{
+    "app_id": "ce938cbd0bfa8385999ee79d8068",
+    "collection_id": "da938cbd0b9c8ff7dad19a8ecf41",
+    "items": [
+        {
+            "battery_level": "101",
+            "customer_id": "9e5b6ecb-d77e-4894-a163-92e29a1df012",
+            "employee_id": "Usman.Minhas@ingrammicro.com",
+            "gateway_description": "",
+            "gateway_id": "932970",
+            "gateway_label": "Development Gateway",
+            "gateway_name": "CGW3 3g North America - 932970",
+            "item_id": "e176a78e-6c36-4e57-96ea-c1873ce8a7cb",
+            "location_id": "3fa7c42d-fd31-4a8b-b618-f9d960b8f75a",
+            "network_id": "7",
+            "notes": "",
+            "signal_strength": "16"
+        }
+    ],
+    "name": "Gateways",
+    "permissions": {
+        "Administrator": 15,
+        "Authenticated": 15,
+        "Monnit Webhook Adapter": 15
+    },
+    "schema": [
+        {
+            "ColumnName": "item_id",
+            "ColumnType": "uuid",
+            "PK": true
+        },
+        {
+            "ColumnName": "gateway_id",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "network_id",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "gateway_name",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "gateway_label",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "gateway_description",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "notes",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "location_id",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "customer_id",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "employee_id",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "battery_level",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "signal_strength",
+            "ColumnType": "string",
+            "PK": false
+        }
+    ]
+}
