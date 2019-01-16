@@ -1,0 +1,57 @@
+{
+    "app_id": "ce938cbd0bfa8385999ee79d8068",
+    "collection_id": "d8938cbd0bae9fc7e1c38bb3b88001",
+    "items": [
+        {
+            "asset_type_id": "12e228fb-1674-404a-90eb-6c870dbfeecb",
+            "comments": "",
+            "customer_id": "9e5b6ecb-d77e-4894-a163-92e29a1df012",
+            "item_id": "19593e9e-bcd2-4d37-b60a-25c261dd3784",
+            "location_id": "3fa7c42d-fd31-4a8b-b618-f9d960b8f75a",
+            "name": "Demo Center Server Room",
+            "primary_employee": "ingram@axelta.com"
+        }
+    ],
+    "name": "Assets",
+    "permissions": {
+        "Administrator": 15,
+        "Authenticated": 15
+    },
+    "schema": [
+        {
+            "ColumnName": "item_id",
+            "ColumnType": "uuid",
+            "PK": true
+        },
+        {
+            "ColumnName": "name",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "asset_type_id",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "location_id",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "customer_id",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "primary_employee",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "comments",
+            "ColumnType": "string",
+            "PK": false
+        }
+    ]
+}
