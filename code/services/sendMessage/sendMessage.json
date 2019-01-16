@@ -1,0 +1,19 @@
+{
+    "auto_restart": false,
+    "concurrency": 0,
+    "current_version": 39,
+    "dependencies": "log,clearblade,TwilioConstants,TwilioSMSLib,function_library",
+    "execution_timeout": 60,
+    "logging_enabled": "true",
+    "name": "sendMessage",
+    "params": [
+        "{\n  \"customer_id\": \"2843b40d-b3e5-4f4c-9f5f-9ac8d2709ec8\",\n  \"messageTypes\": [\n    \"email\"\n  ],\n  \"userEmails\": [\n    \"subhash@axelta.com\"\n  ],\n  \"payload\": \"hello againg\"\n}"
+    ],
+    "permissions": {
+        "Administrator": 1,
+        "Authenticated": 1,
+        "Monnit Webhook Adapter": 1
+    },
+    "run_user": "",
+    "source": "sendMessage.js"
+}
