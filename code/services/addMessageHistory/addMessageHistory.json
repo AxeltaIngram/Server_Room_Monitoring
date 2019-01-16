@@ -1,0 +1,22 @@
+{
+    "auto_restart": false,
+    "concurrency": 0,
+    "current_version": 7,
+    "dependencies": "log,clearblade",
+    "execution_timeout": 60,
+    "logging_enabled": "false",
+    "name": "addMessageHistory",
+    "params": [
+        "{\r\n    \"from_email_id\" :\"test@axelta.com\",\r\n    \"to_email_id\":\"subhash@axelta.com\",\r\n    \"message\" : \"Test Message\",\r\n    \"priority\" : \"low\"\r\n}"
+    ],
+    "permissions": {
+        "Administrator": 1,
+        "Anonymous": 1,
+        "Authenticated": 1,
+        "Monnit Webhook Adapter": 1,
+        "PortalEditor": 1,
+        "sms-webhook-adapter": 1
+    },
+    "run_user": "",
+    "source": "addMessageHistory.js"
+}
