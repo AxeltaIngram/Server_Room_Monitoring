@@ -1,0 +1,272 @@
+{
+    "Description": "",
+    "ID": "d2938cbd0bfec2b2c28dce9698d601",
+    "Name": "sms-webhook-adapter",
+    "Permissions": {
+        "AllCollections": {
+            "Level": 0
+        },
+        "AllServices": {
+            "Level": 0
+        },
+        "CodeServices": [
+            {
+                "Level": 1,
+                "Name": "TestService",
+                "SystemKey": "ce938cbd0bfa8385999ee79d8068"
+            },
+            {
+                "Level": 1,
+                "Name": "addMessageHistory",
+                "SystemKey": "ce938cbd0bfa8385999ee79d8068"
+            },
+            {
+                "Level": 1,
+                "Name": "createAssetType",
+                "SystemKey": "ce938cbd0bfa8385999ee79d8068"
+            },
+            {
+                "Level": 1,
+                "Name": "createFoodTestType",
+                "SystemKey": "ce938cbd0bfa8385999ee79d8068"
+            },
+            {
+                "Level": 1,
+                "Name": "createGateway",
+                "SystemKey": "ce938cbd0bfa8385999ee79d8068"
+            },
+            {
+                "Level": 1,
+                "Name": "createLocationType",
+                "SystemKey": "ce938cbd0bfa8385999ee79d8068"
+            },
+            {
+                "Level": 1,
+                "Name": "createSensorType",
+                "SystemKey": "ce938cbd0bfa8385999ee79d8068"
+            },
+            {
+                "Level": 1,
+                "Name": "createSensorTypes",
+                "SystemKey": "ce938cbd0bfa8385999ee79d8068"
+            },
+            {
+                "Level": 1,
+                "Name": "deleteAssetType",
+                "SystemKey": "ce938cbd0bfa8385999ee79d8068"
+            },
+            {
+                "Level": 1,
+                "Name": "deleteFoodTestType",
+                "SystemKey": "ce938cbd0bfa8385999ee79d8068"
+            },
+            {
+                "Level": 1,
+                "Name": "deleteGateway",
+                "SystemKey": "ce938cbd0bfa8385999ee79d8068"
+            },
+            {
+                "Level": 1,
+                "Name": "deleteLocationType",
+                "SystemKey": "ce938cbd0bfa8385999ee79d8068"
+            },
+            {
+                "Level": 1,
+                "Name": "deleteSensorType",
+                "SystemKey": "ce938cbd0bfa8385999ee79d8068"
+            },
+            {
+                "Level": 1,
+                "Name": "getAlertsDetails",
+                "SystemKey": "ce938cbd0bfa8385999ee79d8068"
+            },
+            {
+                "Level": 1,
+                "Name": "getFoodTestTypes",
+                "SystemKey": "ce938cbd0bfa8385999ee79d8068"
+            },
+            {
+                "Level": 1,
+                "Name": "getLabelStatus",
+                "SystemKey": "ce938cbd0bfa8385999ee79d8068"
+            },
+            {
+                "Level": 1,
+                "Name": "getLocationTypes",
+                "SystemKey": "ce938cbd0bfa8385999ee79d8068"
+            },
+            {
+                "Level": 1,
+                "Name": "getMessagesHistory",
+                "SystemKey": "ce938cbd0bfa8385999ee79d8068"
+            },
+            {
+                "Level": 1,
+                "Name": "getOrphanGatewayData",
+                "SystemKey": "ce938cbd0bfa8385999ee79d8068"
+            },
+            {
+                "Level": 1,
+                "Name": "mailService",
+                "SystemKey": "ce938cbd0bfa8385999ee79d8068"
+            },
+            {
+                "Level": 1,
+                "Name": "processSMSResponse",
+                "SystemKey": "ce938cbd0bfa8385999ee79d8068"
+            },
+            {
+                "Level": 1,
+                "Name": "setAssetSensorLatestData",
+                "SystemKey": "ce938cbd0bfa8385999ee79d8068"
+            },
+            {
+                "Level": 1,
+                "Name": "updateAssetType",
+                "SystemKey": "ce938cbd0bfa8385999ee79d8068"
+            },
+            {
+                "Level": 1,
+                "Name": "updateFoodTestType",
+                "SystemKey": "ce938cbd0bfa8385999ee79d8068"
+            },
+            {
+                "Level": 1,
+                "Name": "updateGateway",
+                "SystemKey": "ce938cbd0bfa8385999ee79d8068"
+            },
+            {
+                "Level": 1,
+                "Name": "updateLocationType",
+                "SystemKey": "ce938cbd0bfa8385999ee79d8068"
+            },
+            {
+                "Level": 1,
+                "Name": "updateSensorType",
+                "SystemKey": "ce938cbd0bfa8385999ee79d8068"
+            }
+        ],
+        "Collections": [
+            {
+                "Columns": [],
+                "ID": "c6e4e8bb0bae8185f1ccaffaf03f",
+                "Items": [],
+                "Level": 15,
+                "Name": "FoodTestTypes"
+            },
+            {
+                "Columns": [],
+                "ID": "d8938cbd0bfce1b6cadb9b99caed01",
+                "Items": [],
+                "Level": 15,
+                "Name": "FoodTestTypes"
+            },
+            {
+                "Columns": [],
+                "ID": "94d8fabc0bb4cc82b7aaaaa8c29301",
+                "Items": [],
+                "Level": 15,
+                "Name": "LocationTypes"
+            },
+            {
+                "Columns": [],
+                "ID": "da938cbd0bbad19cdb9fd2d2bb69",
+                "Items": [],
+                "Level": 15,
+                "Name": "LocationTypes"
+            },
+            {
+                "Columns": [],
+                "ID": "a6eda8bf0beec0a2d093b699adf801",
+                "Items": [],
+                "Level": 15,
+                "Name": "MessagesHistory"
+            },
+            {
+                "Columns": [],
+                "ID": "92b7cabd0ba896abe4b59096d7da01",
+                "Items": [],
+                "Level": 15,
+                "Name": "Sensors"
+            },
+            {
+                "Columns": [],
+                "ID": "a2a7cabd0be6b7f8bae1debb861b",
+                "Items": [],
+                "Level": 15,
+                "Name": "devices_metadata"
+            },
+            {
+                "Columns": [],
+                "ID": "cab2cabd0ba4e8c7c38483849fbe01",
+                "Items": [],
+                "Level": 15,
+                "Name": "gateways_data"
+            },
+            {
+                "Columns": [],
+                "ID": "e2bacabd0b94acd686ac8fe19c1c",
+                "Items": [],
+                "Level": 15,
+                "Name": "sensors_data"
+            },
+            {
+                "Columns": [],
+                "ID": "b2bccabd0bd8b8fbbaa9a0c9900b",
+                "Items": [],
+                "Level": 15,
+                "Name": "unrevealed_devices_data"
+            }
+        ],
+        "Deployments": {
+            "Level": 0
+        },
+        "DevicesList": {
+            "Level": 0
+        },
+        "EdgesList": {
+            "Level": 0
+        },
+        "MsgHistory": {
+            "Level": 0
+        },
+        "Portals": [
+            {
+                "Level": 5,
+                "Name": "tracy-clone",
+                "SystemKey": "ce938cbd0bfa8385999ee79d8068"
+            },
+            {
+                "Level": 5,
+                "Name": "tracy-asset-typs",
+                "SystemKey": "ce938cbd0bfa8385999ee79d8068"
+            },
+            {
+                "Level": 0,
+                "Name": "test-portal",
+                "SystemKey": "ce938cbd0bfa8385999ee79d8068"
+            }
+        ],
+        "Push": {
+            "Level": 0
+        },
+        "Roles": {
+            "Level": 0
+        },
+        "Timers": {
+            "Level": 0
+        },
+        "Topics": [
+            {
+                "Level": 3,
+                "Name": "sms-webhook-adapter"
+            }
+        ],
+        "Triggers": {
+            "Level": 0
+        },
+        "UsersList": {
+            "Level": 0
+        }
+    }
+}
