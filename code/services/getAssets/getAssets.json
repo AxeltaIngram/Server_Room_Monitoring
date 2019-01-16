@@ -1,0 +1,18 @@
+{
+    "auto_restart": false,
+    "concurrency": 0,
+    "current_version": 3,
+    "dependencies": "log,clearblade",
+    "execution_timeout": 60,
+    "logging_enabled": "true",
+    "name": "getAssets",
+    "params": [
+        "{\n  \"location_id\": \"944f218d-ef93-46ea-ada6-a34187fc58bc\"\n}"
+    ],
+    "permissions": {
+        "Administrator": 1,
+        "Authenticated": 1
+    },
+    "run_user": "",
+    "source": "getAssets.js"
+}
