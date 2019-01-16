@@ -1,0 +1,350 @@
+{
+    "Description": "",
+    "ID": "d2938cbd0b9ea1faf5b5a7d4ef9501",
+    "Name": "Monnit Webhook Adapter",
+    "Permissions": {
+        "AllCollections": {
+            "Level": 15
+        },
+        "AllServices": {
+            "Level": 0
+        },
+        "CodeServices": [
+            {
+                "Level": 1,
+                "Name": "TestService",
+                "SystemKey": "ce938cbd0bfa8385999ee79d8068"
+            },
+            {
+                "Level": 1,
+                "Name": "addMessageHistory",
+                "SystemKey": "ce938cbd0bfa8385999ee79d8068"
+            },
+            {
+                "Level": 1,
+                "Name": "createAssetType",
+                "SystemKey": "ce938cbd0bfa8385999ee79d8068"
+            },
+            {
+                "Level": 1,
+                "Name": "createFoodTestType",
+                "SystemKey": "ce938cbd0bfa8385999ee79d8068"
+            },
+            {
+                "Level": 1,
+                "Name": "createGateway",
+                "SystemKey": "ce938cbd0bfa8385999ee79d8068"
+            },
+            {
+                "Level": 1,
+                "Name": "createLocationType",
+                "SystemKey": "ce938cbd0bfa8385999ee79d8068"
+            },
+            {
+                "Level": 1,
+                "Name": "createSensorType",
+                "SystemKey": "ce938cbd0bfa8385999ee79d8068"
+            },
+            {
+                "Level": 1,
+                "Name": "createSensorTypes",
+                "SystemKey": "ce938cbd0bfa8385999ee79d8068"
+            },
+            {
+                "Level": 1,
+                "Name": "deleteAssetType",
+                "SystemKey": "ce938cbd0bfa8385999ee79d8068"
+            },
+            {
+                "Level": 1,
+                "Name": "deleteFoodTestType",
+                "SystemKey": "ce938cbd0bfa8385999ee79d8068"
+            },
+            {
+                "Level": 1,
+                "Name": "deleteGateway",
+                "SystemKey": "ce938cbd0bfa8385999ee79d8068"
+            },
+            {
+                "Level": 1,
+                "Name": "deleteLocationType",
+                "SystemKey": "ce938cbd0bfa8385999ee79d8068"
+            },
+            {
+                "Level": 1,
+                "Name": "deleteSensorType",
+                "SystemKey": "ce938cbd0bfa8385999ee79d8068"
+            },
+            {
+                "Level": 1,
+                "Name": "getAlertsDetails",
+                "SystemKey": "ce938cbd0bfa8385999ee79d8068"
+            },
+            {
+                "Level": 1,
+                "Name": "getFoodTestTypes",
+                "SystemKey": "ce938cbd0bfa8385999ee79d8068"
+            },
+            {
+                "Level": 1,
+                "Name": "getLabelStatus",
+                "SystemKey": "ce938cbd0bfa8385999ee79d8068"
+            },
+            {
+                "Level": 1,
+                "Name": "getLocationTypes",
+                "SystemKey": "ce938cbd0bfa8385999ee79d8068"
+            },
+            {
+                "Level": 1,
+                "Name": "getMessagesHistory",
+                "SystemKey": "ce938cbd0bfa8385999ee79d8068"
+            },
+            {
+                "Level": 1,
+                "Name": "getOrphanGatewayData",
+                "SystemKey": "ce938cbd0bfa8385999ee79d8068"
+            },
+            {
+                "Level": 1,
+                "Name": "getOrphanSensorData",
+                "SystemKey": "ce938cbd0bfa8385999ee79d8068"
+            },
+            {
+                "Level": 1,
+                "Name": "imonnitDeviceData",
+                "SystemKey": "ce938cbd0bfa8385999ee79d8068"
+            },
+            {
+                "Level": 1,
+                "Name": "mailService",
+                "SystemKey": "ce938cbd0bfa8385999ee79d8068"
+            },
+            {
+                "Level": 1,
+                "Name": "processAlerts",
+                "SystemKey": "ce938cbd0bfa8385999ee79d8068"
+            },
+            {
+                "Level": 1,
+                "Name": "processImonnitEvent",
+                "SystemKey": "ce938cbd0bfa8385999ee79d8068"
+            },
+            {
+                "Level": 1,
+                "Name": "sendMessage",
+                "SystemKey": "ce938cbd0bfa8385999ee79d8068"
+            },
+            {
+                "Level": 1,
+                "Name": "setAssetSensorLatestData",
+                "SystemKey": "ce938cbd0bfa8385999ee79d8068"
+            },
+            {
+                "Level": 1,
+                "Name": "updateAssetType",
+                "SystemKey": "ce938cbd0bfa8385999ee79d8068"
+            },
+            {
+                "Level": 1,
+                "Name": "updateFoodTestType",
+                "SystemKey": "ce938cbd0bfa8385999ee79d8068"
+            },
+            {
+                "Level": 1,
+                "Name": "updateGateway",
+                "SystemKey": "ce938cbd0bfa8385999ee79d8068"
+            },
+            {
+                "Level": 1,
+                "Name": "updateLocationType",
+                "SystemKey": "ce938cbd0bfa8385999ee79d8068"
+            },
+            {
+                "Level": 1,
+                "Name": "updateSensorType",
+                "SystemKey": "ce938cbd0bfa8385999ee79d8068"
+            }
+        ],
+        "Collections": [
+            {
+                "Columns": [],
+                "ID": "eef59eba0bacd182b29affefc5c201",
+                "Items": [],
+                "Level": 15,
+                "Name": "AlertConfigurations"
+            },
+            {
+                "Columns": [],
+                "ID": "d4938cbd0bb2aeeadba48dedfabc01",
+                "Items": [],
+                "Level": 15,
+                "Name": "AlertConfigurations"
+            },
+            {
+                "Columns": [],
+                "ID": "aeef9eba0be2f19af9f896e1c49d01",
+                "Items": [],
+                "Level": 15,
+                "Name": "Alerts"
+            },
+            {
+                "Columns": [],
+                "ID": "d6938cbd0ba0b6ddcdb5f1d0b778",
+                "Items": [],
+                "Level": 15,
+                "Name": "Alerts"
+            },
+            {
+                "Columns": [],
+                "ID": "c6e4e8bb0bae8185f1ccaffaf03f",
+                "Items": [],
+                "Level": 15,
+                "Name": "FoodTestTypes"
+            },
+            {
+                "Columns": [],
+                "ID": "d8938cbd0bfce1b6cadb9b99caed01",
+                "Items": [],
+                "Level": 15,
+                "Name": "FoodTestTypes"
+            },
+            {
+                "Columns": [],
+                "ID": "de8e9eba0bcade92e8ebfea3a323",
+                "Items": [],
+                "Level": 15,
+                "Name": "Gateways"
+            },
+            {
+                "Columns": [],
+                "ID": "da938cbd0b9c8ff7dad19a8ecf41",
+                "Items": [],
+                "Level": 15,
+                "Name": "Gateways"
+            },
+            {
+                "Columns": [],
+                "ID": "94d8fabc0bb4cc82b7aaaaa8c29301",
+                "Items": [],
+                "Level": 15,
+                "Name": "LocationTypes"
+            },
+            {
+                "Columns": [],
+                "ID": "da938cbd0bbad19cdb9fd2d2bb69",
+                "Items": [],
+                "Level": 15,
+                "Name": "LocationTypes"
+            },
+            {
+                "Columns": [],
+                "ID": "a6eda8bf0beec0a2d093b699adf801",
+                "Items": [],
+                "Level": 15,
+                "Name": "MessagesHistory"
+            },
+            {
+                "Columns": [],
+                "ID": "d6f38aba0bace4f3ffb6cd8c94a601",
+                "Items": [],
+                "Level": 15,
+                "Name": "Sensors"
+            },
+            {
+                "Columns": [],
+                "ID": "d0d9ddb90bde83e9828d80f7f274",
+                "Items": [],
+                "Level": 15,
+                "Name": "devices_metadata"
+            },
+            {
+                "Columns": [],
+                "ID": "a2a7cabd0be6b7f8bae1debb861b",
+                "Items": [],
+                "Level": 0,
+                "Name": "devices_metadata"
+            },
+            {
+                "Columns": [],
+                "ID": "9ce2ddb90b92dfe0879be19bb9ae01",
+                "Items": [],
+                "Level": 15,
+                "Name": "gateways_data"
+            },
+            {
+                "Columns": [],
+                "ID": "c0e2ddb90bbed9afaeaeadfa8fef01",
+                "Items": [],
+                "Level": 15,
+                "Name": "sensors_data"
+            },
+            {
+                "Columns": [],
+                "ID": "b2bccabd0bd8b8fbbaa9a0c9900b",
+                "Items": [],
+                "Level": 15,
+                "Name": "unrevealed_devices_data"
+            }
+        ],
+        "Deployments": {
+            "Level": 0
+        },
+        "DevicesList": {
+            "Level": 0
+        },
+        "EdgesList": {
+            "Level": 0
+        },
+        "MsgHistory": {
+            "Level": 9
+        },
+        "Portals": [
+            {
+                "Level": 5,
+                "Name": "tracy-clone",
+                "SystemKey": "ce938cbd0bfa8385999ee79d8068"
+            },
+            {
+                "Level": 5,
+                "Name": "tracy-asset-typs",
+                "SystemKey": "ce938cbd0bfa8385999ee79d8068"
+            },
+            {
+                "Level": 0,
+                "Name": "Test-Portal",
+                "SystemKey": "ce938cbd0bfa8385999ee79d8068"
+            },
+            {
+                "Level": 0,
+                "Name": "test-portal",
+                "SystemKey": "ce938cbd0bfa8385999ee79d8068"
+            }
+        ],
+        "Push": {
+            "Level": 0
+        },
+        "Roles": {
+            "Level": 0
+        },
+        "Timers": {
+            "Level": 0
+        },
+        "Topics": [
+            {
+                "Level": 3,
+                "Name": "monnit-webhook-adapter/#"
+            },
+            {
+                "Level": 3,
+                "Name": "#"
+            }
+        ],
+        "Triggers": {
+            "Level": 0
+        },
+        "UsersList": {
+            "Level": 1
+        }
+    }
+}
