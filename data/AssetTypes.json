@@ -1,0 +1,45 @@
+{
+    "app_id": "ce938cbd0bfa8385999ee79d8068",
+    "collection_id": "d6938cbd0bf6c1c8d8a4db83aba901",
+    "items": [
+        {
+            "description": "Monitoring server room",
+            "icon": "",
+            "item_id": "12e228fb-1674-404a-90eb-6c870dbfeecb",
+            "name": "Server Room",
+            "notes": ""
+        }
+    ],
+    "name": "AssetTypes",
+    "permissions": {
+        "Administrator": 15,
+        "Authenticated": 15
+    },
+    "schema": [
+        {
+            "ColumnName": "item_id",
+            "ColumnType": "uuid",
+            "PK": true
+        },
+        {
+            "ColumnName": "name",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "description",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "notes",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "icon",
+            "ColumnType": "string",
+            "PK": false
+        }
+    ]
+}
