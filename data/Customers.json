@@ -1,0 +1,92 @@
+{
+    "app_id": "ce938cbd0bfa8385999ee79d8068",
+    "collection_id": "d8938cbd0b8cd2b587cdd9e295de01",
+    "items": [
+        {
+            "address": "103 E 5th Street",
+            "city": "Austin",
+            "contact_id": "",
+            "country": "USA",
+            "icon": "https://i.imgur.com/QA6avOI.png",
+            "item_id": "2843b40d-b3e5-4f4c-9f5f-9ac8d2709ec8",
+            "name": "ClearBlade",
+            "state": "Texas",
+            "zipcode": "78703"
+        },
+        {
+            "address": "H.No:6-3-571/a/2",
+            "city": "Hyderabad",
+            "contact_id": "",
+            "country": "IND",
+            "icon": "https://i.imgur.com/QA6avOI.png",
+            "item_id": "9e5b6ecb-d77e-4894-a163-92e29a1df012",
+            "name": "Axelta",
+            "state": "Telangana",
+            "zipcode": "500082"
+        },
+        {
+            "address": "99 Main Street",
+            "city": "New York",
+            "contact_id": "",
+            "country": "USA",
+            "icon": "https://static.thenounproject.com/png/732945-200.png",
+            "item_id": "efb9a290-3a01-4c70-acca-2dd4277d8ac3",
+            "name": "Jerry's Doughnuts",
+            "state": "New York",
+            "zipcode": "55555"
+        }
+    ],
+    "name": "Customers",
+    "permissions": {
+        "Administrator": 15,
+        "Anonymous": 0,
+        "Authenticated": 15
+    },
+    "schema": [
+        {
+            "ColumnName": "item_id",
+            "ColumnType": "uuid",
+            "PK": true
+        },
+        {
+            "ColumnName": "name",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "contact_id",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "address",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "city",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "state",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "zipcode",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "country",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "icon",
+            "ColumnType": "string",
+            "PK": false
+        }
+    ]
+}
