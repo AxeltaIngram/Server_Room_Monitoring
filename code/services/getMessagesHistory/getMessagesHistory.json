@@ -1,0 +1,22 @@
+{
+    "auto_restart": false,
+    "concurrency": 0,
+    "current_version": 11,
+    "dependencies": "log,q_library,function_library,clearblade",
+    "execution_timeout": 60,
+    "logging_enabled": "false",
+    "name": "getMessagesHistory",
+    "params": [
+        "{\n  \"email_id\": \"ingram@axelta.com\"\n}"
+    ],
+    "permissions": {
+        "Administrator": 1,
+        "Anonymous": 1,
+        "Authenticated": 1,
+        "Monnit Webhook Adapter": 1,
+        "PortalEditor": 1,
+        "sms-webhook-adapter": 1
+    },
+    "run_user": "",
+    "source": "getMessagesHistory.js"
+}
