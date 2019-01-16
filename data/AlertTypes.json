@@ -1,0 +1,59 @@
+{
+    "app_id": "ce938cbd0bfa8385999ee79d8068",
+    "collection_id": "d6938cbd0b9af0b98a8883abe29001",
+    "items": [
+        {
+            "customer_id": "9e5b6ecb-d77e-4894-a163-92e29a1df012",
+            "description": "Temperature threshold exceeded",
+            "icon": "",
+            "item_id": "461b3ffd-b458-48e8-ac84-cf6a82866951",
+            "name": "Temperature"
+        },
+        {
+            "customer_id": "",
+            "description": "tesating",
+            "icon": "",
+            "item_id": "d6a75c3d-b629-4113-ae22-8022392cee89",
+            "name": "winter"
+        },
+        {
+            "customer_id": "9e5b6ecb-d77e-4894-a163-92e29a1df012",
+            "description": "Humidity threshold exceeded",
+            "icon": "",
+            "item_id": "f2f9a3eb-0c0d-4ed0-b23e-c7e440af425c",
+            "name": "Humidity"
+        }
+    ],
+    "name": "AlertTypes",
+    "permissions": {
+        "Administrator": 15,
+        "Authenticated": 15
+    },
+    "schema": [
+        {
+            "ColumnName": "item_id",
+            "ColumnType": "uuid",
+            "PK": true
+        },
+        {
+            "ColumnName": "name",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "description",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "icon",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "customer_id",
+            "ColumnType": "string",
+            "PK": false
+        }
+    ]
+}
