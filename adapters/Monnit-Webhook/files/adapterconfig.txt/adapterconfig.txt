@@ -1,0 +1,9 @@
+ADAPTERSERVICENAME=monnit-webhook-adapter.service
+ADAPTERBIN=monnit-webhook-adapter-amd64
+SYSTEMDPATH=/lib/systemd/system
+PLATFORMURL=https://ingrammicro.clearblade.com
+MESSAGINGURL=ingrammicro.clearblade.com:1883
+SYSTEMKEY=aebed3b90bcabac4e7c6eef5b9e601
+SYSTEMSECRET=AEBED3B90BC8CF96D39CA1F08D23
+DEVICENAME=monnit-webhook-adapter
+ACTIVEKEY=Bo45969JlVA4iA6If7S13fPvg
