@@ -1,0 +1,37 @@
+{
+    "app_id": "ce938cbd0bfa8385999ee79d8068",
+    "collection_id": "da938cbd0bbad19cdb9fd2d2bb69",
+    "items": [
+        {
+            "description": "",
+            "item_id": "50aaae9a-98e4-4707-9302-376753465e54",
+            "name": "Room"
+        }
+    ],
+    "name": "LocationTypes",
+    "permissions": {
+        "Administrator": 15,
+        "Anonymous": 0,
+        "Authenticated": 15,
+        "Monnit Webhook Adapter": 15,
+        "PortalEditor": 15,
+        "sms-webhook-adapter": 15
+    },
+    "schema": [
+        {
+            "ColumnName": "item_id",
+            "ColumnType": "uuid",
+            "PK": true
+        },
+        {
+            "ColumnName": "name",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "description",
+            "ColumnType": "string",
+            "PK": false
+        }
+    ]
+}
