@@ -1,0 +1,13 @@
+{
+    "description": "",
+    "last_seen_version": null,
+    "location": null,
+    "mac_address": null,
+    "name": "server-room-monitoring-edge",
+    "policy_name": null,
+    "resolver_func": null,
+    "sync_edge_tables": null,
+    "system_key": "ce938cbd0bfa8385999ee79d8068",
+    "system_secret": "CE938CBD0BAEF0BBD5BDD4FFB2AC01",
+    "token": "56ufIS05Fx1q82Hww1gN1DE2u"
+}
