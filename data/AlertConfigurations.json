@@ -1,0 +1,108 @@
+{
+    "app_id": "ce938cbd0bfa8385999ee79d8068",
+    "collection_id": "d4938cbd0bb2aeeadba48dedfabc01",
+    "items": [
+        {
+            "contact_method": "",
+            "contacts": "[\"Usman.Minhas@ingrammicro.com\"]",
+            "customer_id": "9e5b6ecb-d77e-4894-a163-92e29a1df012",
+            "disabled": false,
+            "item_id": "65c07c17-05a2-490e-b653-73d859cb982c",
+            "message": "Check temperature (Center). It is higher than 20 degrees.",
+            "name": "Test Alert 21/11",
+            "priority": "medium",
+            "rules": "[{\"sensor_id\":\"426643\",\"operator\":\"GT\",\"value\":\"20\",\"property\":\"sensor_reading\"}]",
+            "timeout": 0,
+            "type_id": ""
+        },
+        {
+            "contact_method": "",
+            "contacts": "[\"Usman.Minhas@ingrammicro.com\"]",
+            "customer_id": "9e5b6ecb-d77e-4894-a163-92e29a1df012",
+            "disabled": false,
+            "item_id": "c9bba163-57ee-44c6-bcf2-ea329e2e35d3",
+            "message": "*TEST* Check humidity (North), it is above 20.",
+            "name": "Test Alert 2 21/11",
+            "priority": "low",
+            "rules": "[{\"sensor_id\":\"380141\",\"operator\":\"GT\",\"value\":\"30\",\"property\":\"sensor_reading\"}]",
+            "timeout": 0,
+            "type_id": ""
+        },
+        {
+            "contact_method": "",
+            "contacts": "[\"subhash@axelta.com\"]",
+            "customer_id": "9e5b6ecb-d77e-4894-a163-92e29a1df012",
+            "disabled": false,
+            "item_id": "e87d7ee5-93f6-4f91-9710-39a103e9f39a",
+            "message": "",
+            "name": "Test Alert 123",
+            "priority": "high",
+            "rules": "[{\"sensor_id\":\"426643\",\"operator\":\"GT\",\"value\":\"10\",\"property\":\"sensor_reading\"}]",
+            "timeout": 0,
+            "type_id": ""
+        }
+    ],
+    "name": "AlertConfigurations",
+    "permissions": {
+        "Administrator": 15,
+        "Authenticated": 15,
+        "Monnit Webhook Adapter": 15
+    },
+    "schema": [
+        {
+            "ColumnName": "item_id",
+            "ColumnType": "uuid",
+            "PK": true
+        },
+        {
+            "ColumnName": "name",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "type_id",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "rules",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "contacts",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "contact_method",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "priority",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "disabled",
+            "ColumnType": "bool",
+            "PK": false
+        },
+        {
+            "ColumnName": "customer_id",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "timeout",
+            "ColumnType": "int",
+            "PK": false
+        },
+        {
+            "ColumnName": "message",
+            "ColumnType": "string",
+            "PK": false
+        }
+    ]
+}
