@@ -1,0 +1,22 @@
+{
+    "auto_restart": false,
+    "concurrency": 0,
+    "current_version": 28,
+    "dependencies": "log,clearblade,mailer",
+    "execution_timeout": 60,
+    "logging_enabled": "true",
+    "name": "mailService",
+    "params": [
+        "{\n  \"email\": \"subhash@axelta.com\"\n}"
+    ],
+    "permissions": {
+        "Administrator": 1,
+        "Anonymous": 1,
+        "Authenticated": 1,
+        "Monnit Webhook Adapter": 1,
+        "PortalEditor": 1,
+        "sms-webhook-adapter": 1
+    },
+    "run_user": "",
+    "source": "mailService.js"
+}
