@@ -1,0 +1,32 @@
+var customer_table = "Customer";
+var devices_metadata = "devices_metadata";
+var device_data = "device_data";
+var gateways_data = "gateways_data";
+var Networks = "Networks";
+var Sensors = "Sensors";
+var sensors_data = "sensors_data";
+var sys_values = "sys_values";
+var Testing = "Testing";
+var unrevealedDevicesData="unrevealed_devices_data";
+var auth_token="Y2xlYXJibGFkZTp3M0xjb20zQ0I=";	
+var ax_auth="QXhlbHRhOkF4ZWx0QTIh";
+var superUser_auth="aW5ncmFtLmxhYjp3M0xjb20zSW5ncmFt";
+//aW5ncmFtbWljcm8ucG9jOkZhbGxAMjAxOA==
+var fromAddr=""
+var mail_pwd="";
+var imonnit_uri = "https://www.imonnit.com";
+var imonnit_uri2 = "http://40.86.214.108";
+var update_url = "/json/GatewayUpdateFirmware/";
+var remove_url = "/json/RemoveGateway/";
+var reform_url = "/json/GatewayReform/";
+var UpdateorRemoveGateway = "deleteGateway";
+var GatewaysGroup = "GatewayList";
+var ImonnitAuthKey = "getImAuthKey";
+var ImNetWorksData = "getNetWorkData";
+var SensorsTimePeriodData = "getSensorsData";
+var ProcessWebHooks = "imonnitDeviceData";
+var GatewaysMetaData = "imonnitGatewayDetails";
+var SensorsGroup = "SensorList";
+var SensorsUpdationandDeletion = "SensorModifications";
+var ModifyGatewayDetails = "updateGatewayDetails";
+var getUUID = "UUIDgenerator";
