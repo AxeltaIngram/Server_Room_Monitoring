@@ -1,0 +1,54 @@
+{
+    "app_id": "ce938cbd0bfa8385999ee79d8068",
+    "collection_id": "b2bccabd0bd8b8fbbaa9a0c9900b",
+    "items": [],
+    "name": "unrevealed_devices_data",
+    "permissions": {
+        "Administrator": 15,
+        "Authenticated": 15,
+        "Monnit Webhook Adapter": 15,
+        "sms-webhook-adapter": 15
+    },
+    "schema": [
+        {
+            "ColumnName": "item_id",
+            "ColumnType": "uuid",
+            "PK": true
+        },
+        {
+            "ColumnName": "device_id",
+            "ColumnType": "int",
+            "PK": false
+        },
+        {
+            "ColumnName": "network_id",
+            "ColumnType": "int",
+            "PK": false
+        },
+        {
+            "ColumnName": "device_name",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "sensor_reading",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "battery_level",
+            "ColumnType": "int",
+            "PK": false
+        },
+        {
+            "ColumnName": "signal_strength",
+            "ColumnType": "int",
+            "PK": false
+        },
+        {
+            "ColumnName": "reading_time",
+            "ColumnType": "timestamp",
+            "PK": false
+        }
+    ]
+}
