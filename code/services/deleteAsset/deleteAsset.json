@@ -1,0 +1,18 @@
+{
+    "auto_restart": false,
+    "concurrency": 0,
+    "current_version": 1,
+    "dependencies": "log,clearblade",
+    "execution_timeout": 60,
+    "logging_enabled": "false",
+    "name": "deleteAsset",
+    "params": [
+        "{\n    \"asset_id\": \"310326d7-dbbf-471c-b5be-bbc85f72668a\"\n}"
+    ],
+    "permissions": {
+        "Administrator": 1,
+        "Authenticated": 1
+    },
+    "run_user": "",
+    "source": "deleteAsset.js"
+}
