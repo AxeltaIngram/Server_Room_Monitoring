@@ -1,0 +1,1749 @@
+{
+    "config": {
+        "cols": {
+            "lg": 12,
+            "md": 10,
+            "sm": 6,
+            "xs": 4,
+            "xxs": 2
+        },
+        "currentBreakpointForFlyoutWidgets": "lg",
+        "currentBreakpointForPanes": "lg",
+        "currentBreakpointsForWidgets": {
+            "11b96b1b-ea48-4845-be51-8659a0d98cd3": "xxs",
+            "80c28fdf-eb29-4d58-97f9-9b327fad1af7": "md",
+            "ebefcb5a-6ce9-4932-87fc-d7789ebf2e46": "xs",
+            "ec8b9720-de09-471e-94e4-bea714b708af": "xs"
+        },
+        "datasources": {
+            "07c2f8dc-b87d-42a7-8e46-46085fd67d1f": {
+                "id": "07c2f8dc-b87d-42a7-8e46-46085fd67d1f",
+                "name": "messaging2",
+                "settings": {
+                    "CALL_ON_LOAD": true,
+                    "SUPPRESS_DATASOURCE_ERRORS": false,
+                    "TOPIC_NAME": "messaging/ee8fa2ba0b80e8c8cce1c2ded0ae01"
+                },
+                "type": "CB_MESSAGE_TOPIC"
+            },
+            "15985ae5-731f-4ea0-a0c7-52dfdb5102b3": {
+                "id": "15985ae5-731f-4ea0-a0c7-52dfdb5102b3",
+                "name": "getCustomers",
+                "settings": {
+                    "CALL_ON_LOAD": false,
+                    "SUPPRESS_DATASOURCE_ERRORS": false,
+                    "code_name": "getCustomers",
+                    "payload": "{}",
+                    "refresh_interval": 0
+                },
+                "type": "CB_CODE_SERVICE"
+            },
+            "1ebd8a99-f0af-47ab-966f-aebfc8ed56d9": {
+                "id": "1ebd8a99-f0af-47ab-966f-aebfc8ed56d9",
+                "name": "sendMessage",
+                "settings": {
+                    "CALL_ON_LOAD": false,
+                    "SUPPRESS_DATASOURCE_ERRORS": false,
+                    "code_name": "sendMessage",
+                    "payload": "{}",
+                    "refresh_interval": 0
+                },
+                "type": "CB_CODE_SERVICE"
+            },
+            "242bc566-071d-4187-be69-e75451b5d13b": {
+                "id": "242bc566-071d-4187-be69-e75451b5d13b",
+                "name": "currentCustomer",
+                "settings": {},
+                "type": "LOCAL_DATASOURCE_PLUGIN"
+            },
+            "3b30d15c-1561-461e-ae20-51df0d13ce33": {
+                "id": "3b30d15c-1561-461e-ae20-51df0d13ce33",
+                "name": "currentTest",
+                "settings": {},
+                "type": "LOCAL_DATASOURCE_PLUGIN"
+            },
+            "402883d2-630e-4fff-b15c-655686b19d1d": {
+                "id": "402883d2-630e-4fff-b15c-655686b19d1d",
+                "name": "userMessaging",
+                "settings": {
+                    "CALL_ON_LOAD": true,
+                    "SUPPRESS_DATASOURCE_ERRORS": false,
+                    "TOPIC_NAME": "messaging/d2afa8ba0bec87e1c7d89aa3a87f"
+                },
+                "type": "CB_MESSAGE_TOPIC"
+            },
+            "4244e7a4-8c18-4d4d-bb5f-3432c559ccff": {
+                "id": "4244e7a4-8c18-4d4d-bb5f-3432c559ccff",
+                "name": "createTest",
+                "settings": {
+                    "CALL_ON_LOAD": false,
+                    "SUPPRESS_DATASOURCE_ERRORS": false,
+                    "code_name": "createTest",
+                    "payload": "{}",
+                    "refresh_interval": 0
+                },
+                "type": "CB_CODE_SERVICE"
+            },
+            "57cfbfae-58a4-49c9-9811-01191addec21": {
+                "id": "57cfbfae-58a4-49c9-9811-01191addec21",
+                "name": "getSensorsBySensorType",
+                "settings": {
+                    "CALL_ON_LOAD": false,
+                    "SUPPRESS_DATASOURCE_ERRORS": false,
+                    "code_name": "getSensors",
+                    "payload": "{}",
+                    "refresh_interval": 0
+                },
+                "type": "CB_CODE_SERVICE"
+            },
+            "57d6c932-ee62-4112-99bb-1f64768a04dc": {
+                "id": "57d6c932-ee62-4112-99bb-1f64768a04dc",
+                "name": "getLocations",
+                "settings": {
+                    "CALL_ON_LOAD": false,
+                    "SUPPRESS_DATASOURCE_ERRORS": false,
+                    "code_name": "getLocations",
+                    "payload": "{}",
+                    "refresh_interval": 0
+                },
+                "type": "CB_CODE_SERVICE"
+            },
+            "5cd2ca7c-5bdc-44a2-b4f1-1bb9ac36b695": {
+                "id": "5cd2ca7c-5bdc-44a2-b4f1-1bb9ac36b695",
+                "name": "getSensorTypes",
+                "settings": {
+                    "CALL_ON_LOAD": true,
+                    "SUPPRESS_DATASOURCE_ERRORS": false,
+                    "code_name": "getSensorTypes",
+                    "payload": "{}",
+                    "refresh_interval": 0
+                },
+                "type": "CB_CODE_SERVICE"
+            },
+            "6630fb3a-dace-4d40-ac81-1fd15b6b7fb3": {
+                "id": "6630fb3a-dace-4d40-ac81-1fd15b6b7fb3",
+                "name": "getSensors",
+                "settings": {
+                    "CALL_ON_LOAD": false,
+                    "SUPPRESS_DATASOURCE_ERRORS": false,
+                    "code_name": "getSensors",
+                    "payload": "{}",
+                    "refresh_interval": 0
+                },
+                "type": "CB_CODE_SERVICE"
+            },
+            "6b6bed07-2e12-4992-a603-5dadd4fc65b0": {
+                "id": "6b6bed07-2e12-4992-a603-5dadd4fc65b0",
+                "name": "getAlerts",
+                "settings": {
+                    "CALL_ON_LOAD": false,
+                    "SUPPRESS_DATASOURCE_ERRORS": false,
+                    "code_name": "getAlerts",
+                    "payload": "{}",
+                    "refresh_interval": 0
+                },
+                "type": "CB_CODE_SERVICE"
+            },
+            "783eb47e-7d51-4c71-9c7c-70c877f85bbe": {
+                "id": "783eb47e-7d51-4c71-9c7c-70c877f85bbe",
+                "name": "getTests",
+                "settings": {
+                    "CALL_ON_LOAD": false,
+                    "SUPPRESS_DATASOURCE_ERRORS": false,
+                    "code_name": "getTests",
+                    "payload": "{}",
+                    "refresh_interval": 0
+                },
+                "type": "CB_CODE_SERVICE"
+            },
+            "7ac3d4e7-806b-416a-a29e-69a9ce18945e": {
+                "id": "7ac3d4e7-806b-416a-a29e-69a9ce18945e",
+                "name": "getTestById",
+                "settings": {
+                    "CALL_ON_LOAD": false,
+                    "SUPPRESS_DATASOURCE_ERRORS": false,
+                    "code_name": "getTests",
+                    "payload": "{}",
+                    "refresh_interval": 0
+                },
+                "type": "CB_CODE_SERVICE"
+            },
+            "90a33ebf-ddc9-4179-b6c8-fa8b8cc611fc": {
+                "id": "90a33ebf-ddc9-4179-b6c8-fa8b8cc611fc",
+                "name": "getSensorById",
+                "settings": {
+                    "CALL_ON_LOAD": false,
+                    "SUPPRESS_DATASOURCE_ERRORS": false,
+                    "code_name": "getSensors",
+                    "payload": "{}",
+                    "refresh_interval": 0
+                },
+                "type": "CB_CODE_SERVICE"
+            },
+            "959c33a8-5573-4e73-ba2a-0d995ce78a50": {
+                "id": "959c33a8-5573-4e73-ba2a-0d995ce78a50",
+                "name": "getAlertTypes",
+                "settings": {
+                    "CALL_ON_LOAD": false,
+                    "SUPPRESS_DATASOURCE_ERRORS": false,
+                    "code_name": "getAlertTypes",
+                    "payload": "{}",
+                    "refresh_interval": 0
+                },
+                "type": "CB_CODE_SERVICE"
+            },
+            "af4a4463-eea8-4310-9f16-4f313a90a5b0": {
+                "id": "af4a4463-eea8-4310-9f16-4f313a90a5b0",
+                "name": "getEmployeeById",
+                "settings": {
+                    "CALL_ON_LOAD": false,
+                    "SUPPRESS_DATASOURCE_ERRORS": false,
+                    "code_name": "getEmployees",
+                    "payload": "{}",
+                    "refresh_interval": 0
+                },
+                "type": "CB_CODE_SERVICE"
+            },
+            "b53bc792-7b33-4634-949d-6f8da2a90930": {
+                "id": "b53bc792-7b33-4634-949d-6f8da2a90930",
+                "name": "updateAlert",
+                "settings": {
+                    "CALL_ON_LOAD": true,
+                    "SUPPRESS_DATASOURCE_ERRORS": false,
+                    "code_name": "updateAlert",
+                    "payload": "{}",
+                    "refresh_interval": 0
+                },
+                "type": "CB_CODE_SERVICE"
+            },
+            "bc903ec3-7376-46d9-b98c-985d136dfb95": {
+                "id": "bc903ec3-7376-46d9-b98c-985d136dfb95",
+                "name": "getAlertConfigurations",
+                "settings": {
+                    "CALL_ON_LOAD": true,
+                    "SUPPRESS_DATASOURCE_ERRORS": false,
+                    "code_name": "getAlertConfigurations",
+                    "payload": "{}",
+                    "refresh_interval": 0
+                },
+                "type": "CB_CODE_SERVICE"
+            },
+            "edaaeb53-7f87-4aba-b5f0-18c391d9d05e": {
+                "id": "edaaeb53-7f87-4aba-b5f0-18c391d9d05e",
+                "name": "FoodTestTypes",
+                "settings": {
+                    "CALL_ON_LOAD": true,
+                    "SUPPRESS_DATASOURCE_ERRORS": false,
+                    "collection_name": "FoodTestTypes",
+                    "refresh_interval": 0
+                },
+                "type": "CB_COLLECTION"
+            },
+            "f1fd5634-c88f-480b-a161-80fdd4bdfbd6": {
+                "id": "f1fd5634-c88f-480b-a161-80fdd4bdfbd6",
+                "name": "currentEmployee",
+                "settings": {},
+                "type": "LOCAL_DATASOURCE_PLUGIN"
+            },
+            "f6a19532-b114-4b7b-a930-a26ea25c6c3c": {
+                "id": "f6a19532-b114-4b7b-a930-a26ea25c6c3c",
+                "name": "getTestTypes",
+                "settings": {
+                    "CALL_ON_LOAD": false,
+                    "SUPPRESS_DATASOURCE_ERRORS": false,
+                    "code_name": "getTestTypes",
+                    "payload": "{}",
+                    "refresh_interval": 0
+                },
+                "type": "CB_CODE_SERVICE"
+            },
+            "fb79870e-c72d-4428-86a8-fd5cd2fa2815": {
+                "id": "fb79870e-c72d-4428-86a8-fd5cd2fa2815",
+                "name": "getLocationById",
+                "settings": {
+                    "CALL_ON_LOAD": false,
+                    "SUPPRESS_DATASOURCE_ERRORS": false,
+                    "code_name": "getLocations",
+                    "payload": "{}",
+                    "refresh_interval": 0
+                },
+                "type": "CB_CODE_SERVICE"
+            },
+            "fbac0b53-153c-47b5-9dd1-d29d314c866e": {
+                "id": "fbac0b53-153c-47b5-9dd1-d29d314c866e",
+                "name": "getEmployees",
+                "settings": {
+                    "CALL_ON_LOAD": false,
+                    "SUPPRESS_DATASOURCE_ERRORS": false,
+                    "code_name": "getEmployees",
+                    "payload": "{}",
+                    "refresh_interval": 0
+                },
+                "type": "CB_CODE_SERVICE"
+            }
+        },
+        "externalScripts": [
+            {
+                "promise": {},
+                "shouldBlockAllWidgets": true,
+                "url": "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+            },
+            {
+                "promise": {},
+                "shouldBlockAllWidgets": true,
+                "url": "https://api.tiles.mapbox.com/mapbox-gl-js/v0.49.0/mapbox-gl.js"
+            },
+            {
+                "promise": {},
+                "shouldBlockAllWidgets": true,
+                "url": "https://api.tiles.mapbox.com/mapbox-gl-js/v0.49.0/mapbox-gl.css"
+            }
+        ],
+        "flyoutWidgetLayout": {
+            "lg": [
+                {
+                    "h": 9,
+                    "i": "a51fa40b-2f16-46e9-a8b8-2de1cd64f057",
+                    "minH": 3,
+                    "w": 2,
+                    "x": 0,
+                    "y": 0
+                }
+            ],
+            "md": [],
+            "sm": [],
+            "xs": [
+                {
+                    "h": 10,
+                    "i": "a51fa40b-2f16-46e9-a8b8-2de1cd64f057",
+                    "minH": 3,
+                    "moved": false,
+                    "static": false,
+                    "w": 4,
+                    "x": 0,
+                    "y": 0
+                }
+            ],
+            "xxs": [
+                {
+                    "h": 9,
+                    "i": "a51fa40b-2f16-46e9-a8b8-2de1cd64f057",
+                    "minH": 3,
+                    "moved": false,
+                    "static": false,
+                    "w": 2,
+                    "x": 0,
+                    "y": 0
+                }
+            ]
+        },
+        "headerWidgetLayout": {
+            "lg": [
+                {
+                    "h": 1,
+                    "i": "brand",
+                    "moved": false,
+                    "static": false,
+                    "w": 56,
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "h": 1,
+                    "i": "title",
+                    "moved": false,
+                    "static": false,
+                    "w": 46,
+                    "x": 185,
+                    "y": 0
+                }
+            ],
+            "md": [
+                {
+                    "h": 1,
+                    "i": "brand",
+                    "moved": false,
+                    "static": false,
+                    "w": 36,
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "h": 1,
+                    "i": "title",
+                    "moved": false,
+                    "static": false,
+                    "w": 39,
+                    "x": 154,
+                    "y": 0
+                }
+            ],
+            "sm": [
+                {
+                    "h": 1,
+                    "i": "brand",
+                    "moved": false,
+                    "static": false,
+                    "w": 65,
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "h": 1,
+                    "i": "title",
+                    "moved": false,
+                    "static": false,
+                    "w": 71,
+                    "x": 117,
+                    "y": 0
+                }
+            ],
+            "xs": [
+                {
+                    "h": 1,
+                    "i": "brand",
+                    "moved": false,
+                    "static": false,
+                    "w": 28,
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "h": 1,
+                    "i": "title",
+                    "moved": false,
+                    "static": false,
+                    "w": 31,
+                    "x": 71,
+                    "y": 0
+                }
+            ],
+            "xxs": [
+                {
+                    "h": 1,
+                    "i": "brand",
+                    "moved": false,
+                    "static": false,
+                    "w": 32,
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "h": 1,
+                    "i": "title",
+                    "moved": false,
+                    "static": false,
+                    "w": 33,
+                    "x": 47,
+                    "y": 0
+                }
+            ]
+        },
+        "pages": {
+            "397cd934-d439-478e-94ab-342ff28be03b": {
+                "children": [],
+                "defaultValue": "",
+                "href": "",
+                "id": "397cd934-d439-478e-94ab-342ff28be03b",
+                "isChild": false,
+                "isParam": false,
+                "name": "Food Test",
+                "path": ""
+            },
+            "Home": {
+                "children": [],
+                "defaultValue": "",
+                "href": "",
+                "id": "Home",
+                "isChild": false,
+                "isParam": false,
+                "name": "Home",
+                "path": ""
+            },
+            "d0136766-8bd5-4898-80f0-4dde0b90fed0": {
+                "children": [],
+                "defaultValue": "",
+                "href": "",
+                "id": "d0136766-8bd5-4898-80f0-4dde0b90fed0",
+                "isChild": false,
+                "isParam": false,
+                "name": "AlertList",
+                "path": ""
+            }
+        },
+        "paneGridWidgetLayouts": {
+            "11b96b1b-ea48-4845-be51-8659a0d98cd3": {
+                "lg": [
+                    {
+                        "h": 7,
+                        "i": "671b785e-1f0e-49f0-a6f6-d89bdf54578c",
+                        "minH": 3,
+                        "moved": false,
+                        "static": false,
+                        "w": 12,
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "h": 29,
+                        "i": "7b5ffce6-f272-4cb3-9b13-9050d9922288",
+                        "minH": 3,
+                        "moved": false,
+                        "static": false,
+                        "w": 12,
+                        "x": 0,
+                        "y": 7
+                    },
+                    {
+                        "h": 46,
+                        "i": "519d62bb-4e07-4f58-971c-a4d0b5e03dd8",
+                        "minH": 3,
+                        "moved": false,
+                        "static": false,
+                        "w": 12,
+                        "x": 0,
+                        "y": 36
+                    },
+                    {
+                        "h": 22,
+                        "i": "e79bfb04-495b-4794-a669-943e39d60afb",
+                        "minH": 3,
+                        "moved": false,
+                        "static": false,
+                        "w": 12,
+                        "x": 0,
+                        "y": 82
+                    },
+                    {
+                        "h": 6,
+                        "i": "c7e22a84-d2d6-4bf3-b6e5-027a487d534f",
+                        "minH": 3,
+                        "moved": false,
+                        "static": false,
+                        "w": 2,
+                        "x": 0,
+                        "y": 104
+                    }
+                ],
+                "md": [
+                    {
+                        "h": 6,
+                        "i": "671b785e-1f0e-49f0-a6f6-d89bdf54578c",
+                        "minH": 3,
+                        "moved": false,
+                        "static": false,
+                        "w": 10,
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "h": 41,
+                        "i": "7b5ffce6-f272-4cb3-9b13-9050d9922288",
+                        "minH": 3,
+                        "moved": false,
+                        "static": false,
+                        "w": 10,
+                        "x": 0,
+                        "y": 6
+                    },
+                    {
+                        "h": 44,
+                        "i": "519d62bb-4e07-4f58-971c-a4d0b5e03dd8",
+                        "minH": 3,
+                        "moved": false,
+                        "static": false,
+                        "w": 10,
+                        "x": 0,
+                        "y": 47
+                    },
+                    {
+                        "h": 22,
+                        "i": "e79bfb04-495b-4794-a669-943e39d60afb",
+                        "minH": 3,
+                        "moved": false,
+                        "static": false,
+                        "w": 10,
+                        "x": 0,
+                        "y": 99
+                    },
+                    {
+                        "h": 8,
+                        "i": "c7e22a84-d2d6-4bf3-b6e5-027a487d534f",
+                        "minH": 3,
+                        "moved": false,
+                        "static": false,
+                        "w": 10,
+                        "x": 0,
+                        "y": 91
+                    }
+                ],
+                "sm": [
+                    {
+                        "h": 7,
+                        "i": "671b785e-1f0e-49f0-a6f6-d89bdf54578c",
+                        "minH": 3,
+                        "moved": false,
+                        "static": false,
+                        "w": 6,
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "h": 40,
+                        "i": "7b5ffce6-f272-4cb3-9b13-9050d9922288",
+                        "minH": 3,
+                        "moved": false,
+                        "static": false,
+                        "w": 6,
+                        "x": 0,
+                        "y": 7
+                    },
+                    {
+                        "h": 46,
+                        "i": "519d62bb-4e07-4f58-971c-a4d0b5e03dd8",
+                        "minH": 3,
+                        "moved": false,
+                        "static": false,
+                        "w": 6,
+                        "x": 0,
+                        "y": 47
+                    },
+                    {
+                        "h": 22,
+                        "i": "e79bfb04-495b-4794-a669-943e39d60afb",
+                        "minH": 3,
+                        "moved": false,
+                        "static": false,
+                        "w": 6,
+                        "x": 0,
+                        "y": 99
+                    },
+                    {
+                        "h": 6,
+                        "i": "c7e22a84-d2d6-4bf3-b6e5-027a487d534f",
+                        "minH": 3,
+                        "moved": false,
+                        "static": false,
+                        "w": 6,
+                        "x": 0,
+                        "y": 93
+                    }
+                ],
+                "xs": [
+                    {
+                        "h": 7,
+                        "i": "671b785e-1f0e-49f0-a6f6-d89bdf54578c",
+                        "minH": 3,
+                        "moved": false,
+                        "static": false,
+                        "w": 4,
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "h": 40,
+                        "i": "7b5ffce6-f272-4cb3-9b13-9050d9922288",
+                        "minH": 3,
+                        "moved": false,
+                        "static": false,
+                        "w": 4,
+                        "x": 0,
+                        "y": 7
+                    },
+                    {
+                        "h": 44,
+                        "i": "519d62bb-4e07-4f58-971c-a4d0b5e03dd8",
+                        "minH": 3,
+                        "moved": false,
+                        "static": false,
+                        "w": 4,
+                        "x": 0,
+                        "y": 47
+                    },
+                    {
+                        "h": 20,
+                        "i": "e79bfb04-495b-4794-a669-943e39d60afb",
+                        "minH": 3,
+                        "moved": false,
+                        "static": false,
+                        "w": 4,
+                        "x": 0,
+                        "y": 97
+                    },
+                    {
+                        "h": 6,
+                        "i": "c7e22a84-d2d6-4bf3-b6e5-027a487d534f",
+                        "minH": 3,
+                        "moved": false,
+                        "static": false,
+                        "w": 4,
+                        "x": 0,
+                        "y": 91
+                    }
+                ],
+                "xxs": [
+                    {
+                        "h": 6,
+                        "i": "671b785e-1f0e-49f0-a6f6-d89bdf54578c",
+                        "minH": 3,
+                        "moved": false,
+                        "static": false,
+                        "w": 2,
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "h": 51,
+                        "i": "7b5ffce6-f272-4cb3-9b13-9050d9922288",
+                        "minH": 3,
+                        "moved": false,
+                        "static": false,
+                        "w": 2,
+                        "x": 0,
+                        "y": 6
+                    },
+                    {
+                        "h": 43,
+                        "i": "519d62bb-4e07-4f58-971c-a4d0b5e03dd8",
+                        "minH": 3,
+                        "moved": false,
+                        "static": false,
+                        "w": 2,
+                        "x": 0,
+                        "y": 57
+                    },
+                    {
+                        "h": 20,
+                        "i": "e79bfb04-495b-4794-a669-943e39d60afb",
+                        "minH": 3,
+                        "moved": false,
+                        "static": false,
+                        "w": 2,
+                        "x": 0,
+                        "y": 106
+                    },
+                    {
+                        "h": 6,
+                        "i": "c7e22a84-d2d6-4bf3-b6e5-027a487d534f",
+                        "minH": 3,
+                        "moved": false,
+                        "static": false,
+                        "w": 2,
+                        "x": 0,
+                        "y": 100
+                    }
+                ]
+            },
+            "80c28fdf-eb29-4d58-97f9-9b327fad1af7": {
+                "lg": [
+                    {
+                        "h": 5,
+                        "i": "3a9403bf-aa59-4437-b13c-f3dfd6209da1",
+                        "minH": 3,
+                        "moved": false,
+                        "static": false,
+                        "w": 12,
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "h": 36,
+                        "i": "5c9c2d2d-b00b-48fe-b0c1-e827b02afadb",
+                        "minH": 3,
+                        "moved": false,
+                        "static": false,
+                        "w": 12,
+                        "x": 0,
+                        "y": 5
+                    }
+                ],
+                "md": [
+                    {
+                        "h": 3,
+                        "i": "3a9403bf-aa59-4437-b13c-f3dfd6209da1",
+                        "minH": 3,
+                        "moved": false,
+                        "static": false,
+                        "w": 10,
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "h": 38,
+                        "i": "5c9c2d2d-b00b-48fe-b0c1-e827b02afadb",
+                        "minH": 3,
+                        "moved": false,
+                        "static": false,
+                        "w": 10,
+                        "x": 0,
+                        "y": 3
+                    }
+                ],
+                "sm": [
+                    {
+                        "h": 3,
+                        "i": "3a9403bf-aa59-4437-b13c-f3dfd6209da1",
+                        "minH": 3,
+                        "moved": false,
+                        "static": false,
+                        "w": 6,
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "h": 29,
+                        "i": "5c9c2d2d-b00b-48fe-b0c1-e827b02afadb",
+                        "minH": 3,
+                        "moved": false,
+                        "static": false,
+                        "w": 6,
+                        "x": 0,
+                        "y": 3
+                    }
+                ],
+                "xs": [
+                    {
+                        "h": 3,
+                        "i": "3a9403bf-aa59-4437-b13c-f3dfd6209da1",
+                        "minH": 3,
+                        "moved": false,
+                        "static": false,
+                        "w": 4,
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "h": 38,
+                        "i": "5c9c2d2d-b00b-48fe-b0c1-e827b02afadb",
+                        "minH": 3,
+                        "moved": false,
+                        "static": false,
+                        "w": 4,
+                        "x": 0,
+                        "y": 3
+                    }
+                ],
+                "xxs": [
+                    {
+                        "h": 3,
+                        "i": "3a9403bf-aa59-4437-b13c-f3dfd6209da1",
+                        "minH": 3,
+                        "moved": false,
+                        "static": false,
+                        "w": 2,
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "h": 38,
+                        "i": "5c9c2d2d-b00b-48fe-b0c1-e827b02afadb",
+                        "minH": 3,
+                        "moved": false,
+                        "static": false,
+                        "w": 2,
+                        "x": 0,
+                        "y": 3
+                    }
+                ]
+            },
+            "ebefcb5a-6ce9-4932-87fc-d7789ebf2e46": {
+                "lg": [],
+                "md": [],
+                "sm": [],
+                "xs": [
+                    {
+                        "h": 9,
+                        "i": "9b7bd21c-c0f0-41d4-a9df-706242b10f26",
+                        "minH": 3,
+                        "w": 5,
+                        "x": 0,
+                        "y": 0
+                    }
+                ],
+                "xxs": []
+            },
+            "ec8b9720-de09-471e-94e4-bea714b708af": {
+                "lg": [],
+                "md": [],
+                "sm": [],
+                "xs": [
+                    {
+                        "h": 9,
+                        "i": "4e78460a-d379-4505-b323-247433bbf26c",
+                        "minH": 3,
+                        "w": 5,
+                        "x": 0,
+                        "y": 0
+                    }
+                ],
+                "xxs": []
+            }
+        },
+        "paneLayouts": {
+            "397cd934-d439-478e-94ab-342ff28be03b": {
+                "lg": [
+                    {
+                        "h": 14,
+                        "i": "937e8d0c-0270-4a6c-95ac-705bbc73e035",
+                        "moved": false,
+                        "static": false,
+                        "w": 8,
+                        "x": 2,
+                        "y": 0
+                    }
+                ],
+                "md": [
+                    {
+                        "h": 14,
+                        "i": "937e8d0c-0270-4a6c-95ac-705bbc73e035",
+                        "moved": false,
+                        "static": false,
+                        "w": 10,
+                        "x": 0,
+                        "y": 0
+                    }
+                ],
+                "sm": [
+                    {
+                        "h": 16,
+                        "i": "937e8d0c-0270-4a6c-95ac-705bbc73e035",
+                        "moved": false,
+                        "static": false,
+                        "w": 6,
+                        "x": 0,
+                        "y": 0
+                    }
+                ],
+                "xs": [
+                    {
+                        "h": 14,
+                        "i": "937e8d0c-0270-4a6c-95ac-705bbc73e035",
+                        "moved": false,
+                        "static": false,
+                        "w": 4,
+                        "x": 0,
+                        "y": 0
+                    }
+                ],
+                "xxs": [
+                    {
+                        "h": 14,
+                        "i": "937e8d0c-0270-4a6c-95ac-705bbc73e035",
+                        "moved": false,
+                        "static": false,
+                        "w": 2,
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            "Home": {
+                "lg": [
+                    {
+                        "h": 6,
+                        "i": "de028544-67ba-4fa8-a8c5-55dac2579526",
+                        "moved": false,
+                        "static": false,
+                        "w": 8,
+                        "x": 2,
+                        "y": 0
+                    }
+                ],
+                "md": [
+                    {
+                        "h": 5,
+                        "i": "de028544-67ba-4fa8-a8c5-55dac2579526",
+                        "moved": false,
+                        "static": false,
+                        "w": 10,
+                        "x": 0,
+                        "y": 0
+                    }
+                ],
+                "sm": [
+                    {
+                        "h": 5,
+                        "i": "de028544-67ba-4fa8-a8c5-55dac2579526",
+                        "moved": false,
+                        "static": false,
+                        "w": 6,
+                        "x": 0,
+                        "y": 0
+                    }
+                ],
+                "xs": [
+                    {
+                        "h": 5,
+                        "i": "de028544-67ba-4fa8-a8c5-55dac2579526",
+                        "moved": false,
+                        "static": false,
+                        "w": 4,
+                        "x": 0,
+                        "y": 0
+                    }
+                ],
+                "xxs": [
+                    {
+                        "h": 5,
+                        "i": "de028544-67ba-4fa8-a8c5-55dac2579526",
+                        "moved": false,
+                        "static": false,
+                        "w": 2,
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            "d0136766-8bd5-4898-80f0-4dde0b90fed0": {
+                "lg": [
+                    {
+                        "h": 5,
+                        "i": "4d40deb1-8f6d-4f70-80b4-893ebdd3dc23",
+                        "moved": false,
+                        "static": false,
+                        "w": 8,
+                        "x": 2,
+                        "y": 0
+                    }
+                ],
+                "md": [
+                    {
+                        "h": 5,
+                        "i": "4d40deb1-8f6d-4f70-80b4-893ebdd3dc23",
+                        "moved": false,
+                        "static": false,
+                        "w": 10,
+                        "x": 0,
+                        "y": 0
+                    }
+                ],
+                "sm": [
+                    {
+                        "h": 5,
+                        "i": "4d40deb1-8f6d-4f70-80b4-893ebdd3dc23",
+                        "moved": false,
+                        "static": false,
+                        "w": 6,
+                        "x": 0,
+                        "y": 0
+                    }
+                ],
+                "xs": [
+                    {
+                        "h": 5,
+                        "i": "4d40deb1-8f6d-4f70-80b4-893ebdd3dc23",
+                        "moved": false,
+                        "static": false,
+                        "w": 4,
+                        "x": 0,
+                        "y": 0
+                    }
+                ],
+                "xxs": [
+                    {
+                        "h": 5,
+                        "i": "4d40deb1-8f6d-4f70-80b4-893ebdd3dc23",
+                        "moved": false,
+                        "static": false,
+                        "w": 2,
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            }
+        },
+        "panes": {
+            "4d40deb1-8f6d-4f70-80b4-893ebdd3dc23": {
+                "customPaneId": "",
+                "header": {
+                    "hide": true,
+                    "title": ""
+                },
+                "hiddenBreakpoints": {},
+                "hideBorders": false,
+                "id": "4d40deb1-8f6d-4f70-80b4-893ebdd3dc23",
+                "pageId": "d0136766-8bd5-4898-80f0-4dde0b90fed0",
+                "tabInfo": {
+                    "activeTab": "80c28fdf-eb29-4d58-97f9-9b327fad1af7",
+                    "tabIds": [
+                        "80c28fdf-eb29-4d58-97f9-9b327fad1af7"
+                    ],
+                    "tabTitles": {
+                        "80c28fdf-eb29-4d58-97f9-9b327fad1af7": "Double Click"
+                    },
+                    "tabbed": false
+                },
+                "themeType": "primary"
+            },
+            "937e8d0c-0270-4a6c-95ac-705bbc73e035": {
+                "customPaneId": "",
+                "header": {
+                    "hide": true,
+                    "title": ""
+                },
+                "hiddenBreakpoints": {},
+                "hideBorders": false,
+                "id": "937e8d0c-0270-4a6c-95ac-705bbc73e035",
+                "pageId": "397cd934-d439-478e-94ab-342ff28be03b",
+                "tabInfo": {
+                    "activeTab": "11b96b1b-ea48-4845-be51-8659a0d98cd3",
+                    "tabIds": [
+                        "11b96b1b-ea48-4845-be51-8659a0d98cd3"
+                    ],
+                    "tabTitles": {
+                        "11b96b1b-ea48-4845-be51-8659a0d98cd3": "Double Click"
+                    },
+                    "tabbed": false
+                },
+                "themeType": "primary"
+            },
+            "de028544-67ba-4fa8-a8c5-55dac2579526": {
+                "customPaneId": "",
+                "header": {
+                    "hide": true,
+                    "title": ""
+                },
+                "hiddenBreakpoints": {},
+                "hideBorders": false,
+                "id": "de028544-67ba-4fa8-a8c5-55dac2579526",
+                "pageId": "Home",
+                "tabInfo": {
+                    "activeTab": "ebefcb5a-6ce9-4932-87fc-d7789ebf2e46",
+                    "tabIds": [
+                        "ebefcb5a-6ce9-4932-87fc-d7789ebf2e46"
+                    ],
+                    "tabTitles": {
+                        "ebefcb5a-6ce9-4932-87fc-d7789ebf2e46": "Double Click"
+                    },
+                    "tabbed": false
+                },
+                "themeType": "primary"
+            }
+        },
+        "savedPortalExists": true,
+        "theme": {
+            "graph": {
+                "four": "#E8E7C6",
+                "one": "#6E8592",
+                "three": "#DBA5A8",
+                "two": "#6E93A8"
+            },
+            "info": {
+                "display_name": "Standard",
+                "name": "STANDARD_THEME"
+            },
+            "items": {
+                "main": {
+                    "header": {
+                        "burgerBars": {
+                            "fontColor": "#428bca",
+                            "visible": true
+                        },
+                        "dropdown": {
+                            "fontColor": "#428bca",
+                            "fontFamily": "Helvetica",
+                            "fontSize": 18
+                        },
+                        "styles": {
+                            "backgroundColor": "#ffffff"
+                        }
+                    },
+                    "panes": {
+                        "flyout": {
+                            "body": {
+                                "backgroundColor": "#f5f5f5"
+                            },
+                            "header": {
+                                "backgroundColor": "#428bca"
+                            }
+                        },
+                        "primary": {
+                            "body": {
+                                "backgroundColor": "#ffffff"
+                            },
+                            "header": {
+                                "backgroundColor": "#428bca",
+                                "fontColor": "#000000",
+                                "fontFamily": "Helvetica"
+                            },
+                            "tabs": {
+                                "activeTabUnderlineColor": "#356fa2",
+                                "backgroundColor": "#a1c5e5",
+                                "fontColor": "#000000"
+                            }
+                        },
+                        "secondary": {
+                            "body": {
+                                "backgroundColor": "#f5f5f5"
+                            },
+                            "header": {
+                                "backgroundColor": "#a1c5e5",
+                                "fontColor": "#000000",
+                                "fontFamily": "Helvetica"
+                            },
+                            "tabs": {
+                                "activeTabUnderlineColor": "#356fa2",
+                                "backgroundColor": "#428bca",
+                                "fontColor": "#000000"
+                            }
+                        }
+                    },
+                    "portal": {
+                        "styles": {
+                            "backgroundColor": "#ffffff"
+                        }
+                    },
+                    "widgets": {
+                        "BAR_CHART_WIDGET_COMPONENT": {
+                            "barColors": [
+                                {
+                                    "fill": "#6E8592"
+                                },
+                                {
+                                    "fill": "#6E93A8"
+                                },
+                                {
+                                    "fill": "#DBA5A8"
+                                },
+                                {
+                                    "fill": "#E8E7C6"
+                                }
+                            ],
+                            "brushStroke": "#428bca",
+                            "legendColor": "#000000"
+                        },
+                        "BUTTON_WIDGET_COMPONENT": {
+                            "backgroundColor": "#f5f5f5",
+                            "backgroundHoverColor": "#c2c2c2",
+                            "borderColor": "#cccccc",
+                            "fontColor": "#000000"
+                        },
+                        "FILTERABLE_LIST_WIDGET_COMPONENT": {
+                            "activeItemBackgroundColor": "#428bca",
+                            "activeItemFontColor": "#ffffff",
+                            "bulletColor": "#000000",
+                            "fontColor": "#000000",
+                            "listItemBackgroundColor": "#ffffff",
+                            "titleColor": "#000000"
+                        },
+                        "FORM_WIDGET_COMPONENT": {
+                            "cardBackgroundColor": "#f5f5f5",
+                            "fontColor": "#000000",
+                            "sliderColor": "#6E8592",
+                            "titleColor": "#000000",
+                            "toggleColor": "#6E8592"
+                        },
+                        "GOOGLE_MAP_WIDGET_COMPONENT": {
+                            "mapTheme": ""
+                        },
+                        "GROUPING_LIST_WIDGET_COMPONENT": {
+                            "activeItemBackgroundColor": "#428bca",
+                            "activeItemFontColor": "#ffffff",
+                            "bulletColor": "#000000",
+                            "fontColor": "#000000",
+                            "listItemBackgroundColor": "#ffffff",
+                            "titleColor": "#000000"
+                        },
+                        "LINE_CHART_WIDGET_COMPONENT": {
+                            "brushStroke": "#428bca",
+                            "legendColor": "#000000",
+                            "lineColors": [
+                                {
+                                    "stroke": "#6E8592"
+                                },
+                                {
+                                    "stroke": "#6E93A8"
+                                },
+                                {
+                                    "stroke": "#DBA5A8"
+                                },
+                                {
+                                    "stroke": "#E8E7C6"
+                                }
+                            ]
+                        },
+                        "LIST_WIDGET_COMPONENT": {
+                            "activeItemBackgroundColor": "#428bca",
+                            "activeItemFontColor": "#000000",
+                            "fontColor": "#000000",
+                            "listItemBackgroundColor": "#ffffff",
+                            "titleColor": "#000000"
+                        },
+                        "PIE_CHART_WIDGET_COMPONENT": {
+                            "cells": [
+                                {
+                                    "fill": "#6E8592"
+                                },
+                                {
+                                    "fill": "#6E93A8"
+                                },
+                                {
+                                    "fill": "#DBA5A8"
+                                },
+                                {
+                                    "fill": "#E8E7C6"
+                                }
+                            ]
+                        },
+                        "RADIAL_GAUGE_WIDGET_COMPONENT": {
+                            "backgroundColor": "#c2c2c2",
+                            "progressColor": "#428bca"
+                        },
+                        "SPEEDOMETER_WIDGET": {
+                            "arrowColor": "#000000",
+                            "sectionColors": [
+                                {
+                                    "fill": "#6E8592"
+                                },
+                                {
+                                    "fill": "#6E93A8"
+                                },
+                                {
+                                    "fill": "#DBA5A8"
+                                },
+                                {
+                                    "fill": "#E8E7C6"
+                                }
+                            ]
+                        },
+                        "TEXT_WIDGET_COMPONENT": {
+                            "fontColor": "#000000",
+                            "fontFamily": "Helvetica",
+                            "fontSize": 18
+                        },
+                        "TOGGLE_WIDGET": {
+                            "backgroundColor": "#c2c2c2",
+                            "fontColor": "#000000",
+                            "offColor": "#ffffff",
+                            "onColor": "#428bca"
+                        }
+                    }
+                }
+            },
+            "palette": {
+                "darkPrimary": "#c2c2c2",
+                "darkSecondary": "#356fa2",
+                "defaultPrimary": "#f5f5f5",
+                "defaultSecondary": "#428bca",
+                "lightPrimary": "#ffffff",
+                "lightSecondary": "#a1c5e5",
+                "primaryText": "#000000",
+                "secondaryText": "#000000"
+            }
+        },
+        "upgradesPerformed": {
+            "flyoutTitleUpgrade": true,
+            "headerBrandUpgrade": true,
+            "headerTitleUpgrade": true,
+            "widgetResizeUpgrade": true
+        },
+        "widgets": {
+            "3a9403bf-aa59-4437-b13c-f3dfd6209da1": {
+                "externalScripts": [
+                    "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css",
+                    "https://api.tiles.mapbox.com/mapbox-gl-js/v0.49.0/mapbox-gl.js",
+                    "https://api.tiles.mapbox.com/mapbox-gl-js/v0.49.0/mapbox-gl.css"
+                ],
+                "id": "3a9403bf-aa59-4437-b13c-f3dfd6209da1",
+                "props": {
+                    "html": {
+                        "dataType": "STATIC_DATA_TYPE",
+                        "force_data": [
+                            "STATIC_DATA_TYPE",
+                            "DYNAMIC_DATA_TYPE"
+                        ],
+                        "incoming_parser": {
+                            "isDebugOn": false,
+                            "value": "return this.datasource;"
+                        },
+                        "value": {
+                            "CSS": "\n",
+                            "HTML": "\u003cdiv class=\"alertsTitle text-center\"\u003e\n  \u003ch4\u003eAlerts\u003c/h4\u003e\n\u003c/div\u003e",
+                            "JavaScript": "\n\n"
+                        }
+                    }
+                },
+                "tab": "80c28fdf-eb29-4d58-97f9-9b327fad1af7",
+                "type": "HTML_WIDGET_COMPONENT"
+            },
+            "519d62bb-4e07-4f58-971c-a4d0b5e03dd8": {
+                "externalScripts": [
+                    "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css",
+                    "https://api.tiles.mapbox.com/mapbox-gl-js/v0.49.0/mapbox-gl.js",
+                    "https://api.tiles.mapbox.com/mapbox-gl-js/v0.49.0/mapbox-gl.css"
+                ],
+                "id": "519d62bb-4e07-4f58-971c-a4d0b5e03dd8",
+                "props": {
+                    "html": {
+                        "dataType": "DYNAMIC_DATA_TYPE",
+                        "force_data": [
+                            "STATIC_DATA_TYPE",
+                            "DYNAMIC_DATA_TYPE"
+                        ],
+                        "id": "3b30d15c-1561-461e-ae20-51df0d13ce33",
+                        "incoming_parser": {
+                            "isDebugOn": false,
+                            "value": {
+                                "CSS": ".testLabel {\n  font-weight: bold;\n}\n\n#testDetailTitle {\n  font-size: 2em;\n}\n\n#testDetailError {\n  display: none;\n  color: darkred;\n  font-size: 3em;\n}\n",
+                                "HTML": "\u003c!-- \u003cdiv class=\"loadingTestData\"\u003e\n  \u003ch2\u003eLoading Test Data...\u003c/h2\u003e\n\u003c/div\u003e --\u003e\n\u003cdiv id=\"testDetailContainer\" class=\"mt-5\"\u003e\n  \u003cdiv id=\"noTestTitle\"\u003e\u003c/div\u003e\n  \u003cdiv id=\"testDetailError\"\u003e\n    Error loading test data\n  \u003c/div\u003e\n  \u003cdiv id=\"testDetails\" class=\"d-flex flex-column\"\u003e\n    \u003cdiv class=\"d-flex flex-column\"\u003e\n      \u003ch4\u003e\u003cu\u003eTest Details\u003c/u\u003e\u003c/h4\u003e\n      \u003cdiv class=\"d-flex align-items-center\"\u003e\n        \u003ci class=\"fa fa-id-card\"\u003e\u003c/i\u003e\u003clabel class=\"ml-1 mb-0 testLabel\"\u003eTest ID\u003c/label\u003e\n      \u003c/div\u003e\n      \u003cdiv class=\"testID\"\u003e\u003c/div\u003e\n    \u003c/div\u003e\n    \u003cdiv class=\"d-flex flex-column mt-3\"\u003e\n      \u003cdiv class=\"d-flex align-items-center\"\u003e\n        \u003ci class=\"fa fa-cutlery\"\u003e\u003c/i\u003e\u003clabel class=\"ml-1 mb-0 testLabel\"\u003eFood Type\u003c/label\u003e\n      \u003c/div\u003e\n      \u003cdiv class=\"testType\"\u003e\u003c/div\u003e\n    \u003c/div\u003e\n    \u003cdiv class=\"d-flex flex-column mt-3\"\u003e\n      \u003cdiv class=\"d-flex align-items-center\"\u003e\n        \u003ci class=\"fa fa-thermometer-full\"\u003e\u003c/i\u003e\u003clabel class=\"ml-1 mb-0 testLabel\"\u003eProbe\u003c/label\u003e\n      \u003c/div\u003e\n      \u003cdiv class=\"testSensor\"\u003e\u003c/div\u003e\n    \u003c/div\u003e\n    \u003cdiv class=\"d-flex flex-column mt-3\"\u003e\n      \u003cdiv class=\"d-flex align-items-center\"\u003e\n        \u003ci class=\"fa fa-dot-circle-o\"\u003e\u003c/i\u003e\u003clabel class=\"ml-1 mb-0 testLabel\"\u003ePayload\u003c/label\u003e\n      \u003c/div\u003e\n      \u003cdiv class=\"testSensorPayload\"\u003e\u003c/div\u003e\n    \u003c/div\u003e\n    \u003cdiv class=\"d-flex flex-column mt-3\"\u003e\n      \u003cdiv class=\"d-flex align-items-center\"\u003e\n        \u003ci class=\"fa fa-user\"\u003e\u003c/i\u003e\u003clabel class=\"ml-1 mb-0 testLabel\"\u003eTester\u003c/label\u003e\n      \u003c/div\u003e\n      \u003cdiv class=\"tester\"\u003e\u003c/div\u003e\n    \u003c/div\u003e\n    \u003cdiv class=\"d-flex flex-column mt-3\"\u003e\n      \u003cdiv class=\"d-flex align-items-center\"\u003e\n        \u003ci class=\"fa fa-building\"\u003e\u003c/i\u003e\u003clabel class=\"ml-1 mb-0 testLabel\"\u003eCustomer\u003c/label\u003e\n      \u003c/div\u003e\n      \u003cdiv class=\"testCustomer\"\u003e\u003c/div\u003e\n    \u003c/div\u003e\n    \u003cdiv class=\"d-flex flex-column mt-3\"\u003e\n      \u003cdiv class=\"d-flex align-items-center\"\u003e\n        \u003ci class=\"fa fa-map-marker\"\u003e\u003c/i\u003e\u003clabel class=\"ml-1 mb-0 testLabel\"\u003eLocation\u003c/label\u003e\n      \u003c/div\u003e\n      \u003cdiv class=\"testLocation\"\u003e\u003c/div\u003e\n    \u003c/div\u003e\n    \u003cdiv class=\"d-flex flex-column mt-3\"\u003e\n      \u003cdiv class=\"d-flex align-items-center\"\u003e\n        \u003ci class=\"fa fa-calendar\"\u003e\u003c/i\u003e\u003clabel class=\"ml-1 mb-0 testLabel\"\u003eStart Date\u003c/label\u003e\n      \u003c/div\u003e\n      \u003cdiv class=\"testStart\"\u003e\u003c/div\u003e\n    \u003c/div\u003e\n    \u003cdiv class=\"d-flex flex-column mt-3\"\u003e\n      \u003cdiv class=\"d-flex align-items-center\"\u003e\n        \u003ci class=\"fa fa-calendar\"\u003e\u003c/i\u003e\u003clabel class=\"ml-1 mb-0 testLabel\"\u003eEnd Date\u003c/label\u003e\n      \u003c/div\u003e\n      \u003cdiv class=\"testEnd\"\u003e\u003c/div\u003e\n    \u003c/div\u003e\n    \u003cdiv class=\"d-flex flex-column mt-3\"\u003e\n      \u003cdiv class=\"d-flex align-items-center\"\u003e\n        \u003ci class=\"fa fa-sticky-note\"\u003e\u003c/i\u003e\u003clabel class=\"ml-1 mb-0 testLabel\"\u003eNotes\u003c/label\u003e\n      \u003c/div\u003e\n      \u003cdiv class=\"testDescription\"\u003e\u003c/div\u003e\n    \u003c/div\u003e\n  \u003c/div\u003e\n\u003c/div\u003e\n",
+                                "JavaScript": "//JavaScript\nconst currentTest = this.datasource;\n$(\"#testDetails\").addClass('invisible');\nif (!currentTest) {\n    $('#noTestTitle').text(\"No test has been selected\");\n} else {\n    CB_PORTAL.Loader.show('testDetails');\n    const id = currentTest.item_id;\n    const sensorPayload = currentTest.sensor_payload;\n    const description = currentTest.description;\n    const startDate = currentTest.start_date;\n    const endDate = currentTest.end_date ? currentTest.end_date : 'None specified';\n    const type = datasources.FoodTestTypes.latestData().find((type) =\u003e type.data.item_id === currentTest.type_id).data.name;\n    let sensor;\n    let customer;\n    let location;\n    let tester;\n    return datasources.getSensorById.sendData({ \"sensor_id\": currentTest.sensor_id }).then((res) =\u003e {\n        if (res.err) {\n            CB_PORTAL.Loader.hide('testDetails');\n            $(\"#testDetailError\").css('display', 'initial');\n        } else {\n            sensor = res.results.payload.DATA[0].sensor_label;\n            return datasources.getCustomers.sendData({ \"customer_id\": currentTest.customer_id }).then((res) =\u003e {\n                if (res.err) {\n                    CB_PORTAL.Loader.hide('testDetails');\n                    $(\"#testDetailError\").css('display', 'initial');\n                } else {\n                    customer = res.results.payload.DATA[0].name;\n                    return datasources.getEmployeeById.sendData({ \"email\": currentTest.tester_id }).then((res) =\u003e {\n                        if (res.err) {\n                            CB_PORTAL.Loader.hide('testDetails');\n                            $(\"#testDetailError\").css('display', 'initial');\n                        } else {\n                            tester = res.results.payload ? res.results.payload[0].email : 'None specified';\n                            return datasources.getLocationById.sendData({ \"location_id\": currentTest.location_id }).then((res) =\u003e {\n                                if (res.err) {\n                                    CB_PORTAL.Loader.hide('testDetails');\n                                    $(\"#testDetailError\").css('display', 'initial');\n                                } else {\n                                    location = res.results.payload.DATA[0].name;\n                                    CB_PORTAL.Loader.hide('testDetails');\n                                    $(\"#testDetails\").removeClass(\"invisible\");\n                                    $(\".testID\").text(id);\n                                    $(\".tester\").text(tester);\n                                    $(\".testType\").text(type);\n                                    $(\".testSensor\").text(sensor);\n                                    $(\".testSensorPayload\").text(sensorPayload);\n                                    $(\".testCustomer\").text(customer);\n                                    $(\".testLocation\").text(location);\n                                    $(\".testStart\").text(new Date(startDate).toLocaleString());\n                                    $(\".testEnd\").text(new Date(endDate).toLocaleString());\n                                    $(\".testDescription\").text(description);\n                                }\n                            })\n                        }\n                    })\n                }\n            })\n        }\n    })\n}\n\n"
+                            }
+                        }
+                    }
+                },
+                "tab": "11b96b1b-ea48-4845-be51-8659a0d98cd3",
+                "type": "HTML_WIDGET_COMPONENT"
+            },
+            "5c9c2d2d-b00b-48fe-b0c1-e827b02afadb": {
+                "externalScripts": [
+                    "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css",
+                    "https://api.tiles.mapbox.com/mapbox-gl-js/v0.49.0/mapbox-gl.js",
+                    "https://api.tiles.mapbox.com/mapbox-gl-js/v0.49.0/mapbox-gl.css"
+                ],
+                "id": "5c9c2d2d-b00b-48fe-b0c1-e827b02afadb",
+                "props": {
+                    "html": {
+                        "dataType": "DYNAMIC_DATA_TYPE",
+                        "force_data": [
+                            "STATIC_DATA_TYPE",
+                            "DYNAMIC_DATA_TYPE"
+                        ],
+                        "id": "6b6bed07-2e12-4992-a603-5dadd4fc65b0",
+                        "incoming_parser": {
+                            "isDebugOn": false,
+                            "value": {
+                                "CSS": ".warning{\n    color: #dc3545;\n    padding-right: .25em;\n}\n\n.alert-action-btn{\n    margin:2px;\n}\n\n.alert-item {\n    font-size: .75rem;\n}\n\n.alert-item .message {\n    font-size: 1rem;\n}\n\n.alert-buttons {\n    float: right;\n    width: 120px;\n    text-align: right;\n}\n\n.alert-buttons button {\n    /* display: block; */\n    text-align: right;\n}",
+                                "HTML": "\u003cdiv id=\"alerts\"\u003e\n\t\u003cdiv class=\"list-group\"\u003e\n\n\t\u003c/div\u003e\n\u003c/div\u003e\n",
+                                "JavaScript": "//JavaScript\n\n\nconst getAlertConfig = (typeId) =\u003e {\n    let alertConfig;\n    if (datasources.getAlertConfigurations.latestData()) {\n        alertConfig = datasources.getAlertConfigurations.latestData().results.payload.DATA.find(\n            (data) =\u003e data.item_id === typeId\n        )\n    }\n    return alertConfig || {}\n}\n\nconst listGroup = $('#alerts .list-group');\nconst handleAlerts = (data) =\u003e {\n    const alerts = data.results.payload.DATA.filter((alert) =\u003e {\n        if (!alert.snoozed_date) return true\n        return +new Date() \u003e +new Date(alert.snoozed_date)\n    })\n    listGroup.empty();\n\n    if (alerts.length === 0) {\n        listGroup.append('No active alerts')\n    } else {\n        alerts.forEach((a) =\u003e {\n            const item = $('\u003cbutton class=\"alert-item list-group-item list-group-item-action\"\u003e\u003c/button\u003e')\n            const itemDesc = $('\u003cspan\u003e\u003c/span\u003e');\n            const alertType = getAlertConfig(a.configuration_id)\n            itemDesc.html(`\n            \u003cdiv class=\"message\"\u003e\n                \u003cspan\u003e\u003ci class=\"warning fa fa-exclamation-triangle\" aria-hidden=\"true\"\u003e\u003c/i\u003e\u003c/span\u003e\n                ${alertType.message || ''}\u003c/div\u003e\n            \u003cdiv class=\"text-muted\"\u003e${AlertConfigSummary(alertType) || ''}\u003c/div\u003e\n            `)\n            const itemTime = $('\u003cspan\u003e\u003c/span\u003e');\n            itemTime.css({\n                'font-size': '.75rem'\n            })\n            let time = a.sent_date;\n            try {\n                time = new Date(time).toLocaleString()\n            } catch (e) {\n                console.warn('Unable to parse time', e);\n            }\n            const itemButtons = `\u003cdiv class=\"alert-buttons\"\u003e\n            \u003cbutton class=\"btn btn-outline-warning btn-sm alert-action-btn snooze-alert d-float\" data-snoozed-count=${a.snoozed_count} data-item-id=${a.item_id}\u003eSnooze\u003c/button\u003e\n            \u003cbutton class=\"alert-action-btn btn btn-outline-success btn-sm acknowledge-alert\" data-item-id=${a.item_id}\u003eAcknowledge\u003c/button\u003e\n        \u003c/div\u003e`\n            item.append(itemButtons);\n        \n            item.append(itemDesc);\n            item.append(`\u003cdiv\u003e${time}\u003c/div\u003e`);\n            listGroup.append(item);\n        })\n    }\n}\n\nif (!window.hasSubscribedToAlerts) {\n    window.hasSubscribedToAlerts = true;\n    datasources.getAlerts.latestData.subscribe(handleAlerts);\n\n}\n\nif (datasources.getAlerts.lastUpdated) {\n    handleAlerts(datasources.getAlerts.latestData());\n}\n\nif (!window.setupAlertListeners) {\n    window.setupAlertListeners = true;\n    $('body').on('click', '.acknowledge-alert', (e) =\u003e {\n        datasources.updateAlert.sendData({\n            item_id: e.target.dataset.itemId,\n            alert: {\n                is_active: false,\n                acknowledge_date: (new Date()).toISOString()\n            }\n        }).then(() =\u003e {\n            datasources.getAlerts.sendData();\n        })\n    })\n\n    $('body').on('click', '.snooze-alert', (e) =\u003e {\n        datasources.updateAlert.sendData({\n            item_id: e.target.dataset.itemId,\n            alert: {\n                snoozed_count: Number(e.target.dataset.snoozedCount) + 1,\n                // 30 min from now\n                snoozed_date: (new Date(Date.now() + 1000 * 30 * 60)).toISOString()\n            }\n        }).then(() =\u003e {\n            datasources.getAlerts.sendData();\n        })\n    })\n}\n\nfunction AlertConfigSummary(alertConfig) {\n    const rules = tryParse(alertConfig.rules)\n    let text = rules \u0026\u0026 rules.map((rule) =\u003e RuleSummary(rule)).join(' and ')\n    if(alertConfig.timeout) {\n        text = text + ` for ${alertConfig.timeout} minutes`\n    }\n    return text\n}\n\nfunction RuleSummary(rule = {}) {\n    const sensor = datasources.getSensors.latestData().results.payload.DATA.find((s) =\u003e s.sensor_id === rule.sensor_id) || {}\n    const sensorType = datasources.getSensorTypes.latestData().results.payload.DATA.find((s) =\u003e s.item_id === sensor.sensor_type_id) || {}\n\n    const propertyStr = rule.property === 'battery_level' ? 'Battery' : sensorType.display_name\n    const wordsFromOp = {\n        'GT': 'is above',\n        'LT': 'is below',\n        'EQ': 'is equal',\n    }\n    const operatorStr = (sensorType.data_type === 'int' || rule.property === 'battery_level') ? wordsFromOp[rule.operator] : ''\n    const valueStr = (sensorType.data_type === 'int' || rule.property === 'battery_level') ? rule.value : (rule.value ? 'is open' : 'is closed')\n    const attributeStr = rule.property === 'battery_level' ? 'percent' : sensorType.attributes\n    return `\"${sensor.sensor_label}\" ${propertyStr \u0026\u0026 propertyStr.toLowerCase()} ${operatorStr} ${valueStr} ${attributeStr \u0026\u0026 attributeStr.toLowerCase()}`\n}\n\nfunction tryParse(str) {\n    try {\n        return JSON.parse(str)\n    } catch(e) {\n        console.warn(e, str)\n    }\n}"
+                            }
+                        }
+                    }
+                },
+                "tab": "80c28fdf-eb29-4d58-97f9-9b327fad1af7",
+                "type": "HTML_WIDGET_COMPONENT"
+            },
+            "671b785e-1f0e-49f0-a6f6-d89bdf54578c": {
+                "externalScripts": [
+                    "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css",
+                    "https://api.tiles.mapbox.com/mapbox-gl-js/v0.49.0/mapbox-gl.js",
+                    "https://api.tiles.mapbox.com/mapbox-gl-js/v0.49.0/mapbox-gl.css"
+                ],
+                "id": "671b785e-1f0e-49f0-a6f6-d89bdf54578c",
+                "props": {
+                    "html": {
+                        "dataType": "STATIC_DATA_TYPE",
+                        "force_data": [
+                            "STATIC_DATA_TYPE",
+                            "DYNAMIC_DATA_TYPE"
+                        ],
+                        "incoming_parser": {
+                            "isDebugOn": false,
+                            "value": "return this.datasource;"
+                        },
+                        "value": {
+                            "CSS": ".createTestError {\n    color: red;\n    font-weight: bold;\n}\n\n.successTestButton {\n    display: none;\n}\n\n.captureArea {\n    display: none;\n}\n\n.dataBox {\n    background-color: #428BCA;\n    color: white;\n    border-radius: .25rem;\n    padding: 5px;\n}\n\n.cardText {\n    font-size: 5em;\n}\n\n#captureButton {\n    display: none;\n    height: 100%;\n    background-color: darkred;\n}\n\n#pinEntryArea {\n    display: none;\n}\n\n#pinError {\n    color: darkred;\n    display: none;\n}\n\n",
+                            "HTML": "\u003cdiv class=\"text-center testsTitle\"\u003e\n  \u003ch4\u003eTests\u003c/h4\u003e\n\u003c/div\u003e\n\n\u003cul class=\"nav nav-pills  justify-content-center mt-4\"\u003e\n  \u003cli class=\"active nav-item\" id=\"historyPill\"\u003e\n    \u003cspan class=\"nav-link active\" href=\"#\"\u003eHistory\u003c/span\u003e\n  \u003c/li\u003e\n  \u003cli class=\"nav-item\" id=\"newPill\"\u003e\n    \u003cspan class=\"nav-link\" href=\"#\"\u003eNew\u003c/span\u003e\n  \u003c/li\u003e\n\u003c/ul\u003e\n\n\u003cdiv class=\"beginTestForm mt-4\"\u003e\n  \u003cdiv class=\"form-group row\"\u003e\n    \u003clabel for=\"testInputLocation\" class=\"col-sm-4 col-form-label\"\u003eLocation\u003c/label\u003e\n    \u003cdiv class=\"col-sm-8\"\u003e\n      \u003cselect class=\"form-control testInput\" id=\"testInputLocation\"\u003e\u003c/select\u003e\n    \u003c/div\u003e\n  \u003c/div\u003e\n  \n  \n  \u003cdiv class=\"form-group row\"\u003e\n    \u003clabel for=\"testInputType\" class=\"col-sm-4 col-form-label\"\u003eFood Type\u003c/label\u003e\n    \u003cdiv class=\"col-sm-8\"\u003e\n      \u003cselect class=\"form-control testInput\" id=\"testInputType\"\u003e\u003c/select\u003e\n    \u003c/div\u003e\n  \u003c/div\u003e\n\n\n  \u003cdiv class=\"form-group row\"\u003e\n    \u003clabel for=\"testInputSensor\" class=\"col-sm-4 col-form-label\"\u003eProbe\u003c/label\u003e\n    \u003cdiv class=\"col-sm-8\"\u003e\n      \u003cselect class=\"form-control testInput\" id=\"testInputSensor\"\u003e\u003c/select\u003e\n    \u003c/div\u003e\n  \u003c/div\u003e\n\n\n  \u003cdiv class=\"form-group row\"\u003e\n    \u003clabel for=\"testInputNotes\" class=\"col-sm-4 col-form-label\"\u003eNotes\u003c/label\u003e\n    \u003cdiv class=\"col-sm-8\"\u003e\n      \u003cinput type=\"text\" class=\"form-control testInput\" id=\"testInputNotes\"\u003e\n    \u003c/div\u003e\n  \u003c/div\u003e\n\n\n  \u003cbutton id=\"beginTestButton\" type=\"submit\" class=\"beginTestButton btn btn-primary w-100 mt-4\"\u003eBegin Test\u003c/button\u003e\n  \n  \u003cspan class=\"createTestError invisible\"\u003e\u003c/span\u003e\n  \n  \u003cdiv class=\"captureArea mt-3\"\u003e\n    \u003cdiv class=\"liveData d-flex flex-column justify-content-around align-items-center\"\u003e\n      \u003cdiv class=\"card text-align-center w-100\" style=\"width: 55%; height: 160px;\"\u003e\n        \u003cdiv class=\"card-body\"\u003e\n          \u003ch5 class=\"card-title\" style=\"text-align: center;\"\u003eTarget(℉)\u003c/h5\u003e\n          \u003cp class=\"card-text\" id=\"targetDataValue\" style=\"text-align: center; font-size: 3rem;\"\u003e_\u003c/p\u003e\n        \u003c/div\u003e\n      \u003c/div\u003e\n      \u003cdiv class=\"card text-align-center w-100\" style=\"width: 35%; height: 160px;\"\u003e\n        \u003cdiv class=\"card-body\"\u003e\n          \u003ch5 class=\"card-title\" style=\"text-align: center\"\u003eProbe(℉)\u003c/h5\u003e\n          \u003cp class=\"card-text\" id=\"liveDataValue\" style=\"font-size: 3rem; text-align: center;\"\u003e_\u003c/p\u003e\n        \u003c/div\u003e\n      \u003c/div\u003e\n      \u003c!-- \u003cdiv class=\"dataBox d-flex flex-column align-items-center\" id=\"optimumTemp\"\u003e\n        \u003cspan\u003e\u003cu\u003eTarget Temp\u003c/u\u003e\u003c/span\u003e\n        \u003cspan\u003e7\u003c/span\u003e\n      \u003c/div\u003e\n      \u003cdiv class=\"dataBox d-flex flex-column align-items-center\" id=\"liveData\"\u003e\n        \u003cspan\u003e\u003cu\u003eProbe Temp\u003c/u\u003e\u003c/span\u003e\n        \u003cspan id=\"liveDataValue\"\u003e_\u003c/span\u003e\n      \u003c/div\u003e --\u003e\n    \u003c/div\u003e\n  \u003c/div\u003e\n  \n  \u003cbutton class=\"successTestButton btn btn-success w-100 mt-4\"\u003eSuccess! View Results\u003c/button\u003e\n  \u003cbutton id=\"captureButton\" class=\"btn btn-primary w-100 mt-4\"\u003eCapture\u003c/button\u003e\n  \u003cdiv id=\"pinEntryArea\"\u003e \n    \u003cdiv class=\"form-group row justify-content-center mt-4\"\u003e\n      \u003clabel for=\"testPinEntry\" class=\"col-xs-4 col-form-label mr-1\"\u003eEnter Pin\u003c/label\u003e\n      \u003cdiv class=\"col-xs-4\"\u003e\n        \u003cinput type=\"password\" class=\"form-control\" id=\"testPinEntry\"\u003e\n      \u003c/div\u003e\n      \u003cbutton id=\"submitPinButton\" class=\"btn btn-primary col-xs-4 ml-1\"\u003eSave\u003c/button\u003e\n    \u003c/div\u003e\n  \u003c/div\u003e\n  \u003cspan id=\"pinError\"\u003eIncorrect Pin Entered\u003c/span\u003e\n\u003c/div\u003e\n",
+                            "JavaScript": "//JavaScript\nlet historyActive = true;\nconst listEl = $(\".CbGridItem__GridItemContainer-kVVihF .fNZvSB\")[1];\nconst formEl = $(\".beginTestForm\");\n$(formEl).css(\"display\", \"none\");\n$(\"#historyPill\").click(() =\u003e {\n    if (!historyActive) {\n        historyActive = true;\n        $(\"#historyPill\").addClass(\"active\").find(\".nav-link\").addClass(\"active\");\n        $(\"#newPill\").removeClass(\"active\").find(\".nav-link\").removeClass(\"active\");\n        $(listEl).css(\"display\", \"initial\");\n        $(formEl).css(\"display\", \"none\");\n        $('#testDetailContainer').css('display', 'inherit');\n        $('#resultWrapper').css('display', 'inherit');\n        $('.testMap').css('display', 'inherit');\n    }\n})\n$(\"#newPill\").click(() =\u003e {\n    if (!!historyActive) {\n        historyActive = false;\n        $(\"#newPill\").addClass(\"active\").find(\".nav-link\").addClass(\"active\");\n        $(\"#historyPill\").removeClass(\"active\").find(\".nav-link\").removeClass(\"active\");\n        $(formEl).css(\"display\", \"inherit\");\n        $(listEl).css(\"display\", \"none\");\n        $('#testDetailContainer').css('display', 'none');\n        $('#resultWrapper').css('display', 'none');\n        $('.testMap').css('display', 'none');\n    }\n})\n\n// Form Creations\ndatasources.getSensorsBySensorType.sendData({ \"sensor_type_id\": '4ebd356c-b35d-4b7d-a2be-2b6854973057'}).then(() =\u003e {\n    let sensors = datasources.getSensorsBySensorType.latestData().results.payload.DATA;\n    const updateSensors = (sens) =\u003e {\n        $('#testInputSensor').empty();\n        let sensorOption = '\u003coption value=\"\" disabled selected hidden\u003eSelect probe...\u003c/option\u003e';\n        for (let i = 0; i \u003c sens.length; i++) {\n            sensorOption += '\u003coption value=\"' + sens[i].item_id + '\"\u003e' + sens[i].sensor_label + '\u003c/option\u003e';\n        }\n        $('#testInputSensor').append(sensorOption);\n    }\n    updateSensors(sensors)\n});\n\nconst types = datasources.FoodTestTypes.latestData();\nconst updateTypes = (stuff) =\u003e {\n    $('#testInputType').empty();\n    let typeOption = '\u003coption value=\"\" disabled selected hidden\u003eSelect food type...\u003c/option\u003e';\n    for (let i = 0; i \u003c stuff.length; i++) {\n        typeOption += '\u003coption value=\"' + stuff[i].data.item_id + '\"\u003e' + stuff[i].data.name + '\u003c/option\u003e';\n    }\n    $('#testInputType').append(typeOption);\n}\nupdateTypes(types);\n\nconst locations = datasources.getLocations.latestData().results.payload.DATA;\nconst updateLocations = (stuff) =\u003e {\n    $('#testInputLocation').empty();\n    let locationOption = '\u003coption value=\"\" disabled selected hidden\u003eSelect location...\u003c/option\u003e';\n    for (let i = 0; i \u003c stuff.length; i++) {\n        locationOption += '\u003coption value=\"' + stuff[i].item_id + '\"\u003e' + stuff[i].name + '\u003c/option\u003e';\n    }\n    $('#testInputLocation').append(locationOption);\n}\nupdateLocations(locations);\n\n// Executions\nlet test_id;\nlet start_date;\n\n$(\".testInput\").on(\"focus\", function () {\n    $(\".createTestError\").addClass(\"invisible\");\n    $(\".successTestButton\").css(\"display\", \"none\");\n    $('.captureArea').css('display', 'none');\n    $('#captureButton').css('display', 'none');\n    $('#pinEntryArea').css('display', 'none');\n    $('#beginTestButton').text('Begin Test').prop('disabled', false);\n    $('#pinError').css('display', 'none');\n    $('#liveDataValue').text('_');\n    $('#testDetailContainer').css('display', 'none');\n    $('#resultWrapper').css('display', 'none');\n    $('.testMap').css('display', 'none');\n})\n\nif (!window.hasSubscribedToTestFormSubmit) {\n    window.hasSubscribedToTestFormSubmit = true;\n    $(\"#beginTestButton\").on(\"click\",(e) =\u003e {\n        e.preventDefault();\n        const sensorId = $(\"select#testInputSensor\").val();\n        datasources.getSensorById.sendData({ \"sensor_id\": sensorId}).then((res) =\u003e {\n            $('#beginTestButton').text('Setting up...').prop(\"disabled\", true);\n            start_date = new Date().toISOString();\n            setupMessaging().then(() =\u003e {\n                window.topicForFoodTest = `monnit-webhook-adapter/${res.results.payload.DATA[0].sensor_id}`\n                $('#beginTestButton').text('Sending data...').prop(\"disabled\", true);\n                $('.captureArea').css('display', 'inherit');\n                $('#captureButton').css('display', 'inherit');\n                const selectedFoodType = datasources.FoodTestTypes.latestData().find((type) =\u003e type.data.item_id === $('select#testInputType').val()).data;\n                $('#targetDataValue').text(selectedFoodType.minimum + \" - \" + selectedFoodType.maximum);\n                window.messagingObjectForFoodTest.subscribe(window.topicForFoodTest, {}, messageReceived.bind(this));\n            });    \n        })      \n    });\n}\n\nif(!window.hasSubscribedToCaptureButton) {\n    window.hasSubscribedToCaptureButton = true;\n    $('#captureButton').on('click', function (e) {\n        $('#captureButton').css('display', 'none');\n        $('#beginTestButton').text('Test Complete... Enter pin to save')\n        $('#pinEntryArea').css('display', 'initial');\n        $('#submitPinButton').prop('disabled', true);\n    })\n}\n\n$('#testPinEntry').on('focus', function() {\n    $('#pinError').css('display', 'none');\n    $('#testPinEntry').text('');\n    $('#submitPinButton').prop('disabled', false);\n})\n\nif(!window.hasSubscribedToPinButton) {\n    window.hasSubscribedToPinButton = true;\n    $('#submitPinButton').on('click', function (e) {\n        const employeePin = datasources.currentEmployee.latestData().pin;\n        const inputPin = Number($('input#testPinEntry').val());\n        if (employeePin === inputPin) {\n            const selectedFoodType = datasources.FoodTestTypes.latestData().find((type) =\u003e type.data.item_id === $('select#testInputType').val()).data;\n            const newTest = {\n                \"description\": $(\"input#testInputNotes\").val(),\n                \"location_id\": $(\"select#testInputLocation\").val(),\n                \"tester_id\": datasources.currentEmployee.latestData().email,\n                \"sensor_id\": $(\"select#testInputSensor\").val(),\n                \"type_id\": $(\"select#testInputType\").val(),\n                \"customer_id\": datasources.currentCustomer.latestData().item_id,\n                \"name\": $(\"select#testInputType option:selected\").text() + \"-\" + datasources.currentEmployee.latestData().email,\n                \"sensor_payload\": $('#liveDataValue').text(),\n                \"start_date\": start_date,\n                \"compliant\": $('#liveDataValue').text() \u003e= selectedFoodType.minimum \u0026\u0026 $('#liveDataValue').text() \u003c= selectedFoodType.maximum,\n            }\n            datasources.createTest.sendData({ \"test\": newTest }).then((res) =\u003e {\n                if (res.err) {\n                    $('#beginTestButton').text('Begin Test').prop(\"disabled\", false);\n                    $(\".createTestError\").removeClass(\"invisible\").text('Error running test: ' + res.err);\n                } else {\n                    $('#beginTestButton').text('Begin Test').prop(\"disabled\", false);\n                    $(\".beginTestForm\").find(\"input[type=text], textarea, select\").val(\"\");\n                    datasources.getTests.sendData({\n                        customer_id: datasources.currentCustomer.latestData().item_id,\n                    })\n                    test_id = res.results.payload[0].item_id;\n                    $(\".successTestButton\").css('display', 'initial');\n                    $('#pinEntryArea').css('display', 'none');\n                }\n            })\n        } else {\n            $('#pinError').css('display', 'initial');\n            $('#submitPinButton').prop('disabled', true);\n        }\n    })\n}\n\nif (!window.hasSubscribedToSuccessButton) {\n    window.hasSubscribedToSuccessButton = true;\n    $(\".successTestButton\").on(\"click\", function (e) {\n        e.preventDefault();\n        $(\".successTestButton\").css('display', 'none');\n        $('.captureArea').css('display', 'none');\n        datasources.getTestById.sendData({ test_id }).then((res) =\u003e {\n            datasources.currentTest.sendData(res.results.payload.DATA[0]);\n        })\n        $('#testDetailContainer').css('display', 'inherit');\n        $('#resultWrapper').css('display', 'inherit');\n        $('.testMap').css('display', 'inherit');\n    })\n}\n\nconst messageReceived = (data) =\u003e {\n    const obj = JSON.parse(data);\n    $('#liveDataValue').text(obj.sensor_message.dataValue);\n}\n\nconst setupMessaging = () =\u003e {\n    return new Promise((resolve) =\u003e {\n        if (!window.messagingObjectForFoodTest) {\n            window.messagingObjectForFoodTest = CB_PORTAL.ClearBlade.Messaging({ useSSL: true }, resolve);\n            window.foodTestResult = undefined;\n        } else {\n            try {\n                window.messagingObjectForFoodTest.unsubscribe(window.topicForFoodTest, {});\n                $('#liveDataValue').text('_');\n            } catch (e) {\n                console.error('Unable to unsub from topic', e);\n            }\n            resolve();\n        }\n    }) \n}\n"
+                        }
+                    }
+                },
+                "tab": "11b96b1b-ea48-4845-be51-8659a0d98cd3",
+                "type": "HTML_WIDGET_COMPONENT"
+            },
+            "7b5ffce6-f272-4cb3-9b13-9050d9922288": {
+                "externalScripts": [
+                    "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css",
+                    "https://api.tiles.mapbox.com/mapbox-gl-js/v0.49.0/mapbox-gl.js",
+                    "https://api.tiles.mapbox.com/mapbox-gl-js/v0.49.0/mapbox-gl.css"
+                ],
+                "id": "7b5ffce6-f272-4cb3-9b13-9050d9922288",
+                "props": {
+                    "HAS_UNIQUE_STYLE": false,
+                    "activeItemBackgroundColor": "#428bca",
+                    "activeItemFontColor": "#ffffff",
+                    "activeStatusBulletColor": "green",
+                    "allowFilters": true,
+                    "allowSearch": true,
+                    "bulletColor": "#000000",
+                    "displayAttribute": "name",
+                    "displayBullets": true,
+                    "displayStatusIndicators": false,
+                    "enableListAutoSelect": true,
+                    "eventTarget": {
+                        "dataType": "DYNAMIC_DATA_TYPE",
+                        "force_data": [
+                            "DYNAMIC_DATA_TYPE"
+                        ],
+                        "id": "3b30d15c-1561-461e-ae20-51df0d13ce33",
+                        "outgoing_parser": {
+                            "isDebugOn": false,
+                            "value": "return this.widget;"
+                        }
+                    },
+                    "fontColor": "#000000",
+                    "groupByAttributes": [],
+                    "htmlId": "testsGroupingList",
+                    "inactiveStatusBulletColor": "darkred",
+                    "listItemBackgroundColor": "#ffffff",
+                    "listSource": {
+                        "dataType": "DYNAMIC_DATA_TYPE",
+                        "force_data": [
+                            "DYNAMIC_DATA_TYPE"
+                        ],
+                        "id": "783eb47e-7d51-4c71-9c7c-70c877f85bbe",
+                        "incoming_parser": {
+                            "isDebugOn": false,
+                            "value": "return this.datasource.results.payload.DATA;\n\ndatasources.getTests.latestData.subscribe((newData) =\u003e {\n    return newData.results.payload.DATA;\n})"
+                        }
+                    },
+                    "titleColor": "#000000",
+                    "trackingColumnName": "item_id"
+                },
+                "tab": "11b96b1b-ea48-4845-be51-8659a0d98cd3",
+                "type": "GROUPING_LIST_WIDGET_COMPONENT"
+            },
+            "9b7bd21c-c0f0-41d4-a9df-706242b10f26": {
+                "externalScripts": [
+                    "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css",
+                    "https://api.tiles.mapbox.com/mapbox-gl-js/v0.49.0/mapbox-gl.js",
+                    "https://api.tiles.mapbox.com/mapbox-gl-js/v0.49.0/mapbox-gl.css"
+                ],
+                "id": "9b7bd21c-c0f0-41d4-a9df-706242b10f26",
+                "props": {
+                    "html": {
+                        "dataType": "STATIC_DATA_TYPE",
+                        "force_data": [
+                            "STATIC_DATA_TYPE",
+                            "DYNAMIC_DATA_TYPE"
+                        ],
+                        "incoming_parser": {
+                            "isDebugOn": false,
+                            "value": "return this.datasource;"
+                        },
+                        "value": {
+                            "CSS": "",
+                            "HTML": "\u003cdiv class=\"\"\u003e\n  \n  \u003c!-- \u003cul class=\"nav nav-pills  justify-content-center\"\u003e\n    \u003cli class=\"active nav-item\"\u003e\n      \u003cspan class=\"nav-link active\" href=\"#\"\u003eMessages\u003c/span\u003e\n    \u003c/li\u003e\n    \u003cli class=\"nav-item\" id=\"alertPill\"\u003e\n      \u003cspan class=\"nav-link \" href=\"#\"\u003eAlerts\u003c/span\u003e\n    \u003c/li\u003e\n  \u003c/ul\u003e --\u003e\n  \u003cdiv class=\"messagesTitle text-center\"\u003e\n    \u003ch4\u003eMessages\u003c/h4\u003e\n  \u003c/div\u003e\n  \u003cbr\u003e\n  \u003ch4\u003eReceived\u003c/h4\u003e\n  \u003cdiv class=\"input-section\"\u003e\n    \u003cdiv id=\"MessageValue\" type=\"textarea\" class=\"form-control\" style=\"height:200px;overflow-y: scroll;\"\u003e\u003c/div\u003e\n  \u003c/div\u003e\n  \u003chr\u003e\n  \u003ch4\u003eNew\u003c/h4\u003e\n  Recipient\n  \u003cdiv class=\"input-section\"\u003e\n    \u003cselect name=\"employees\" id=\"employees\" type=\"select\" class=\"form-control\"\u003e\n      \u003coption value=\"aalcott@clearblade.com\"\u003eaalcott@clearblade.com\u003c/option\u003e\n      \u003coption value=\"aallsbrook@clearblade.com\"\u003eaallsbrook@clearblade.com\u003c/option\u003e\n      \u003coption value=\"cbynum@clearblade.com\"\u003ecbynum@clearblade.com\u003c/option\u003e\n      \u003coption value=\"tmullen@clearblade.com\"\u003etmullen@clearblade.com\u003c/option\u003e\n      \u003coption value=\"Savio.Lee@ingrammicro.com\"\u003eSavio.Lee@ingrammicro.com\u003c/option\u003e\n    \u003c/select\u003e\n  \u003c/div\u003e\n  Priority\n  \u003cdiv class=\"input-section\"\u003e\n    \u003cselect name=\"priority\" id=\"priority\" type=\"select\" class=\"form-control\"\u003e\n      \u003coption value=\"low\"\u003eLow\u003c/option\u003e\n      \u003coption value=\"medium\"\u003eMedium\u003c/option\u003e\n      \u003coption value=\"high\"\u003eHigh\u003c/option\u003e\n    \u003c/select\u003e\n  \u003c/div\u003e\n  Reply\n  \u003cdiv class=\"input-section\"\u003e\n    \u003cinput id=\"Message\" type=\"textarea\" class=\"form-control\"\u003e\u003c/input\u003e\n  \u003c/div\u003e\n  \u003cbr\u003e\n  \u003cbutton id=\"sendButton\" class=\"btn btn-primary btn-block\"\u003eSend\u003c/button\u003e\n\u003c/div\u003e\n",
+                            "JavaScript": "//JavaScript\n$(\"#alertPill\").click(function(){\n    CB_PORTAL.selectPage(\"/AlertList\");\n    datasources.getAlerts.sendData()\n});\ntry{\n    $('#employees').empty();\n    var employees = datasources.getEmployees.latestData().results.payload;\n    for (var i=0;i\u003cemployees.length;i++){\n        var val = employees[i].email;\n        var text = employees[i].first_name+\" \"+employees[i].last_name;\n        $('#employees').append($('\u003coption/\u003e', { \n            value: val,\n            text : text \n        }));\n    }\n}catch(e){\n    \n};\nvar postNewMessage = function(payload){\n    var avatar = $(\"\u003cimg\u003e\u003c/img\u003e\");\n    avatar.css(\"width\",50);\n    avatar.css(\"height\",50);\n    avatar.css('border-radius', \"8px\")\n    avatar.attr(\"src\",payload.avatar)\n    var messageBox = $('\u003cdiv\u003e\u003c/div\u003e');\n    messageBox.css('padding-left',8);\n    var titleBox = $(\"\u003cdiv\u003e\u003c/div\u003e\");\n    titleBox.css(\"font-weight\",\"bold\")\n\n    var titleName = $(\"\u003cspan\u003e\"+payload.senderName+\"\u003c/span\u003e\");\n    currentTime = new Date();\n    var time = currentTime.getTime();\n    var hours = currentTime.getHours();\n    var titleTime = $(\"\u003cspan\u003e\"+currentTime.toLocaleTimeString(\"en-us\")+\"\u003c/span\u003e\");\n    titleTime.css(\"font-weight\",\"narrow\");\n    titleTime.css(\"padding-left\",12);\n    titleTime.css(\"font-size\",10)\n    titleBox.append(titleName);\n    titleBox.append(titleTime);\n    messageBox.append(titleBox);\n    var textBox = $(\"\u003cdiv\u003e\"+payload.text+\"\u003c/div\u003e\")\n    messageBox.append(textBox)\n    var parentBox = $(\"\u003cdiv\u003e\u003c/div\u003e\");\n    parentBox.css('padding',0);\n    // parentBox.css('background-color','blue')\n    // parentBox.css('border', \"1px solid gray\")\n    // parentBox.css('border-radius', \"8px\")\n    parentBox.css('width', \"auto\")\n    parentBox.css('display',\"flex\");\n    parentBox.css(\"margin-bottom\",8)\n    parentBox.append(avatar);\n    parentBox.append(messageBox)\n    $(\"#MessageValue\").append(parentBox);\n    $('#MessageValue').scrollTop($('#MessageValue')[0].scrollHeight);\n}\ndatasources.getEmployees.latestData.subscribe(function(data){\n    \n    $('#employees').empty();\n    var employees = datasources.getEmployees.latestData().results.payload;\n    for (var i=0;i\u003cemployees.length;i++){\n        var val = employees[i].email;\n        var text = employees[i].first_name+\" \"+employees[i].last_name;\n        $('#employees').append($('\u003coption/\u003e', { \n            value: val,\n            text : text \n        }));\n    }\n});\ndatasources.currentEmployee.latestData.subscribe(function(data){\n    var currentEmployee  = datasources.currentEmployee.latestData();\n    var newTopic = \"messaging/\"+currentEmployee.user_id;\n    console.log(newTopic);\n    datasources.userMessaging.settings({\n        ...datasources.userMessaging.settings(),\n        TOPIC_NAME: newTopic\n    });\n    setTimeout(() =\u003e {\n        datasources.userMessaging.refresh();\n    }, 1000);\n    console.log(\"gonna subscribe myself to the userMessaging datasource\")\n    datasources.userMessaging.latestData.subscribe(function(data) {\n        \n        postNewMessage(JSON.parse(data));\n        datasources.currentCustomer.item_id\n        datasources.getAlerts.sendData({\n            customer_id: datasources.currentCustomer.item_id\n        });\n    })\n});\n\n\n$(\"#sendButton\").click(function(){\n    var currentEmployee  = datasources.currentEmployee.latestData();\n\n    var employee=$(\"#employees\").val();\n    var priority=$(\"#priority\").val();\n    var messageTypes = [\"internal\"];\n    if (priority == \"medium\" ){\n        messageTypes.push(\"email\");\n    }else if (priority ==\"high\"){\n        messageTypes.push(\"sms\");\n        messageTypes.push(\"email\");\n    }\n\n    var message=$(\"#Message\").val();\n\n    var params={\n        customer_id:currentEmployee.customer_id,\n        messageTypes:messageTypes,\n        userEmails:[employee],\n        payload:message\n    }\n    datasources.sendMessage.sendData(params).then(function(){\n        $(\"#Message\").val(\"\");\n    })\n    \n});"
+                        }
+                    }
+                },
+                "tab": "ebefcb5a-6ce9-4932-87fc-d7789ebf2e46",
+                "type": "HTML_WIDGET_COMPONENT"
+            },
+            "a51fa40b-2f16-46e9-a8b8-2de1cd64f057": {
+                "externalScripts": [
+                    "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css",
+                    "https://api.tiles.mapbox.com/mapbox-gl-js/v0.49.0/mapbox-gl.js",
+                    "https://api.tiles.mapbox.com/mapbox-gl-js/v0.49.0/mapbox-gl.css"
+                ],
+                "id": "a51fa40b-2f16-46e9-a8b8-2de1cd64f057",
+                "props": {
+                    "html": {
+                        "dataType": "STATIC_DATA_TYPE",
+                        "force_data": [
+                            "STATIC_DATA_TYPE",
+                            "DYNAMIC_DATA_TYPE"
+                        ],
+                        "incoming_parser": {
+                            "isDebugOn": false,
+                            "value": "return this.datasource;"
+                        },
+                        "value": {
+                            "CSS": "\n",
+                            "HTML": "\u003cdiv id=\"menu-list-container\"\u003e\n    \u003cdiv class=\"list-group\"\u003e\n        \u003c/div\u003e\n  \n\u003c/div\u003e",
+                            "JavaScript": "//JavaScript\nconst container = $('#menu-list-container');\nconst pages = [{ \"label\": \"Messages\", \"value\": \"Home\" }, \n                { \"label\": \"Alerts\", \"value\": \"AlertList\" }, \n                { \"label\": \"Food Test\", \"value\": \"Food Test\" }];\n\nconst listGroup = $('#menu-list-container .list-group');\n\nlistGroup.empty();\npages.forEach((a) =\u003e {\n    const item = $('\u003cbutton\u003e\u003c/button\u003e')\n    item.addClass('list-group-item list-group-item-action')\n    const itemDesc = $('\u003cspan\u003e\u003c/span\u003e');\n    itemDesc.html(a.label)\n    item.on('click', () =\u003e {\n        CB_PORTAL.selectPage(`/${a.value}`)\n        CB_PORTAL.toggleFlyout();\n    })\n    item.append(itemDesc)\n    listGroup.append(item);\n})\n\n"
+                        }
+                    }
+                },
+                "tab": null,
+                "type": "HTML_WIDGET_COMPONENT"
+            },
+            "brand": {
+                "externalScripts": [
+                    "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css",
+                    "https://api.tiles.mapbox.com/mapbox-gl-js/v0.49.0/mapbox-gl.js",
+                    "https://api.tiles.mapbox.com/mapbox-gl-js/v0.49.0/mapbox-gl.css"
+                ],
+                "id": "brand",
+                "props": {
+                    "html": {
+                        "dataType": "STATIC_DATA_TYPE",
+                        "force_data": [
+                            "STATIC_DATA_TYPE",
+                            "DYNAMIC_DATA_TYPE"
+                        ],
+                        "incoming_parser": {
+                            "isDebugOn": false,
+                            "value": "return this.datasource;"
+                        },
+                        "value": {
+                            "CSS": ".nav-pills .nav-link.active, .nav-pills .show\u003e.nav-link {\n    color: #fff;\n    background-color: #0D62A5;\n}\n.btn-primary {\n    color: #fff;\n    background-color: #0D62A5;\n    border-color: #0D62A5;\n}",
+                            "HTML": "\u003cdiv\u003e\n  \u003cimg id=\"logoIcon\" src=\"https://corp.ingrammicro.com/getattachment/6838aceb-aa32-4075-9d75-7eb22f0d6bd5/logo-ingram-micro.png.aspx\" style=\"padding-left:8px;height:30px;margin-top: -8px;\"\u003e\n\u003c/div\u003e",
+                            "JavaScript": "const getCustomerAlertTypes = (customerId) =\u003e {\n    return datasources.getAlertTypes.sendData({\n        customer_id: customerId\n    });\n}\n\nconst getCustomerAlertConfigurations = (customerId) =\u003e {\n    return datasources.getAlertConfigurations.sendData({\n        customer_id: customerId\n    })\n}\n\nconst getCustomerAlerts = (customerId) =\u003e {\n    return datasources.getAlerts.sendData({\n        customer_id: customerId\n    })\n}\nconst getCustomerEmployees = (customerId) =\u003e {\n    datasources.getEmployees.sendData({\n        customer_id: customerId\n    })\n}\n\nconst getCustomerTests = (customerId) =\u003e {\n    datasources.getTests.sendData({\n        customer_id: customerId\n    })\n}\n\nconst getCustomerTestTypes = (customerId) =\u003e {\n    datasources.getTestTypes.sendData({\n        customer_id: customerId\n    })\n}\n\nconst getCustomerSensors = (customerId) =\u003e {\n    datasources.getSensors.sendData({\n        customer_id: customerId\n    })\n}\n\nconst getCustomerLocations = (customerId) =\u003e {\n    datasources.getLocations.sendData({\n        customer_id: customerId\n    })\n}\n\nconst getAlertInfo = (customerId) =\u003e {\n    getCustomerAlertTypes(customerId)\n        .then(() =\u003e getCustomerAlertConfigurations(customerId)\n            .then(() =\u003e getCustomerAlerts(customerId)))\n}\n\nconst getCustomerInfo = (id) =\u003e {\n    datasources.getCustomers.sendData({\n        customer_id: id,\n    }).then((data) =\u003e {\n        try {\n            datasources.currentCustomer.sendData(data.results.payload.DATA[0]);\n            // getCustomerLocations(id);\n            // getCustomerAssets(id);\n            getAlertInfo(id);\n            getCustomerEmployees(id);\n            // getSensorTypes();\n            // getSensors();\n            // getCustomerGateways(id);\n            getCustomerTests(id);\n            getCustomerTestTypes(id);\n            getCustomerSensors(id);\n            getCustomerLocations(id);\n        } catch (e) {\n            console.error('Error setting current customer', e);\n        }\n    })\n}\n\nif (!window.hasFetchedCustomerInfo) {\n    window.hasFetchedCustomerInfo = true;\n    CB_PORTAL.ClearBlade.User().getUser((err, data) =\u003e {\n        if (!err) {\n            console.log('got user', data);\n            datasources.currentEmployee.sendData(data);\n            getCustomerInfo(data.customer_id);\n        }\n    })\n}\n"
+                        }
+                    }
+                },
+                "tab": "HEADER",
+                "type": "HTML_WIDGET_COMPONENT"
+            },
+            "c5d2bc5c-fdaf-4322-90fc-975c66ad37a1": {
+                "externalScripts": [
+                    "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css",
+                    "https://api.tiles.mapbox.com/mapbox-gl-js/v0.49.0/mapbox-gl.js",
+                    "https://api.tiles.mapbox.com/mapbox-gl-js/v0.49.0/mapbox-gl.css"
+                ],
+                "id": "c5d2bc5c-fdaf-4322-90fc-975c66ad37a1",
+                "props": {
+                    "html": {
+                        "dataType": "DYNAMIC_DATA_TYPE",
+                        "force_data": [
+                            "STATIC_DATA_TYPE",
+                            "DYNAMIC_DATA_TYPE"
+                        ],
+                        "id": "3b30d15c-1561-461e-ae20-51df0d13ce33",
+                        "incoming_parser": {
+                            "isDebugOn": false,
+                            "value": {
+                                "CSS": ".resultWrapper {\n  display: none;\n}\n",
+                                "HTML": "\u003cdiv class=\"text-center d-flex flex-column\" id=\"resultWrapper\"\u003e\n  \u003ch2\u003eResult\u003c/h2\u003e\n  \u003ch2 class=\"resultText\"\u003e\u003c/h2\u003e\n\u003c/div\u003e\n",
+                                "JavaScript": "//JavaScript\nif (this.datasource) {\n    if (this.datasource.compliant) {\n        $('.resultText').text('PASS').css('color', 'darkgreen');\n    } else {\n    $('.resultText').text('FAIL').css('color', 'darkred');\n    }\n} "
+                            }
+                        }
+                    }
+                },
+                "tab": "11b96b1b-ea48-4845-be51-8659a0d98cd3",
+                "type": "HTML_WIDGET_COMPONENT"
+            },
+            "c7e22a84-d2d6-4bf3-b6e5-027a487d534f": {
+                "externalScripts": [
+                    "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css",
+                    "https://api.tiles.mapbox.com/mapbox-gl-js/v0.49.0/mapbox-gl.js",
+                    "https://api.tiles.mapbox.com/mapbox-gl-js/v0.49.0/mapbox-gl.css"
+                ],
+                "id": "c7e22a84-d2d6-4bf3-b6e5-027a487d534f",
+                "props": {
+                    "html": {
+                        "dataType": "DYNAMIC_DATA_TYPE",
+                        "force_data": [
+                            "STATIC_DATA_TYPE",
+                            "DYNAMIC_DATA_TYPE"
+                        ],
+                        "id": "3b30d15c-1561-461e-ae20-51df0d13ce33",
+                        "incoming_parser": {
+                            "isDebugOn": false,
+                            "value": {
+                                "CSS": ".resultWrapper {\n  display: none;\n}\n",
+                                "HTML": "\u003cdiv class=\"text-center d-flex flex-column\" id=\"resultWrapper\"\u003e\n  \u003ch2\u003eResult\u003c/h2\u003e\n  \u003ch2 class=\"resultText\"\u003e\u003c/h2\u003e\n\u003c/div\u003e\n",
+                                "JavaScript": "//JavaScript\nif (this.datasource) {\n    if (this.datasource.compliant) {\n        $('.resultText').text('PASS').css('color', 'darkgreen');\n    } else {\n    $('.resultText').text('FAIL').css('color', 'darkred');\n    }\n} "
+                            }
+                        }
+                    },
+                    "htmlId": "resultWrapper"
+                },
+                "tab": "11b96b1b-ea48-4845-be51-8659a0d98cd3",
+                "type": "HTML_WIDGET_COMPONENT"
+            },
+            "d56f496e-1b46-4de1-8b26-18287240f31d": {
+                "externalScripts": [
+                    "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css",
+                    "https://api.tiles.mapbox.com/mapbox-gl-js/v0.49.0/mapbox-gl.js",
+                    "https://api.tiles.mapbox.com/mapbox-gl-js/v0.49.0/mapbox-gl.css"
+                ],
+                "id": "d56f496e-1b46-4de1-8b26-18287240f31d",
+                "props": {
+                    "html": {
+                        "dataType": "DYNAMIC_DATA_TYPE",
+                        "force_data": [
+                            "STATIC_DATA_TYPE",
+                            "DYNAMIC_DATA_TYPE"
+                        ],
+                        "id": "3b30d15c-1561-461e-ae20-51df0d13ce33",
+                        "incoming_parser": {
+                            "isDebugOn": false,
+                            "value": {
+                                "CSS": ".resultWrapper {\n  display: none;\n}\n",
+                                "HTML": "\u003cdiv class=\"text-center d-flex flex-column\" id=\"resultWrapper\"\u003e\n  \u003ch2\u003eResult\u003c/h2\u003e\n  \u003ch2 class=\"resultText\"\u003e\u003c/h2\u003e\n\u003c/div\u003e\n",
+                                "JavaScript": "//JavaScript\nif (this.datasource) {\n    if (this.datasource.compliant) {\n        $('.resultText').text('PASS').css('color', 'darkgreen');\n    } else {\n    $('.resultText').text('FAIL').css('color', 'darkred');\n    }\n} "
+                            }
+                        }
+                    }
+                },
+                "tab": "11b96b1b-ea48-4845-be51-8659a0d98cd3",
+                "type": "HTML_WIDGET_COMPONENT"
+            },
+            "e79bfb04-495b-4794-a669-943e39d60afb": {
+                "externalScripts": [
+                    "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css",
+                    "https://api.tiles.mapbox.com/mapbox-gl-js/v0.49.0/mapbox-gl.js",
+                    "https://api.tiles.mapbox.com/mapbox-gl-js/v0.49.0/mapbox-gl.css"
+                ],
+                "id": "e79bfb04-495b-4794-a669-943e39d60afb",
+                "props": {
+                    "html": {
+                        "dataType": "DYNAMIC_DATA_TYPE",
+                        "force_data": [
+                            "STATIC_DATA_TYPE",
+                            "DYNAMIC_DATA_TYPE"
+                        ],
+                        "id": "3b30d15c-1561-461e-ae20-51df0d13ce33",
+                        "incoming_parser": {
+                            "isDebugOn": false,
+                            "value": {
+                                "CSS": "#map {\n    height: 100%;\n}\n\n.mapboxgl-marker {\n    cursor: pointer !important;\n}\n",
+                                "HTML": "\u003cdiv id=\"map\" class=\"testMap\"\u003e\n  \n\u003c/div\u003e\n",
+                                "JavaScript": "//JavaScript\n\nlet map; \nconst test_id = this.datasource.item_id;\ndatasources.getTestById.sendData({ \"test_id\": test_id }).then((result) =\u003e {\n    const locId = result.results.payload.DATA[0].location_id;\n    datasources.getLocations.sendData({ \"location_id\": locId }).then((res) =\u003e {\n        setTimeout(() =\u003e {\n            const locData = res.results.payload.DATA[0];\n            mapboxgl.accessToken = 'pk.eyJ1IjoiY2xhcmtieW51bSIsImEiOiJjam1jNHdoMmowN20xM3FudnlnMmkwdHNsIn0.RRhMEBuvH3bNxisPogwLHg';\n            map = new mapboxgl.Map({\n                container: 'map',\n                style: 'mapbox://styles/mapbox/streets-v9',\n            });\n            const popup = new mapboxgl.Popup({ offset: 25 }).setText(locData.name);\n            const marker = new mapboxgl.Marker()\n            .setLngLat([locData.long, locData.lat])\n            .setPopup(popup)\n            .addTo(map)\n            .togglePopup();\n            map.easeTo({\n                center: new mapboxgl.LngLat(locData.long, locData.lat),\n                zoom: 4,\n                duration: 4000,\n            })\n        })\n    })\n})\n\n$('#map').parent().height('100%')\n\n"
+                            }
+                        }
+                    }
+                },
+                "tab": "11b96b1b-ea48-4845-be51-8659a0d98cd3",
+                "type": "HTML_WIDGET_COMPONENT"
+            },
+            "flyoutTitle": {
+                "externalScripts": [
+                    "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css",
+                    "https://api.tiles.mapbox.com/mapbox-gl-js/v0.49.0/mapbox-gl.js",
+                    "https://api.tiles.mapbox.com/mapbox-gl-js/v0.49.0/mapbox-gl.css"
+                ],
+                "id": "flyoutTitle",
+                "props": {
+                    "HAS_UNIQUE_STYLE": true,
+                    "fontColor": "#fff",
+                    "fontFamily": "Helvetica",
+                    "fontSize": 30,
+                    "textContent": {
+                        "dataType": "CALCULATED_DATA_TYPE",
+                        "value": "return portalTitle"
+                    }
+                },
+                "tab": "",
+                "type": "TEXT_WIDGET_COMPONENT"
+            },
+            "title": {
+                "externalScripts": [
+                    "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css",
+                    "https://api.tiles.mapbox.com/mapbox-gl-js/v0.49.0/mapbox-gl.js",
+                    "https://api.tiles.mapbox.com/mapbox-gl-js/v0.49.0/mapbox-gl.css"
+                ],
+                "id": "title",
+                "props": {
+                    "HAS_UNIQUE_STYLE": true,
+                    "fontColor": "#fff",
+                    "fontFamily": "Trebuchet MS",
+                    "fontSize": 18,
+                    "textContent": {
+                        "dataType": "CALCULATED_DATA_TYPE",
+                        "value": "return portalTitle"
+                    }
+                },
+                "tab": "HEADER",
+                "type": "TEXT_WIDGET_COMPONENT"
+            }
+        }
+    },
+    "description": "",
+    "last_updated": "25 Oct 18 08:57 UTC",
+    "name": "MobileAlerts",
+    "system_key": "ce938cbd0bfa8385999ee79d8068",
+    "type": "custom_v2"
+}
