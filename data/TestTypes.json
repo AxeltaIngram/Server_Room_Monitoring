@@ -1,0 +1,38 @@
+{
+    "app_id": "ce938cbd0bfa8385999ee79d8068",
+    "collection_id": "de938cbd0b8895a0e6a3fdcda269",
+    "items": [
+        {
+            "description": "Measures the temperature of the refrigerated food",
+            "item_id": "bc6d2cd2-ccf4-4e9c-b060-992c2cc3fa31",
+            "name": "Cold Food Temperature"
+        },
+        {
+            "description": "Measures the temperature of the cooked meat",
+            "item_id": "f83d2e69-7f25-48a1-abfd-41a55f26270a",
+            "name": "Meat Temperature"
+        }
+    ],
+    "name": "TestTypes",
+    "permissions": {
+        "Administrator": 15,
+        "Authenticated": 15
+    },
+    "schema": [
+        {
+            "ColumnName": "item_id",
+            "ColumnType": "uuid",
+            "PK": true
+        },
+        {
+            "ColumnName": "name",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "description",
+            "ColumnType": "string",
+            "PK": false
+        }
+    ]
+}
