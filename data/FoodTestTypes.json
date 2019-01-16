@@ -1,0 +1,63 @@
+{
+    "app_id": "ce938cbd0bfa8385999ee79d8068",
+    "collection_id": "d8938cbd0bfce1b6cadb9b99caed01",
+    "items": [
+        {
+            "icon": "https://d30y9cdsu7xlg0.cloudfront.net/png/232098-200.png",
+            "item_id": "9df4f3f4-dc6f-4bc9-b102-751f5fa5068d",
+            "maximum": 180,
+            "minimum": 165,
+            "name": "Chicken"
+        },
+        {
+            "icon": "",
+            "item_id": "a0996623-9213-471b-831d-681bf9413620",
+            "maximum": 190,
+            "minimum": 160,
+            "name": "Pork"
+        },
+        {
+            "icon": "https://formafeed.com/wp-content/uploads/2017/09/icon-beef.png",
+            "item_id": "cbe146b3-f996-4caa-978a-ee977e5916ec",
+            "maximum": 165,
+            "minimum": 160,
+            "name": "Beef"
+        }
+    ],
+    "name": "FoodTestTypes",
+    "permissions": {
+        "Administrator": 15,
+        "Anonymous": 0,
+        "Authenticated": 15,
+        "Monnit Webhook Adapter": 15,
+        "PortalEditor": 15,
+        "sms-webhook-adapter": 15
+    },
+    "schema": [
+        {
+            "ColumnName": "item_id",
+            "ColumnType": "uuid",
+            "PK": true
+        },
+        {
+            "ColumnName": "name",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "minimum",
+            "ColumnType": "int",
+            "PK": false
+        },
+        {
+            "ColumnName": "maximum",
+            "ColumnType": "int",
+            "PK": false
+        },
+        {
+            "ColumnName": "icon",
+            "ColumnType": "string",
+            "PK": false
+        }
+    ]
+}
