@@ -1,0 +1,17 @@
+{
+    "auto_restart": false,
+    "concurrency": 0,
+    "current_version": 5,
+    "dependencies": "log,clearblade,system_Constants,jsutil,function_library,q_library",
+    "execution_timeout": 60,
+    "logging_enabled": "false",
+    "name": "getNetWorkData",
+    "params": [
+        "{}"
+    ],
+    "permissions": {
+        "Authenticated": 1
+    },
+    "run_user": "",
+    "source": "getNetWorkData.js"
+}
