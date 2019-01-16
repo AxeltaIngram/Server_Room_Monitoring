@@ -1,0 +1,22 @@
+{
+    "auto_restart": false,
+    "concurrency": 0,
+    "current_version": 50,
+    "dependencies": "log,clearblade",
+    "execution_timeout": 60,
+    "logging_enabled": "true",
+    "name": "getLabelStatus",
+    "params": [
+        "{\r\n  \"sensor_message\": {\r\n    \"applicationID\": \"43\",\r\n    \"batteryLevel\": \"100\",\r\n    \"dataMessageGUID\": \"d2267c61-9a54-40d7-890e-c23d599c1e0d\",\r\n    \"dataType\": \"Percentage|TemperatureData\",\r\n    \"dataValue\": \"37.22|21.59\",\r\n    \"messageDate\": \"2018-12-04 11:53:46\",\r\n    \"networkID\": \"7\",\r\n    \"pendingChange\": \"True\",\r\n    \"plotLabels\": \"Humidity|Celsius\",\r\n    \"plotValues\": \"37.22|21.59\",\r\n    \"rawData\": \"37.22%2c21.59\",\r\n    \"sensorID\": \"380138\",\r\n    \"sensorName\": \"Humidity - 380138\",\r\n    \"signalStrength\": \"100\",\r\n    \"state\": \"0\"\r\n  },\r\n  \"gateway_message\": {\r\n    \"accountID\": \"5\",\r\n    \"batteryLevel\": \"101\",\r\n    \"count\": \"1\",\r\n    \"date\": \"2018-12-04 11:54:54\",\r\n    \"gatewayID\": \"932970\",\r\n    \"gatewayName\": \"CGW3 3g North America - 932970\",\r\n    \"messageType\": \"0\",\r\n    \"networkID\": \"7\",\r\n    \"pendingChange\": \"False\",\r\n    \"power\": \"0\",\r\n    \"signalStrength\": \"20\"\r\n  },\r\n  \"time_received\": \"2018-12-04T11:55:13Z\"\r\n}"
+    ],
+    "permissions": {
+        "Administrator": 1,
+        "Anonymous": 1,
+        "Authenticated": 1,
+        "Monnit Webhook Adapter": 1,
+        "PortalEditor": 1,
+        "sms-webhook-adapter": 1
+    },
+    "run_user": "",
+    "source": "getLabelStatus.js"
+}
