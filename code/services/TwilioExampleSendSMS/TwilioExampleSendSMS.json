@@ -1,0 +1,13 @@
+{
+    "auto_restart": false,
+    "concurrency": 0,
+    "current_version": 1,
+    "dependencies": "TwilioSMSLib,TwilioConstants",
+    "execution_timeout": 60,
+    "logging_enabled": "false",
+    "name": "TwilioExampleSendSMS",
+    "params": [],
+    "permissions": {},
+    "run_user": "",
+    "source": "TwilioExampleSendSMS.js"
+}
