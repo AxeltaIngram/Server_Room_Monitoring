@@ -1,0 +1,18 @@
+{
+    "auto_restart": false,
+    "concurrency": 0,
+    "current_version": 6,
+    "dependencies": "log,clearblade",
+    "execution_timeout": 60,
+    "logging_enabled": "true",
+    "name": "getTests",
+    "params": [
+        "{\n    \"pageNum\":1,         \n    \"pageSize\":10 \n}"
+    ],
+    "permissions": {
+        "Administrator": 1,
+        "Authenticated": 1
+    },
+    "run_user": "",
+    "source": "getTests.js"
+}
