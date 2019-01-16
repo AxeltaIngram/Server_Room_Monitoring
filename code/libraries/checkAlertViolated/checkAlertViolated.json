@@ -1,0 +1,8 @@
+{
+    "api": "",
+    "dependencies": "",
+    "description": "takes alertConfig, return true if violated",
+    "name": "checkAlertViolated",
+    "version": 1,
+    "visibility": "system"
+}
