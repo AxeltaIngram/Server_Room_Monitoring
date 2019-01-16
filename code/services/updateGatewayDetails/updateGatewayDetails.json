@@ -1,0 +1,17 @@
+{
+    "auto_restart": false,
+    "concurrency": 0,
+    "current_version": 5,
+    "dependencies": "log,clearblade,system_Constants,q_library,function_library",
+    "execution_timeout": 60,
+    "logging_enabled": "false",
+    "name": "updateGatewayDetails",
+    "params": [
+        "{}"
+    ],
+    "permissions": {
+        "Authenticated": 1
+    },
+    "run_user": "",
+    "source": "updateGatewayDetails.js"
+}
