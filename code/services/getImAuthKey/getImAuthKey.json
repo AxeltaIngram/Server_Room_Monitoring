@@ -1,0 +1,17 @@
+{
+    "auto_restart": false,
+    "concurrency": 0,
+    "current_version": 8,
+    "dependencies": "log,http,clearblade,system_Constants,function_library",
+    "execution_timeout": 60,
+    "logging_enabled": "true",
+    "name": "getImAuthKey",
+    "params": [
+        "{\n  \"method\": \"update\",\n  \"gateway_id\": 932970,\n  \"username\": \"Ingram.serverroom\",\n  \"password\": \"w3Lcom3Server\"\n}"
+    ],
+    "permissions": {
+        "Authenticated": 1
+    },
+    "run_user": "",
+    "source": "getImAuthKey.js"
+}
