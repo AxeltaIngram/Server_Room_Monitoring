@@ -1,0 +1,13 @@
+{
+    "description": "",
+    "last_seen_version": "4.1.13",
+    "location": null,
+    "mac_address": null,
+    "name": "monnit-refrigeration-webhook-edge",
+    "policy_name": null,
+    "resolver_func": null,
+    "sync_edge_tables": null,
+    "system_key": "ce938cbd0bfa8385999ee79d8068",
+    "system_secret": "CE938CBD0BAEF0BBD5BDD4FFB2AC01",
+    "token": "4Ml8C2231xFe54Y9F2i0FujyX7L4D"
+}
