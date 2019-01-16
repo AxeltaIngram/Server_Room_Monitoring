@@ -1,0 +1,17 @@
+{
+    "auto_restart": false,
+    "concurrency": 0,
+    "current_version": 1,
+    "dependencies": "log",
+    "execution_timeout": 60,
+    "logging_enabled": "true",
+    "name": "processSMSResponse",
+    "params": [
+        "{\n    \"topic\": \"sms-webhook-adapter\",\n    \"body\": \"{\\\"request_url\\\":\\\"35.235.102.68/\\\",\\\"url_params\\\":{},\\\"headers\\\":{\\\"Accept\\\":[\\\"*/*\\\"],\\\"Cache-Control\\\":[\\\"max-age=259200\\\"],\\\"Connection\\\":[\\\"close\\\"],\\\"Content-Length\\\":[\\\"453\\\"],\\\"Content-Type\\\":[\\\"application/x-www-form-urlencoded\\\"],\\\"User-Agent\\\":[\\\"TwilioProxy/1.1\\\"],\\\"X-Twilio-Signature\\\":[\\\"ZiJdCdbHgCliO4WAximjPo+x3VI=\\\"]},\\\"method\\\":\\\"POST\\\",\\\"body\\\":\\\"ToCountry=US\u0026ToState=TX\u0026SmsMessageSid=SMe7b4ec523f5524a0b398bcdca71524e2\u0026NumMedia=0\u0026ToCity=Austin\u0026FromZip=76707\u0026SmsSid=SMe7b4ec523f5524a0b398bcdca71524e2\u0026FromState=TX\u0026SmsStatus=received\u0026FromCity=WACO\u0026Body=Hello\u0026FromCountry=US\u0026To=%2B15127102383\u0026MessagingServiceSid=MGc9b51b07585e82568ddb6a166c2f6ed7\u0026ToZip=\u0026NumSegments=1\u0026MessageSid=SMe7b4ec523f5524a0b398bcdca71524e2\u0026AccountSid=AC218b72987d86853c5adb921370115a20\u0026From=%2B12542247870\u0026ApiVersion=2010-04-01\\\",\\\"time_received\\\":\\\"2018-10-08T15:37:00Z\\\"}\",\n    \"userId\": \"aebed3b90bcabac4e7c6eef5b9e601 :: sms-webhook-adapter\",\n    \"trigger\": \"Messaging::Publish\"\n  }"
+    ],
+    "permissions": {
+        "sms-webhook-adapter": 1
+    },
+    "run_user": "",
+    "source": "processSMSResponse.js"
+}
