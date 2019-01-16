@@ -1,0 +1,18 @@
+{
+    "auto_restart": false,
+    "concurrency": 0,
+    "current_version": 1,
+    "dependencies": "log,clearblade",
+    "execution_timeout": 60,
+    "logging_enabled": "true",
+    "name": "createLocation",
+    "params": [
+        "{\n  \"locations\": [\n    {\n      \"name\": \"Bobbys place1\",\n      \"description\": \"Main Street Shop\",\n      \"boundaries\": \"\",\n      \"customer_id\": \"\",\n      \"icon\": \"\",\n      \"location_type\": \"\"\n    },\n        {\n      \"name\": \"Bobbys place2\",\n      \"description\": \"Main Street Shop\",\n      \"boundaries\": \"\",\n      \"customer_id\": \"\",\n      \"icon\": \"\",\n      \"location_type\": \"\"\n    }\n  ]\n}"
+    ],
+    "permissions": {
+        "Administrator": 1,
+        "Authenticated": 1
+    },
+    "run_user": "",
+    "source": "createLocation.js"
+}
