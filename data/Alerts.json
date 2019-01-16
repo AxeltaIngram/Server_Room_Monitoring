@@ -1,0 +1,269 @@
+{
+    "app_id": "ce938cbd0bfa8385999ee79d8068",
+    "collection_id": "d6938cbd0ba0b6ddcdb5f1d0b778",
+    "items": [
+        {
+            "acknowledge_date": "2018-11-28T09:19:26.077Z",
+            "configuration_id": "e87d7ee5-93f6-4f91-9710-39a103e9f39a",
+            "customer_id": "9e5b6ecb-d77e-4894-a163-92e29a1df012",
+            "is_active": false,
+            "item_id": "1aabe894-8ab1-4d92-92c2-e2839eba4d49",
+            "sent_date": "2018-11-28T09:16:17.341Z",
+            "snoozed_count": 0,
+            "snoozed_date": null,
+            "target_users": "[\"subhash@axelta.com\"]",
+            "type_id": "461b3ffd-b458-48e8-ac84-cf6a82866951"
+        },
+        {
+            "acknowledge_date": "2018-11-19T10:48:24.572Z",
+            "configuration_id": "aac1ac0c-e0a9-4727-a70e-aab8afc46cbf",
+            "customer_id": "9e5b6ecb-d77e-4894-a163-92e29a1df012",
+            "is_active": false,
+            "item_id": "21e58586-e8dd-4543-9cf6-90385eeaf2ed",
+            "sent_date": "2018-11-19T10:41:39.906Z",
+            "snoozed_count": 0,
+            "snoozed_date": null,
+            "target_users": "[\"subhash@axelta.com\"]",
+            "type_id": "461b3ffd-b458-48e8-ac84-cf6a82866951"
+        },
+        {
+            "acknowledge_date": "2018-11-23T12:34:44.116Z",
+            "configuration_id": "6299e377-afa8-4a97-bf58-a155ae66810c",
+            "customer_id": "9e5b6ecb-d77e-4894-a163-92e29a1df012",
+            "is_active": false,
+            "item_id": "27a0fa81-6ec5-4916-ba8d-9d1ca088c986",
+            "sent_date": "2018-11-20T17:34:31.89Z",
+            "snoozed_count": 2,
+            "snoozed_date": "2018-11-20T20:55:28.957Z",
+            "target_users": "[\"ingram@axelta.com\",\"subhash@axelta.com\"]",
+            "type_id": "461b3ffd-b458-48e8-ac84-cf6a82866951"
+        },
+        {
+            "acknowledge_date": "2018-11-28T10:00:53.096Z",
+            "configuration_id": "e87d7ee5-93f6-4f91-9710-39a103e9f39a",
+            "customer_id": "9e5b6ecb-d77e-4894-a163-92e29a1df012",
+            "is_active": false,
+            "item_id": "6c0a6b02-3766-4a03-adf2-7442a3dae9ae",
+            "sent_date": "2018-11-28T09:52:32.418Z",
+            "snoozed_count": 0,
+            "snoozed_date": null,
+            "target_users": "[\"subhash@axelta.com\"]",
+            "type_id": "461b3ffd-b458-48e8-ac84-cf6a82866951"
+        },
+        {
+            "acknowledge_date": "2018-11-23T12:34:41.587Z",
+            "configuration_id": "aac1ac0c-e0a9-4727-a70e-aab8afc46cbf",
+            "customer_id": "9e5b6ecb-d77e-4894-a163-92e29a1df012",
+            "is_active": false,
+            "item_id": "70a44795-0069-4fdb-809b-e710e6e48481",
+            "sent_date": "2018-11-21T14:33:42.945Z",
+            "snoozed_count": 2,
+            "snoozed_date": "2018-11-21T09:20:59.893Z",
+            "target_users": "[\"subhash@axelta.com\"]",
+            "type_id": "461b3ffd-b458-48e8-ac84-cf6a82866951"
+        },
+        {
+            "acknowledge_date": "2018-11-28T10:05:20.438Z",
+            "configuration_id": "e87d7ee5-93f6-4f91-9710-39a103e9f39a",
+            "customer_id": "9e5b6ecb-d77e-4894-a163-92e29a1df012",
+            "is_active": false,
+            "item_id": "7b011c33-005e-4665-abeb-5a875a71ebe3",
+            "sent_date": "2018-11-28T10:03:44.995Z",
+            "snoozed_count": 0,
+            "snoozed_date": null,
+            "target_users": "[\"subhash@axelta.com\"]",
+            "type_id": "461b3ffd-b458-48e8-ac84-cf6a82866951"
+        },
+        {
+            "acknowledge_date": "2018-11-28T09:26:49.392Z",
+            "configuration_id": "e87d7ee5-93f6-4f91-9710-39a103e9f39a",
+            "customer_id": "9e5b6ecb-d77e-4894-a163-92e29a1df012",
+            "is_active": false,
+            "item_id": "7ff9d224-6db3-449f-9f48-5878f7bc4f64",
+            "sent_date": "2018-11-28T09:20:28.756Z",
+            "snoozed_count": 0,
+            "snoozed_date": null,
+            "target_users": "[\"subhash@axelta.com\"]",
+            "type_id": "461b3ffd-b458-48e8-ac84-cf6a82866951"
+        },
+        {
+            "acknowledge_date": "2018-11-28T09:48:22.38Z",
+            "configuration_id": "e87d7ee5-93f6-4f91-9710-39a103e9f39a",
+            "customer_id": "9e5b6ecb-d77e-4894-a163-92e29a1df012",
+            "is_active": false,
+            "item_id": "8106cb0c-9db3-4dc6-a141-7574db024a22",
+            "sent_date": "2018-11-28T09:35:07.951Z",
+            "snoozed_count": 0,
+            "snoozed_date": null,
+            "target_users": "[\"subhash@axelta.com\"]",
+            "type_id": "461b3ffd-b458-48e8-ac84-cf6a82866951"
+        },
+        {
+            "acknowledge_date": null,
+            "configuration_id": "65c07c17-05a2-490e-b653-73d859cb982c",
+            "customer_id": "9e5b6ecb-d77e-4894-a163-92e29a1df012",
+            "is_active": true,
+            "item_id": "9cf2a9ef-c8ea-4178-a08d-bfd27a0e4399",
+            "sent_date": "2019-01-07T15:32:04.13Z",
+            "snoozed_count": 0,
+            "snoozed_date": null,
+            "target_users": "[\"Usman.Minhas@ingrammicro.com\"]",
+            "type_id": "461b3ffd-b458-48e8-ac84-cf6a82866951"
+        },
+        {
+            "acknowledge_date": "2018-11-20T18:32:25.787Z",
+            "configuration_id": "ca93cd42-eafe-4d12-b730-4074a2f8cbf2",
+            "customer_id": "9e5b6ecb-d77e-4894-a163-92e29a1df012",
+            "is_active": false,
+            "item_id": "b61e23b3-b530-4f27-a9ec-445ae4a3c794",
+            "sent_date": "2018-11-20T18:31:32.398Z",
+            "snoozed_count": 0,
+            "snoozed_date": null,
+            "target_users": "[\"Usman.Minhas@ingrammicro.com\"]",
+            "type_id": "461b3ffd-b458-48e8-ac84-cf6a82866951"
+        },
+        {
+            "acknowledge_date": null,
+            "configuration_id": "e87d7ee5-93f6-4f91-9710-39a103e9f39a",
+            "customer_id": "9e5b6ecb-d77e-4894-a163-92e29a1df012",
+            "is_active": true,
+            "item_id": "c16ac6ef-47c8-4643-b303-4aee82aff80d",
+            "sent_date": "2019-01-16T06:01:25.607Z",
+            "snoozed_count": 0,
+            "snoozed_date": null,
+            "target_users": "[\"subhash@axelta.com\"]",
+            "type_id": "461b3ffd-b458-48e8-ac84-cf6a82866951"
+        },
+        {
+            "acknowledge_date": "2018-11-28T10:34:21.161Z",
+            "configuration_id": "e87d7ee5-93f6-4f91-9710-39a103e9f39a",
+            "customer_id": "9e5b6ecb-d77e-4894-a163-92e29a1df012",
+            "is_active": false,
+            "item_id": "c5e78555-0aca-4678-a764-f282102b3126",
+            "sent_date": "2018-11-28T10:31:08.396Z",
+            "snoozed_count": 0,
+            "snoozed_date": null,
+            "target_users": "[\"subhash@axelta.com\"]",
+            "type_id": "461b3ffd-b458-48e8-ac84-cf6a82866951"
+        },
+        {
+            "acknowledge_date": "2018-11-23T12:34:40.633Z",
+            "configuration_id": "9b809e98-6efb-4591-b563-a6a93c33b6cc",
+            "customer_id": "9e5b6ecb-d77e-4894-a163-92e29a1df012",
+            "is_active": false,
+            "item_id": "cef1f036-5269-480e-bf6c-2b46e0126a0a",
+            "sent_date": "2018-11-21T14:33:42.955Z",
+            "snoozed_count": 1,
+            "snoozed_date": "2018-11-21T09:20:07.961Z",
+            "target_users": "[\"subhash@axelta.com\"]",
+            "type_id": "461b3ffd-b458-48e8-ac84-cf6a82866951"
+        },
+        {
+            "acknowledge_date": "2018-11-28T10:08:19.931Z",
+            "configuration_id": "e87d7ee5-93f6-4f91-9710-39a103e9f39a",
+            "customer_id": "9e5b6ecb-d77e-4894-a163-92e29a1df012",
+            "is_active": false,
+            "item_id": "cf0957e1-6388-40be-8947-9a22c80fc750",
+            "sent_date": "2018-11-28T10:06:35.16Z",
+            "snoozed_count": 0,
+            "snoozed_date": null,
+            "target_users": "[\"subhash@axelta.com\"]",
+            "type_id": "461b3ffd-b458-48e8-ac84-cf6a82866951"
+        },
+        {
+            "acknowledge_date": "2018-10-10T21:55:39.221Z",
+            "configuration_id": "be39efac-d002-49ce-b084-da09f3e0d6fe",
+            "customer_id": "2843b40d-b3e5-4f4c-9f5f-9ac8d2709ec8",
+            "is_active": false,
+            "item_id": "dc9cdd00-15f1-4ed4-88de-eb18525930a0",
+            "sent_date": "2018-11-20T12:28:17.048Z",
+            "snoozed_count": 0,
+            "snoozed_date": null,
+            "target_users": "[\"t@m.com\"]",
+            "type_id": "461b3ffd-b458-48e8-ac84-cf6a82866951"
+        },
+        {
+            "acknowledge_date": "2018-11-23T12:34:39.734Z",
+            "configuration_id": "f8cd4c1b-cfa2-4aef-a66f-c79f35ae260e",
+            "customer_id": "9e5b6ecb-d77e-4894-a163-92e29a1df012",
+            "is_active": false,
+            "item_id": "e287da2e-5c9c-4dba-8749-4aa93b296ee2",
+            "sent_date": "2018-11-21T15:34:43.039Z",
+            "snoozed_count": 1,
+            "snoozed_date": "2018-11-21T09:22:22.795Z",
+            "target_users": "[\"Usman.Minhas@ingrammicro.com\"]",
+            "type_id": "461b3ffd-b458-48e8-ac84-cf6a82866951"
+        },
+        {
+            "acknowledge_date": "2018-11-20T12:28:21.145Z",
+            "configuration_id": "aac1ac0c-e0a9-4727-a70e-aab8afc46cbf",
+            "customer_id": "9e5b6ecb-d77e-4894-a163-92e29a1df012",
+            "is_active": false,
+            "item_id": "ebb34566-9122-4d72-9406-a4797adb2bac",
+            "sent_date": "2018-11-20T12:28:17.07Z",
+            "snoozed_count": 1,
+            "snoozed_date": null,
+            "target_users": "[   \"subhash@axelta.com\" ]",
+            "type_id": "461b3ffd-b458-48e8-ac84-cf6a82866951"
+        }
+    ],
+    "name": "Alerts",
+    "permissions": {
+        "Administrator": 15,
+        "Anonymous": 15,
+        "Authenticated": 15,
+        "Monnit Webhook Adapter": 15
+    },
+    "schema": [
+        {
+            "ColumnName": "item_id",
+            "ColumnType": "uuid",
+            "PK": true
+        },
+        {
+            "ColumnName": "type_id",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "is_active",
+            "ColumnType": "bool",
+            "PK": false
+        },
+        {
+            "ColumnName": "configuration_id",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "sent_date",
+            "ColumnType": "timestamp",
+            "PK": false
+        },
+        {
+            "ColumnName": "acknowledge_date",
+            "ColumnType": "timestamp",
+            "PK": false
+        },
+        {
+            "ColumnName": "snoozed_date",
+            "ColumnType": "timestamp",
+            "PK": false
+        },
+        {
+            "ColumnName": "snoozed_count",
+            "ColumnType": "int",
+            "PK": false
+        },
+        {
+            "ColumnName": "target_users",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "customer_id",
+            "ColumnType": "string",
+            "PK": false
+        }
+    ]
+}
