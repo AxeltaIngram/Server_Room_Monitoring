@@ -1,0 +1,711 @@
+{
+    "app_id": "ce938cbd0bfa8385999ee79d8068",
+    "collection_id": "a6eda8bf0beec0a2d093b699adf801",
+    "items": [
+        {
+            "from_email_id": "subhash@axelta.com",
+            "item_id": "00502f0b-3cf4-4323-93dd-7b9a9e4a734b",
+            "message": "hi savio",
+            "priority": "low",
+            "sent_date": "2019-01-08T06:52:25.619Z",
+            "to_email_id": "savio.lee@ingrammicro.com"
+        },
+        {
+            "from_email_id": "ingram@axelta.com",
+            "item_id": "01422491-d4de-4175-8e35-ebe3d7da37b9",
+            "message": "Hi..Subhash",
+            "priority": "low",
+            "sent_date": "2019-01-08T10:39:42.704Z",
+            "to_email_id": "subhash@axelta.com"
+        },
+        {
+            "from_email_id": "ingram@axelta.com",
+            "item_id": "098d06c3-20cd-4446-814c-b7c869ab4da7",
+            "message": "Ok!",
+            "priority": "low",
+            "sent_date": "2018-11-26T16:31:14.501Z",
+            "to_email_id": "Usman.Minhas@ingrammicro.com"
+        },
+        {
+            "from_email_id": "ingram@axelta.com",
+            "item_id": "102fe830-b5a8-43f9-b9aa-6d4a573edd0d",
+            "message": "Please check door status!",
+            "priority": "low",
+            "sent_date": "2019-01-08T14:46:59.281Z",
+            "to_email_id": "Usman.Minhas@ingrammicro.com"
+        },
+        {
+            "from_email_id": "subhash@axelta.com",
+            "item_id": "13f0ab7c-7e6b-4eb7-b0de-1c05bfcd6787",
+            "message": "Immonit Sensor",
+            "priority": "low",
+            "sent_date": "2019-01-08T09:20:05.772Z",
+            "to_email_id": "Usman.Minhas@ingrammicro.com"
+        },
+        {
+            "from_email_id": "subhash@axelta.com",
+            "item_id": "14485e88-e792-417b-b0b9-db691cf81bd0",
+            "message": "hi Pushpa",
+            "priority": "low",
+            "sent_date": "2019-01-08T10:43:40.13Z",
+            "to_email_id": "ingram@axelta.com"
+        },
+        {
+            "from_email_id": "Usman.Minhas@ingrammicro.com",
+            "item_id": "15180314-2ef1-4a2d-8484-4170851e041b",
+            "message": "Hello!",
+            "priority": "low",
+            "sent_date": "2018-11-21T15:10:41.175Z",
+            "to_email_id": "ingram@axelta.com"
+        },
+        {
+            "from_email_id": "Usman.Minhas@ingrammicro.com",
+            "item_id": "2122d403-084b-4e5f-b77c-3b5391ecc45d",
+            "message": "Test Message",
+            "priority": "low",
+            "sent_date": "2019-01-07T16:42:46.448Z",
+            "to_email_id": "ingram@axelta.com"
+        },
+        {
+            "from_email_id": "Usman.Minhas@ingrammicro.com",
+            "item_id": "24cdf9a0-b216-4739-94df-27a6674fdbee",
+            "message": "Hi subhash",
+            "priority": "low",
+            "sent_date": "2019-01-08T09:15:55.07Z",
+            "to_email_id": "subhash@axelta.com"
+        },
+        {
+            "from_email_id": "subhash@axelta.com",
+            "item_id": "271b7570-19f5-4eb6-a21b-acfbdd8a9f33",
+            "message": "hi",
+            "priority": "low",
+            "sent_date": "2019-01-08T10:12:10.788Z",
+            "to_email_id": "Usman.Minhas@ingrammicro.com"
+        },
+        {
+            "from_email_id": "ingram@axelta.com",
+            "item_id": "27a7f4af-576b-4795-a633-0fdc88063f8b",
+            "message": "Received",
+            "priority": "low",
+            "sent_date": "2019-01-07T16:43:42.208Z",
+            "to_email_id": "Usman.Minhas@ingrammicro.com"
+        },
+        {
+            "from_email_id": "Usman.Minhas@ingrammicro.com",
+            "item_id": "2be1b551-a39b-4cc0-ab44-be1ff6486c69",
+            "message": "subhash testing ",
+            "priority": "medium",
+            "sent_date": "2019-01-08T06:47:22.374Z",
+            "to_email_id": "subhash@axelta.com"
+        },
+        {
+            "from_email_id": "ingram@axelta.com",
+            "item_id": "35922f84-34fb-4051-b87b-00a0778dcc7b",
+            "message": "It is closed!",
+            "priority": "low",
+            "sent_date": "2018-11-21T15:59:03.566Z",
+            "to_email_id": "Usman.Minhas@ingrammicro.com"
+        },
+        {
+            "from_email_id": "ingram@axelta.com",
+            "item_id": "3f9bf3c2-03b1-4afd-b8b2-484af4fb6c99",
+            "message": "test",
+            "priority": "low",
+            "sent_date": "2018-11-21T13:01:16.514Z",
+            "to_email_id": "subhash@axelta.com"
+        },
+        {
+            "from_email_id": "ingram@axelta.com",
+            "item_id": "467fe743-8c3e-4913-a65b-28b72aaaf9a3",
+            "message": "Hello",
+            "priority": "low",
+            "sent_date": "2019-01-04T17:07:50.018Z",
+            "to_email_id": "Usman.Minhas@ingrammicro.com"
+        },
+        {
+            "from_email_id": "Usman.Minhas@ingrammicro.com",
+            "item_id": "490fa8e9-1cca-4d4b-ac3d-48f8ab37c834",
+            "message": "Check server room door",
+            "priority": "low",
+            "sent_date": "2018-11-26T16:30:07.07Z",
+            "to_email_id": "ingram@axelta.com"
+        },
+        {
+            "from_email_id": "subhash@axelta.com",
+            "item_id": "4a3cf259-ea9f-4915-afe4-c9a2e46378e8",
+            "message": "hi ..",
+            "priority": "medium",
+            "sent_date": "2019-01-08T07:31:17.862Z",
+            "to_email_id": "Usman.Minhas@ingrammicro.com"
+        },
+        {
+            "from_email_id": "Usman.Minhas@ingrammicro.com",
+            "item_id": "4beef77f-78b8-464b-9011-5ed3c2594e78",
+            "message": "ok..",
+            "priority": "low",
+            "sent_date": "2019-01-08T09:17:30.331Z",
+            "to_email_id": "subhash@axelta.com"
+        },
+        {
+            "from_email_id": "Usman.Minhas@ingrammicro.com",
+            "item_id": "4ec45a29-6bdb-4a51-9276-2f4c0ae349fe",
+            "message": "Please check the door",
+            "priority": "low",
+            "sent_date": "2018-11-21T16:47:04.144Z",
+            "to_email_id": "ingram@axelta.com"
+        },
+        {
+            "from_email_id": "Usman.Minhas@ingrammicro.com",
+            "item_id": "4ee2dd22-c22b-4d34-8eae-43d7379286d8",
+            "message": "hiiii",
+            "priority": "low",
+            "sent_date": "2019-01-08T09:09:55.667Z",
+            "to_email_id": "ingram@axelta.com"
+        },
+        {
+            "from_email_id": "test@axelta.com",
+            "item_id": "50820474-c0bf-41c8-8d8e-6bb236835af2",
+            "message": "Test Message",
+            "priority": "low",
+            "sent_date": "2018-11-21T09:18:47.792Z",
+            "to_email_id": "subhash@axelta.com"
+        },
+        {
+            "from_email_id": "ingram@axelta.com",
+            "item_id": "527cd4f1-f66f-42d3-92fa-a1f352416223",
+            "message": "Received",
+            "priority": "low",
+            "sent_date": "2019-01-07T16:43:42.05Z",
+            "to_email_id": "Usman.Minhas@ingrammicro.com"
+        },
+        {
+            "from_email_id": "Usman.Minhas@ingrammicro.com",
+            "item_id": "54f76a63-792a-473b-b6d8-d0910fd082c3",
+            "message": "Check server room door",
+            "priority": "low",
+            "sent_date": "2018-11-26T16:35:09.705Z",
+            "to_email_id": "ingram@axelta.com"
+        },
+        {
+            "from_email_id": "ingram@axelta.com",
+            "item_id": "5922bfec-6436-462c-8ab0-0d144a41a9ed",
+            "message": "Hello",
+            "priority": "low",
+            "sent_date": "2019-01-04T17:07:50.065Z",
+            "to_email_id": "Usman.Minhas@ingrammicro.com"
+        },
+        {
+            "from_email_id": "Usman.Minhas@ingrammicro.com",
+            "item_id": "5ecccfd3-bd85-47fc-bf07-1b73bb6d6e5d",
+            "message": "hi subhash",
+            "priority": "low",
+            "sent_date": "2019-01-08T10:37:22.035Z",
+            "to_email_id": "subhash@axelta.com"
+        },
+        {
+            "from_email_id": "Usman.Minhas@ingrammicro.com",
+            "item_id": "66887647-496a-4758-a7a2-235a20b2c2e1",
+            "message": "subhash testing",
+            "priority": "high",
+            "sent_date": "2019-01-08T06:46:17.018Z",
+            "to_email_id": "subhash@axelta.com"
+        },
+        {
+            "from_email_id": "Usman.Minhas@ingrammicro.com",
+            "item_id": "677b1400-21f3-4d38-b142-454d45635884",
+            "message": "hi subhash",
+            "priority": "medium",
+            "sent_date": "2019-01-08T07:32:57.959Z",
+            "to_email_id": "subhash@axelta.com"
+        },
+        {
+            "from_email_id": "ingram@axelta.com",
+            "item_id": "6992555d-95e7-478d-965d-4f90b637f578",
+            "message": "showing last 10 messages when portal loads is working fine.",
+            "priority": "low",
+            "sent_date": "2018-11-23T12:36:22.925Z",
+            "to_email_id": "Usman.Minhas@ingrammicro.com"
+        },
+        {
+            "from_email_id": "Usman.Minhas@ingrammicro.com",
+            "item_id": "6d94b762-1783-4edb-b9ca-6bfe6da97f4b",
+            "message": "yes..that one only",
+            "priority": "low",
+            "sent_date": "2019-01-08T09:20:53.496Z",
+            "to_email_id": "subhash@axelta.com"
+        },
+        {
+            "from_email_id": "ingram@axelta.com",
+            "item_id": "70c925ea-273f-414c-baec-52ca416bfff5",
+            "message": "it is closed!",
+            "priority": "low",
+            "sent_date": "2018-11-26T16:35:34.918Z",
+            "to_email_id": "Usman.Minhas@ingrammicro.com"
+        },
+        {
+            "from_email_id": "Usman.Minhas@ingrammicro.com",
+            "item_id": "712c5105-7908-4540-a4bd-1c0c17dc507f",
+            "message": "testing",
+            "priority": "low",
+            "sent_date": "2019-01-08T10:07:26.529Z",
+            "to_email_id": "subhash@axelta.com"
+        },
+        {
+            "from_email_id": "ingram@axelta.com",
+            "item_id": "71e18944-7254-40e9-934b-6d6625bedae3",
+            "message": "Received Test Message 1/7",
+            "priority": "low",
+            "sent_date": "2019-01-07T17:04:44.101Z",
+            "to_email_id": "Usman.Minhas@ingrammicro.com"
+        },
+        {
+            "from_email_id": "Usman.Minhas@ingrammicro.com",
+            "item_id": "74c8dd5d-a4f1-4ff4-8a7f-03a24ac2b8c7",
+            "message": "Hello..please check user details in received message",
+            "priority": "low",
+            "sent_date": "2019-01-08T09:18:48.684Z",
+            "to_email_id": "subhash@axelta.com"
+        },
+        {
+            "from_email_id": "subhash@axelta.com",
+            "item_id": "75a6798a-a57c-4d9d-b901-3d5e40139bab",
+            "message": "hi usman",
+            "priority": "medium",
+            "sent_date": "2019-01-08T07:39:37.159Z",
+            "to_email_id": "Usman.Minhas@ingrammicro.com"
+        },
+        {
+            "from_email_id": "ingram@axelta.com",
+            "item_id": "80fbe38c-a970-4595-98dd-170ee1d79c72",
+            "message": "gfftgf",
+            "priority": "low",
+            "sent_date": "2018-11-22T10:12:19.727Z",
+            "to_email_id": "ingram@axelta.com"
+        },
+        {
+            "from_email_id": "subhash@axelta.com",
+            "item_id": "832f1f04-69e5-4118-9fe9-8c12ab31f56d",
+            "message": "hiii ",
+            "priority": "low",
+            "sent_date": "2019-01-08T10:11:30.615Z",
+            "to_email_id": "Usman.Minhas@ingrammicro.com"
+        },
+        {
+            "from_email_id": "Usman.Minhas@ingrammicro.com",
+            "item_id": "895f85d5-5bff-47aa-a20c-e53964e631bd",
+            "message": "hi",
+            "priority": "low",
+            "sent_date": "2019-01-08T10:58:00.088Z",
+            "to_email_id": "subhash@axelta.com"
+        },
+        {
+            "from_email_id": "Usman.Minhas@ingrammicro.com",
+            "item_id": "89df27f5-a498-4349-9a66-198eed8a5d87",
+            "message": "Please check the door",
+            "priority": "low",
+            "sent_date": "2018-11-21T16:47:04.064Z",
+            "to_email_id": "ingram@axelta.com"
+        },
+        {
+            "from_email_id": "Usman.Minhas@ingrammicro.com",
+            "item_id": "8b903d2b-91a4-4a01-a12e-6385f05a6887",
+            "message": "Please check the door",
+            "priority": "low",
+            "sent_date": "2018-11-21T16:47:03.854Z",
+            "to_email_id": "ingram@axelta.com"
+        },
+        {
+            "from_email_id": "subhash@axelta.com",
+            "item_id": "9027400b-2929-45b5-8405-0bd2211a806d",
+            "message": "yes..",
+            "priority": "low",
+            "sent_date": "2019-01-08T09:16:31.097Z",
+            "to_email_id": "Usman.Minhas@ingrammicro.com"
+        },
+        {
+            "from_email_id": "ingram@axelta.com",
+            "item_id": "915512d4-6989-47da-b0ea-8604ea538ecf",
+            "message": "test",
+            "priority": "low",
+            "sent_date": "2019-01-08T06:30:55.973Z",
+            "to_email_id": "ingram@axelta.com"
+        },
+        {
+            "from_email_id": "ingram@axelta.com",
+            "item_id": "915bbc77-2bf5-460d-887a-eb3b84c5e057",
+            "message": "It is closed!",
+            "priority": "low",
+            "sent_date": "2018-11-21T15:59:03.726Z",
+            "to_email_id": "Usman.Minhas@ingrammicro.com"
+        },
+        {
+            "from_email_id": "Usman.Minhas@ingrammicro.com",
+            "item_id": "93f8ac75-bcf9-4a5c-83d7-d910ca45bab3",
+            "message": "testing",
+            "priority": "low",
+            "sent_date": "2019-01-08T09:08:25.734Z",
+            "to_email_id": "ingram@axelta.com"
+        },
+        {
+            "from_email_id": "Usman.Minhas@ingrammicro.com",
+            "item_id": "96b4ac8e-1c99-4039-a0ef-bd4f43097bbd",
+            "message": "Please check the door",
+            "priority": "low",
+            "sent_date": "2018-11-21T16:47:04.018Z",
+            "to_email_id": "ingram@axelta.com"
+        },
+        {
+            "from_email_id": "Usman.Minhas@ingrammicro.com",
+            "item_id": "9b7bbf93-9d24-4de5-98d9-5d0e6675ea0b",
+            "message": "It is closed.",
+            "priority": "low",
+            "sent_date": "2019-01-08T14:48:23.734Z",
+            "to_email_id": "ingram@axelta.com"
+        },
+        {
+            "from_email_id": "Usman.Minhas@ingrammicro.com",
+            "item_id": "9e93fc00-66a2-428f-8412-09e3d5ea33a0",
+            "message": "hi",
+            "priority": "medium",
+            "sent_date": "2019-01-08T07:52:12.331Z",
+            "to_email_id": "subhash@axelta.com"
+        },
+        {
+            "from_email_id": "Usman.Minhas@ingrammicro.com",
+            "item_id": "a017219f-c7ee-474b-aa18-5a81c2e9f81c",
+            "message": "Please check the door",
+            "priority": "low",
+            "sent_date": "2018-11-21T16:47:04.215Z",
+            "to_email_id": "ingram@axelta.com"
+        },
+        {
+            "from_email_id": "Usman.Minhas@ingrammicro.com",
+            "item_id": "a1177779-ea8e-4d9a-b05d-6a22b7009d94",
+            "message": "hi subhash---",
+            "priority": "medium",
+            "sent_date": "2019-01-08T07:34:13.078Z",
+            "to_email_id": "subhash@axelta.com"
+        },
+        {
+            "from_email_id": "Usman.Minhas@ingrammicro.com",
+            "item_id": "a1b79496-cd98-4102-a4ca-79315a6a93ea",
+            "message": "Please check server room door.",
+            "priority": "low",
+            "sent_date": "2018-11-21T15:58:49.564Z",
+            "to_email_id": "ingram@axelta.com"
+        },
+        {
+            "from_email_id": "ingram@axelta.com",
+            "item_id": "a7a4ba88-a649-42a6-95a6-a102301d0ea8",
+            "message": "ftgtrf",
+            "priority": "low",
+            "sent_date": "2018-11-22T10:12:35.069Z",
+            "to_email_id": "subhash@axelta.com"
+        },
+        {
+            "from_email_id": "Usman.Minhas@ingrammicro.com",
+            "item_id": "aa878f08-0c5a-48a9-900a-a49314a9e82a",
+            "message": "hi subhash",
+            "priority": "low",
+            "sent_date": "2019-01-08T10:23:23.697Z",
+            "to_email_id": "subhash@axelta.com"
+        },
+        {
+            "from_email_id": "ingram@axelta.com",
+            "item_id": "aa894f19-0d95-4270-9d48-2f76bba9f2fd",
+            "message": "Check door",
+            "priority": "low",
+            "sent_date": "2019-01-09T16:45:48.313Z",
+            "to_email_id": "savio.lee@ingrammicro.com"
+        },
+        {
+            "from_email_id": "ingram@axelta.com",
+            "item_id": "ac7d94ef-a007-40f2-906f-c6ee232d6dc0",
+            "message": "gfftgf",
+            "priority": "low",
+            "sent_date": "2018-11-22T10:12:19.758Z",
+            "to_email_id": "ingram@axelta.com"
+        },
+        {
+            "from_email_id": "Usman.Minhas@ingrammicro.com",
+            "item_id": "b621c787-1ffe-4d6b-a698-a5aca41641b7",
+            "message": "Test Message 1/7",
+            "priority": "low",
+            "sent_date": "2019-01-07T17:03:51.947Z",
+            "to_email_id": "ingram@axelta.com"
+        },
+        {
+            "from_email_id": "subhash@axelta.com",
+            "item_id": "bdb98af4-2429-4e5c-a96f-ba1123b4f965",
+            "message": "hiasdas",
+            "priority": "low",
+            "sent_date": "2019-01-08T10:24:23.199Z",
+            "to_email_id": "Usman.Minhas@ingrammicro.com"
+        },
+        {
+            "from_email_id": "Usman.Minhas@ingrammicro.com",
+            "item_id": "bf4dcf9b-9277-4659-a5fc-950e3afdc8b1",
+            "message": "Please check server room door.",
+            "priority": "low",
+            "sent_date": "2018-11-21T15:58:49.542Z",
+            "to_email_id": "ingram@axelta.com"
+        },
+        {
+            "from_email_id": "Usman.Minhas@ingrammicro.com",
+            "item_id": "c01d5426-bd0e-4516-a39b-eddda2229837",
+            "message": "testing ",
+            "priority": "low",
+            "sent_date": "2019-01-08T09:56:30.53Z",
+            "to_email_id": "subhash@axelta.com"
+        },
+        {
+            "from_email_id": "subhash@axelta.com",
+            "item_id": "c0ffa70f-db39-4196-9a51-b792c0d75559",
+            "message": "hi",
+            "priority": "low",
+            "sent_date": "2019-01-08T10:58:15.207Z",
+            "to_email_id": "Usman.Minhas@ingrammicro.com"
+        },
+        {
+            "from_email_id": "ingram@axelta.com",
+            "item_id": "c3ed9b13-186a-4ca5-bd9a-16b0d4ddb3eb",
+            "message": "ftgtrf",
+            "priority": "low",
+            "sent_date": "2018-11-22T10:12:35.077Z",
+            "to_email_id": "subhash@axelta.com"
+        },
+        {
+            "from_email_id": "ingram@axelta.com",
+            "item_id": "c9fdf56f-ec8a-44ef-92ed-c426c4d2fb68",
+            "message": "testing done?",
+            "priority": "low",
+            "sent_date": "2019-01-08T10:44:05.349Z",
+            "to_email_id": "subhash@axelta.com"
+        },
+        {
+            "from_email_id": "Usman.Minhas@ingrammicro.com",
+            "item_id": "cc47b4bb-d93c-4a50-93a1-5f534140d4ce",
+            "message": "Check server room door",
+            "priority": "low",
+            "sent_date": "2018-11-26T16:35:09.709Z",
+            "to_email_id": "ingram@axelta.com"
+        },
+        {
+            "from_email_id": "Usman.Minhas@ingrammicro.com",
+            "item_id": "cf89b740-db54-4d25-8323-94335175dea6",
+            "message": "did you receive my message?",
+            "priority": "low",
+            "sent_date": "2019-01-08T09:16:21.49Z",
+            "to_email_id": "subhash@axelta.com"
+        },
+        {
+            "from_email_id": "Usman.Minhas@ingrammicro.com",
+            "item_id": "cfc3672a-6e86-4600-a039-a5662459f02b",
+            "message": "Please check the door",
+            "priority": "low",
+            "sent_date": "2018-11-21T16:47:04.268Z",
+            "to_email_id": "ingram@axelta.com"
+        },
+        {
+            "from_email_id": "Usman.Minhas@ingrammicro.com",
+            "item_id": "d0cea422-4e04-4488-97fe-bc09aff66b73",
+            "message": "hi subhash",
+            "priority": "low",
+            "sent_date": "2019-01-08T10:35:47.691Z",
+            "to_email_id": "savio.lee@ingrammicro.com"
+        },
+        {
+            "from_email_id": "subhash@axelta.com",
+            "item_id": "d2122527-9a24-406c-a200-dc0ce0d25d69",
+            "message": "hi ....",
+            "priority": "medium",
+            "sent_date": "2019-01-08T06:59:41.81Z",
+            "to_email_id": "savio.lee@ingrammicro.com"
+        },
+        {
+            "from_email_id": "subhash@axelta.com",
+            "item_id": "d2c2393b-2079-4d34-a947-fbca0c0ea9d2",
+            "message": "hi ..................",
+            "priority": "low",
+            "sent_date": "2019-01-08T09:15:06.902Z",
+            "to_email_id": "Usman.Minhas@ingrammicro.com"
+        },
+        {
+            "from_email_id": "Usman.Minhas@ingrammicro.com",
+            "item_id": "d33de3b8-41a3-434b-9a91-6d23dcd4a6d5",
+            "message": "",
+            "priority": "low",
+            "sent_date": "2019-01-08T09:31:11.195Z",
+            "to_email_id": "subhash@axelta.com"
+        },
+        {
+            "from_email_id": "Usman.Minhas@ingrammicro.com",
+            "item_id": "dc1699a7-1954-4930-8c08-8e019168c568",
+            "message": "",
+            "priority": "low",
+            "sent_date": "2019-01-08T10:24:06.454Z",
+            "to_email_id": "subhash@axelta.com"
+        },
+        {
+            "from_email_id": "Usman.Minhas@ingrammicro.com",
+            "item_id": "dea29fb9-9ab1-4854-9497-4beb2efce405",
+            "message": "Please check the door",
+            "priority": "low",
+            "sent_date": "2018-11-21T16:47:04.394Z",
+            "to_email_id": "ingram@axelta.com"
+        },
+        {
+            "from_email_id": "Usman.Minhas@ingrammicro.com",
+            "item_id": "df97a869-67c0-47a1-a497-67297facfa6c",
+            "message": "Please check the door",
+            "priority": "low",
+            "sent_date": "2018-11-21T16:47:04.046Z",
+            "to_email_id": "ingram@axelta.com"
+        },
+        {
+            "from_email_id": "subhash@axelta.com",
+            "item_id": "e1b10782-d758-40e4-81fc-8a6537f71dbd",
+            "message": "Done",
+            "priority": "low",
+            "sent_date": "2019-01-08T10:44:27.68Z",
+            "to_email_id": "ingram@axelta.com"
+        },
+        {
+            "from_email_id": "ingram@axelta.com",
+            "item_id": "e964bdf3-2d4b-488f-8ed1-98604ae80be9",
+            "message": "ok",
+            "priority": "low",
+            "sent_date": "2018-11-22T05:38:54.576Z",
+            "to_email_id": "Usman.Minhas@ingrammicro.com"
+        },
+        {
+            "from_email_id": "Usman.Minhas@ingrammicro.com",
+            "item_id": "ea6fac77-b3d6-4971-a9f3-ba1a2908956b",
+            "message": "fsdfds",
+            "priority": "low",
+            "sent_date": "2019-01-08T10:25:53.002Z",
+            "to_email_id": "subhash@axelta.com"
+        },
+        {
+            "from_email_id": "subhash@axelta.com",
+            "item_id": "eb18998e-d058-4166-bfa5-2d93dc468a68",
+            "message": "hi ",
+            "priority": "low",
+            "sent_date": "2019-01-08T10:35:26.648Z",
+            "to_email_id": "Usman.Minhas@ingrammicro.com"
+        },
+        {
+            "from_email_id": "savio.lee@ingrammicro.com",
+            "item_id": "ee4bb392-7484-4d63-bc31-977e0488bb2a",
+            "message": "Hello!",
+            "priority": "low",
+            "sent_date": "2018-11-21T19:02:56.537Z",
+            "to_email_id": "Usman.Minhas@ingrammicro.com"
+        },
+        {
+            "from_email_id": "Usman.Minhas@ingrammicro.com",
+            "item_id": "ee754613-3fc4-4468-8026-e97e45d1c995",
+            "message": "subhash testing 2",
+            "priority": "low",
+            "sent_date": "2019-01-08T06:48:30.832Z",
+            "to_email_id": "subhash@axelta.com"
+        },
+        {
+            "from_email_id": "ingram@axelta.com",
+            "item_id": "eea383f7-cc4b-4cb9-9231-7a41ef3fc0d8",
+            "message": "Hi There",
+            "priority": "low",
+            "sent_date": "2018-11-21T15:09:43.737Z",
+            "to_email_id": "Usman.Minhas@ingrammicro.com"
+        },
+        {
+            "from_email_id": "Usman.Minhas@ingrammicro.com",
+            "item_id": "f1c14375-03fb-4325-99c4-4c40327482d1",
+            "message": "Hi!",
+            "priority": "low",
+            "sent_date": "2018-11-21T19:05:01.253Z",
+            "to_email_id": "savio.lee@ingrammicro.com"
+        },
+        {
+            "from_email_id": "ingram@axelta.com",
+            "item_id": "f37e8619-3e4e-40af-a8fe-6145bdbd080d",
+            "message": "test",
+            "priority": "low",
+            "sent_date": "2018-11-21T13:00:11.462Z",
+            "to_email_id": "ingram@axelta.com"
+        },
+        {
+            "from_email_id": "savio.lee@ingrammicro.com",
+            "item_id": "f7230677-65dc-4025-b95f-23ff428a3889",
+            "message": "Test",
+            "priority": "low",
+            "sent_date": "2018-11-21T19:05:17.809Z",
+            "to_email_id": "Usman.Minhas@ingrammicro.com"
+        },
+        {
+            "from_email_id": "Usman.Minhas@ingrammicro.com",
+            "item_id": "f77c0070-8e38-4b74-9ecd-b860206a4da8",
+            "message": "Please check the door",
+            "priority": "low",
+            "sent_date": "2018-11-21T16:47:03.86Z",
+            "to_email_id": "ingram@axelta.com"
+        },
+        {
+            "from_email_id": "Usman.Minhas@ingrammicro.com",
+            "item_id": "feb2b9c9-4647-4946-a557-93d6e814c403",
+            "message": "Received",
+            "priority": "low",
+            "sent_date": "2018-11-21T19:05:31.607Z",
+            "to_email_id": "savio.lee@ingrammicro.com"
+        },
+        {
+            "from_email_id": "ingram@axelta.com",
+            "item_id": "ff65238a-7fce-4214-bfda-dd8a8847ab4c",
+            "message": "serfds",
+            "priority": "low",
+            "sent_date": "2018-11-22T10:15:50.792Z",
+            "to_email_id": "ingram@axelta.com"
+        }
+    ],
+    "name": "MessagesHistory",
+    "permissions": {
+        "Administrator": 15,
+        "Anonymous": 0,
+        "Authenticated": 15,
+        "Monnit Webhook Adapter": 15,
+        "PortalEditor": 15,
+        "sms-webhook-adapter": 15
+    },
+    "schema": [
+        {
+            "ColumnName": "item_id",
+            "ColumnType": "uuid",
+            "PK": true
+        },
+        {
+            "ColumnName": "from_email_id",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "to_email_id",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "sent_date",
+            "ColumnType": "timestamp",
+            "PK": false
+        },
+        {
+            "ColumnName": "message",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "priority",
+            "ColumnType": "string",
+            "PK": false
+        }
+    ]
+}
