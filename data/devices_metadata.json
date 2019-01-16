@@ -1,0 +1,85 @@
+{
+    "app_id": "ce938cbd0bfa8385999ee79d8068",
+    "collection_id": "a2a7cabd0be6b7f8bae1debb861b",
+    "items": [
+        {
+            "customer_name": "{\"users\":[\"ingram@axelta.com\",\"usman.minhas@ingrammicro.com\"]}",
+            "gateway_heartbeat": 0,
+            "gateway_id": 932970,
+            "gateway_name": "CGW3 3g North America - 932970",
+            "gateway_type": "",
+            "item_id": "328ef46c-3ae1-45e1-b972-fba8b7907d94",
+            "mac_address": "",
+            "network_id": 7,
+            "network_name": "",
+            "network_uuid": "8f14e45f-ceea-167a-5a36-dedd4bea2543",
+            "sensors": "{\"sensorsList\":[\"426640\",\"425070\",\"380138\"]}"
+        }
+    ],
+    "name": "devices_metadata",
+    "permissions": {
+        "Administrator": 0,
+        "Anonymous": 15,
+        "Authenticated": 15,
+        "Monnit Webhook Adapter": 0,
+        "PortalEditor": 14,
+        "sms-webhook-adapter": 15
+    },
+    "schema": [
+        {
+            "ColumnName": "item_id",
+            "ColumnType": "uuid",
+            "PK": true
+        },
+        {
+            "ColumnName": "network_id",
+            "ColumnType": "int",
+            "PK": false
+        },
+        {
+            "ColumnName": "gateway_id",
+            "ColumnType": "int",
+            "PK": false
+        },
+        {
+            "ColumnName": "sensors",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "customer_name",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "network_uuid",
+            "ColumnType": "uuid",
+            "PK": false
+        },
+        {
+            "ColumnName": "gateway_heartbeat",
+            "ColumnType": "int",
+            "PK": false
+        },
+        {
+            "ColumnName": "mac_address",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "gateway_type",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "gateway_name",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "network_name",
+            "ColumnType": "string",
+            "PK": false
+        }
+    ]
+}
