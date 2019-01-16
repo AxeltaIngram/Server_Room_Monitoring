@@ -1,0 +1,221 @@
+{
+    "app_id": "ce938cbd0bfa8385999ee79d8068",
+    "collection_id": "92b7cabd0ba896abe4b59096d7da01",
+    "items": [
+        {
+            "asset_id": "19593e9e-bcd2-4d37-b60a-25c261dd3784",
+            "battery_level": "100",
+            "contact_id": "",
+            "created_date": null,
+            "customer_id": "9e5b6ecb-d77e-4894-a163-92e29a1df012",
+            "gateway_id": 932970,
+            "item_id": "2b5e6bbb-e21a-4c11-b418-966a676c9baa",
+            "last_active": "2019-01-16T06:31:25.74Z",
+            "latest_payload": "18.3",
+            "location_id": "3fa7c42d-fd31-4a8b-b618-f9d960b8f75a",
+            "sensor_id": 426640,
+            "sensor_label": "Temperature (North)",
+            "sensor_name": "Temperature - 426640",
+            "sensor_type": "Temperature",
+            "sensor_type_id": "19637d5b-3782-48dc-8259-794488a89d73",
+            "signal_strength": "100"
+        },
+        {
+            "asset_id": "19593e9e-bcd2-4d37-b60a-25c261dd3784",
+            "battery_level": "100",
+            "contact_id": "",
+            "created_date": null,
+            "customer_id": "9e5b6ecb-d77e-4894-a163-92e29a1df012",
+            "gateway_id": 932970,
+            "item_id": "2efb7d8f-514e-458e-9a6e-1c81c2e4e999",
+            "last_active": "2019-01-16T06:36:25.77Z",
+            "latest_payload": "18.2",
+            "location_id": "3fa7c42d-fd31-4a8b-b618-f9d960b8f75a",
+            "sensor_id": 425070,
+            "sensor_label": "Temperature (South)",
+            "sensor_name": "Temperature - 425070",
+            "sensor_type": "Temperature",
+            "sensor_type_id": "19637d5b-3782-48dc-8259-794488a89d73",
+            "signal_strength": "100"
+        },
+        {
+            "asset_id": "19593e9e-bcd2-4d37-b60a-25c261dd3784",
+            "battery_level": "100",
+            "contact_id": "",
+            "created_date": null,
+            "customer_id": "9e5b6ecb-d77e-4894-a163-92e29a1df012",
+            "gateway_id": 932970,
+            "item_id": "68a00530-c919-4b32-891c-cc21577cfc0d",
+            "last_active": "2019-01-16T06:26:25.819Z",
+            "latest_payload": "39.24|17.91",
+            "location_id": "3fa7c42d-fd31-4a8b-b618-f9d960b8f75a",
+            "sensor_id": 380138,
+            "sensor_label": "Humidity (South)",
+            "sensor_name": "Humidity - 380138",
+            "sensor_type": "Humidity",
+            "sensor_type_id": "57da1df8-fb44-46cf-82c9-ac6705370017",
+            "signal_strength": "100"
+        },
+        {
+            "asset_id": "19593e9e-bcd2-4d37-b60a-25c261dd3784",
+            "battery_level": "100",
+            "contact_id": "Usman.Minhas@ingrammicro.com",
+            "created_date": "2018-12-04T21:04:13.272Z",
+            "customer_id": "9e5b6ecb-d77e-4894-a163-92e29a1df012",
+            "gateway_id": 932970,
+            "item_id": "6da110bb-f7d9-4f46-8fc3-984d258ceb07",
+            "last_active": "2019-01-16T05:51:25.524Z",
+            "latest_payload": "True",
+            "location_id": "3fa7c42d-fd31-4a8b-b618-f9d960b8f75a",
+            "sensor_id": 388079,
+            "sensor_label": "Door Status (New)",
+            "sensor_name": "Open / Closed - 388079",
+            "sensor_type": "Open Closed",
+            "sensor_type_id": "d61e87ba-9f00-4732-8ffe-31d0d6c8c3fa",
+            "signal_strength": "100"
+        },
+        {
+            "asset_id": "19593e9e-bcd2-4d37-b60a-25c261dd3784",
+            "battery_level": "100",
+            "contact_id": "Usman.Minhas@ingrammicro.com",
+            "created_date": "2018-11-20T16:19:09.831Z",
+            "customer_id": "9e5b6ecb-d77e-4894-a163-92e29a1df012",
+            "gateway_id": 932970,
+            "item_id": "70f52bff-00fc-4e0b-a58f-871bc75289de",
+            "last_active": "2019-01-16T05:51:25.447Z",
+            "latest_payload": "39.04|18.15",
+            "location_id": "3fa7c42d-fd31-4a8b-b618-f9d960b8f75a",
+            "sensor_id": 380129,
+            "sensor_label": "Humidity (Center)",
+            "sensor_name": "Humidity - 380129",
+            "sensor_type": "Humidity",
+            "sensor_type_id": "57da1df8-fb44-46cf-82c9-ac6705370017",
+            "signal_strength": "100"
+        },
+        {
+            "asset_id": "19593e9e-bcd2-4d37-b60a-25c261dd3784",
+            "battery_level": "100",
+            "contact_id": "ingram@axelta.com",
+            "created_date": "2018-11-16T19:09:02.429Z",
+            "customer_id": "9e5b6ecb-d77e-4894-a163-92e29a1df012",
+            "gateway_id": 932970,
+            "item_id": "73369521-824a-4a25-ae1e-a31ad645df4b",
+            "last_active": "2019-01-16T06:01:25.563Z",
+            "latest_payload": "18.3",
+            "location_id": "3fa7c42d-fd31-4a8b-b618-f9d960b8f75a",
+            "sensor_id": 426643,
+            "sensor_label": "Temperature (Center)",
+            "sensor_name": "Temperature - 426643",
+            "sensor_type": "Temperature",
+            "sensor_type_id": "19637d5b-3782-48dc-8259-794488a89d73",
+            "signal_strength": "100"
+        },
+        {
+            "asset_id": "19593e9e-bcd2-4d37-b60a-25c261dd3784",
+            "battery_level": "100",
+            "contact_id": "Usman.Minhas@ingrammicro.com",
+            "created_date": "2018-11-20T01:45:12.821Z",
+            "customer_id": "9e5b6ecb-d77e-4894-a163-92e29a1df012",
+            "gateway_id": 932970,
+            "item_id": "abfe714f-8a3a-476e-927e-284abb2cc3b5",
+            "last_active": "2019-01-16T06:26:25.85Z",
+            "latest_payload": "39.18|17.96",
+            "location_id": "3fa7c42d-fd31-4a8b-b618-f9d960b8f75a",
+            "sensor_id": 380141,
+            "sensor_label": "Humidity (North)",
+            "sensor_name": "Humidity - 380141",
+            "sensor_type": "Humidity",
+            "sensor_type_id": "57da1df8-fb44-46cf-82c9-ac6705370017",
+            "signal_strength": "100"
+        }
+    ],
+    "name": "Sensors",
+    "permissions": {
+        "Administrator": 15,
+        "Authenticated": 15,
+        "Monnit Webhook Adapter": 15,
+        "sms-webhook-adapter": 15
+    },
+    "schema": [
+        {
+            "ColumnName": "item_id",
+            "ColumnType": "uuid",
+            "PK": true
+        },
+        {
+            "ColumnName": "sensor_id",
+            "ColumnType": "int",
+            "PK": false
+        },
+        {
+            "ColumnName": "sensor_name",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "sensor_type",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "gateway_id",
+            "ColumnType": "int",
+            "PK": false
+        },
+        {
+            "ColumnName": "sensor_label",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "location_id",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "customer_id",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "contact_id",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "latest_payload",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "created_date",
+            "ColumnType": "timestamp",
+            "PK": false
+        },
+        {
+            "ColumnName": "last_active",
+            "ColumnType": "timestamp",
+            "PK": false
+        },
+        {
+            "ColumnName": "asset_id",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "sensor_type_id",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "signal_strength",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "battery_level",
+            "ColumnType": "string",
+            "PK": false
+        }
+    ]
+}
