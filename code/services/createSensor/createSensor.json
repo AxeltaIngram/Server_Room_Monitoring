@@ -1,0 +1,18 @@
+{
+    "auto_restart": false,
+    "concurrency": 0,
+    "current_version": 1,
+    "dependencies": "log,clearblade",
+    "execution_timeout": 60,
+    "logging_enabled": "true",
+    "name": "createSensor",
+    "params": [
+        "{\n  \"sensors\": [\n    {\n      \"battery_level\": \"100\",\n      \"customer_id\": \"2843b40d-b3e5-4f4c-9f5f-9ac8d2709ec8\",\n      \"gateway_id\": \"913529\",\n      \"sensor_id\": \"385259\",\n      \"sensor_label\": \"sasaasasas\",\n      \"sensor_name\": \"Temp - 385259\",\n      \"sensor_type_id\": \"19637d5b-3782-48dc-8259-794488a89d73\",\n      \"signal_strength\": \"97\",\n      \"created_date\": \"2018-10-11T16:45:39.297Z\"\n    },\n    {\n      \"battery_level\": \"100\",\n      \"customer_id\": \"2843b40d-b3e5-4f4c-9f5f-9ac8d2709ec8\",\n      \"gateway_id\": \"913529\",\n      \"sensor_id\": \"385259\",\n      \"sensor_label\": \"sasaasasas\",\n      \"sensor_name\": \"Temp - 385259\",\n      \"sensor_type_id\": \"19637d5b-3782-48dc-8259-794488a89d73\",\n      \"signal_strength\": \"97\",\n      \"created_date\": \"2018-10-11T16:45:39.297Z\"\n    }\n  ]\n}"
+    ],
+    "permissions": {
+        "Administrator": 1,
+        "Authenticated": 1
+    },
+    "run_user": "",
+    "source": "createSensor.js"
+}
