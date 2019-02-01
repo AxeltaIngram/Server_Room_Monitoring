@@ -1,6 +1,3 @@
-var TWILLIOSID="AC218b72987d86853c5adb921370115a20";
-var TWILLIOAUTH="4579ca6ba4fae7b232c03c64aeae40e7";
-var TWILLIOPHONE="5127102383";
 var _resp;
 function http_sendSMSMessage(req, resp){
     ClearBlade.init({request:req});
