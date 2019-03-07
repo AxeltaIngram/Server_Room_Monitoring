@@ -19,9 +19,9 @@
         }
     ],
     "description": "This system will be used to monitor a variety of temperature and humidity metrics of server room",
-    "messaging_url": "platform.clearblade.com:1883",
+    "messaging_url": "ingrammicro.clearblade.com:1883",
     "name": "Server_Room_Monitoring",
     "platform_url": "https://ingrammicro.clearblade.com",
     "system_key": "ce938cbd0bfa8385999ee79d8068",
-    "system_secret": ""
+    "system_secret": "CE938CBD0BAEF0BBD5BDD4FFB2AC01"
 }
